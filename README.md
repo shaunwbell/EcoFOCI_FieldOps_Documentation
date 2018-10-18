@@ -5,7 +5,16 @@ Manuals, documentation and reference sheets for EcoFOCI Field Work
 ## Table of Contents
 1. Manuals
 2. Tech Notes
-3. Calibration Documentation
+3. CalibrationsByVendor - Calibration Documentation
+  - Aanderaa
+  - Biospherical
+  - Coastal_Environmental
+  - DeltaT
+  - Eppley
+  - Guildline
+  - Satlantic
+  - Seabird
+  - WetLabs
 
 -----
 
