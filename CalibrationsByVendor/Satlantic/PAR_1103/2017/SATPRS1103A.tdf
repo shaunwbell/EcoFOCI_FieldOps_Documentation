@@ -1,0 +1,45 @@
+######################################################################################################
+# Telemetry Definition File:
+#
+# Type: Satlantic PAR Sensor 1103
+# Description: Digital (RS-232) PAR Sensor
+# Project: 2017
+#
+# Notes:
+# 		The PAR sensor outputs comma-delimited ASCII data.
+#
+######################################################################################################
+# Calibration History
+# Date       |Operator |SW Version |Rev |Light Data   |Dark Data   |Lamp         |Distance  | Comments
+#-----------------------------------------------------------------------------------------------------
+# 2017-10-30 |Rlamb    |Internal Software Suite 1.9.22_248 |A   |PAR1103f-1103_2017-10-30_16-43-46_raw |PAR1103d-1103_2017-10-30_16-51-57_raw |F1443        |50.0      | Final Calibration
+
+VLF_INSTRUMENT SATPRS '' 6 AS 0 NONE
+VLF_SN 1103 '' 4 AS 0 NONE
+
+# Time since start up
+FIELD NONE ',' 1 AS 0 DELIMITER
+TIMER NONE 'sec' V AF 0 COUNT
+
+# Calculated PAR value
+FIELD NONE ',' 1 AS 0 DELIMITER
+PAR NONE 'uMol/m^2/sec' V AF 0 COUNT
+
+# Pitch data
+FIELD NONE ',' 1 AS 0 DELIMITER
+PITCH NONE 'deg' V AF 0 COUNT
+
+# Roll data
+FIELD NONE ',' 1 AS 0 DELIMITER
+ROLL NONE 'deg' V AF 0 COUNT
+
+# Temperature
+FIELD NONE ',' 1 AS 0 DELIMITER
+TEMP NONE 'C' V AF 0 COUNT
+
+# ASCII check sum
+FIELD NONE ',' 1 AS 0 DELIMITER
+CHECK SUM '' V AI 0 COUNT
+
+TERMINATOR NONE '\x0D\x0A' 2 AS 0 DELIMITER
+

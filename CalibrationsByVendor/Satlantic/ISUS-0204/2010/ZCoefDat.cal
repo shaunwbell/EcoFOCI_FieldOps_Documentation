@@ -1,0 +1,13 @@
+/* Satlantic ISUS #0204, CRO-MMS UV II 67568  ***************************/
+/* Polynomial Coefficients for Wavelength Calculation from pixel value.   */
+/* DO NOT MODIFY FORMAT, i.e, values MUST be preceeded by their coefficent*/
+/* designator AND comment strings must have either a '/' or '*' in them.  */
+/*                                                                        */
+/* Entered by: jimmi */
+/* Date: Mon Jun 14 11:40:09 ADT 2010                                                    */
+/**************************************************************************/
+C0 00000187.746000000
+C1 00000000.814278000
+C2 -00000000.00000579693
+C3 00000000.000000000
+C4 00000000.000000000

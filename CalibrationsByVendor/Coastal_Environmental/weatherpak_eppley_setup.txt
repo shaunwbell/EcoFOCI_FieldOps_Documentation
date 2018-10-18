@@ -1,0 +1,107 @@
+Hi, David,
+The WEATHERPAK calculates the output of the Eppley radiometer using the calibration constants provided by Eppley labs for that specific sensor.
+The Sensor Record in the WP configuration file for the Eppley multiplies the output voltage from the sensor by the coefficient for the value in W/m^2.  That value is averaged over the 10 minute sample duration and logged in memory at the end of the sample duration.
+If you are connecting a different Eppley radiometer than originally used with a WEATHERPAK and you do not already have the new coefficient you will need to calculate the new coefficient from the calibration constant provided by Eppley.  New coefficient = 1/calibration constant.
+You can enter the corresponding coefficient in the sensor record by following these steps:
+1) Connect to the WEATHERPAK via the RS232 serial connection with the following settings:
+     Baud Rate: 9600
+     Bits:  8
+     Parity: None
+     Stop Bits: 1
+     Flow Control: None
+ 
+2) Type u<enter> to access the User Menu
+> u
+ 
+USER MENU
+(C) Communications Menu            (T) Test Menu
+(F) System Functions Menu           (Z) Zeno Program Menu
+(S) Sample Period Menu               (Q) Quit
+(D) Data Retrieval Menu                (H) Help
+ 
+3) Type z<enter> for the ZENO Program Menu.  Administrative password is zeno.
+ZENO PROGRAM MENU
+(S) Sensor Menu                              (M) Memory Management Menu
+(P) Process Menu                             (W) Password Menu
+(D) Data Output Menu                       (R) Reset System
+(T) Sensor Timing Loop Menu            (E) Save Parameters To EEPROM
+(O) Output Message Timing Menu      (U) User Menu
+(L) System Load Menu                      (Q) Quit
+(G) General Serial Script Menu           (H) Help
+ 
+4) Type s<enter> for the Sensor menu
+> s
+SENSOR MENU
+(Cn/m) Change Item n To Value m             (Jn) Jump To Record n
+(A)    Insert After This Record                    (N)  Go To Next Record
+(B)    Insert Before This Record                  (P)  Go To Previous Record
+(X)    Cut Record to Clipboard                     (XA) Delete ALL Records
+(C)    Copy Record To Clipboard                  (Z)  Zeno Program Menu
+(V)    Paste Record From Clipboard              (H)  Help
+(Sn/m) Search Item n for Value m
+ 
+Sensor Items for Record 1 of 9:
+Item  1: Sensor Type Code                           16 (General Serial)
+Item  2: Sensor Name                                  WSD_GILL
+Item  3: Sensor Input Channel                       COM1
+Item  6: Switched Power Code                      5 (12V SW'D C)
+Item  9: Switched Power Warmup Time         5
+Item 10: Sensor Sample Count                      1
+Item 11: Maximum Sensor Readings               0
+Item 12: Sensor Timing Loop                         2 (1.0 seconds)
+Item 16: Retry Count                                     0
+Item 17: Sensor Address                               0
+Item 18: Sensor Port Type                             RS232
+Item 19: Sensor Baud Rate                            9600
+Item 20: Sensor Bits Per Character                 8
+Item 21: Sensor Parity                                  N
+Item 22: Sensor Start Bits                             1
+Item 23: Sensor Stop Bits                              1
+Item 24: Sensor GSI Script Number                1
+Item 25: Sensor Data Collection Control          S0.1  (NULL)
+ 
+4) Type j5<enter> to jump to Sensor Record 5
+> j5
+ 
+SENSOR MENU
+(Cn/m) Change Item n To Value m             (Jn) Jump To Record n
+(A)    Insert After This Record                    (N)  Go To Next Record
+(B)    Insert Before This Record                  (P)  Go To Previous Record
+(X)    Cut Record to Clipboard                     (XA) Delete ALL Records
+(C)    Copy Record To Clipboard                  (Z)  Zeno Program Menu
+(V)    Paste Record From Clipboard             (H)  Help
+(Sn/m) Search Item n for Value m
+ 
+Sensor Items for Record 5 of 9:
+Item  1: Sensor Type Code                          2 (18-bit Single-Ended A to D)
+Item  2: Sensor Name                                 SOLAR
+Item  3: Sensor Input Channel                      5-
+Item  4: Analog Channel Gain                        100
+Item  5: Analog Channel Attenuation              4
+Item  6: Switched Power Code                      0 (NO SWITCHED POWER)
+Item  7: Sensor Excitation Voltage Code         0 (NO EXCITATION VOLTAGE)
+Item  8: Switched Excitation Return                0
+Item  9: Switched Power Warmup Time          0
+Item 10: Sensor Sample Count                      1
+Item 11: Maximum Sensor Readings              0
+Item 12: Sensor Timing Loop                        2 (1.0 seconds)
+Item 13: Conversion Coefficient A                   0
+Item 14: Conversion Coefficient B                   113636
+Item 15: Conversion Coefficient C                   0
+Item 17: No. of Additional 15-msec Delays       0
+ 
+6) The calibration coefficient for the Eppley sensor is in Item 14.  To change the coefficient, type c14/xxxxxx<enter> where xxxxxx is the new calibration coefficient.
+ 
+7) Verify that the new coefficient has been entered in the sensor record.  If not, repeat step 6.
+ 
+8) Go to the ZENO Program menu (z<enter>) and save the change to the EEPROM (e<enter>). 
+ 
+9) When the save is completed type q<enter> to quit the User Menu and return to normal operation.
+ 
+ 
+ 
+The hex value transmitted via ARGOS is calculated from the average value used for the logged data.  The logged value in W/m^2 is multiplied by 0.18214 to give the hex value transmitted by ARGOS.
+ 
+Please let me know if you have any other questions.
+Best regards,
+ 

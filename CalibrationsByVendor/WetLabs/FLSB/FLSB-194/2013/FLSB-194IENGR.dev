@@ -1,0 +1,25 @@
+ECO 	FLSB-194	
+Created on:	12/29/13	
+		
+iengrunits=µg/l		
+iengrscaleoffset=5		
+		
+:     	chl=ug/l        	
+:       LSS=NTU		
+: 	"iengrunits = µg/l for CHL, PC, PE. Ppb for CDOM and uranine."	
+: 	column 5 = input scale factor and offset.	
+		
+maxvoltage=	4.95	
+asv1=	6.3413	
+asv2=	12.6243	
+asv4=	25.1908	
+		
+: Has internal CHL in meter output		
+		
+COLUMNS=6		
+N/U=1		
+N/U=2		
+IENGR=3		
+N/U=4		
+CHL=5	0.0076	65
+N/U=6		
