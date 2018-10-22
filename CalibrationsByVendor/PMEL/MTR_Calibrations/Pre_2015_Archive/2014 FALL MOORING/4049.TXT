@@ -1,0 +1,56 @@
+
+
+Next sample @ 22:00:00
+
+Quit logging? Y or (N) Y
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4049
+MTR time/date     = 18:48:19 07/03/2014
+Start time/date   = 00:00:00 04/15/2013
+Sample interval   = 00:10:00
+Records logged    = 232
+Extra samples     = 60
+
+Command Mode: Type 'help' for command list.
+CMD> DATE= 07 03 2014  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4049
+MTR time/date     = 18:48:49 07/03/2014
+Start time/date   = 00:00:00 04/15/2013
+Sample interval   = 00:10:00
+Records logged    = 232
+Extra samples     = 60 
+CMD> TIME= 19 07 45  
+CMD> TIME= 19 07 50 5  
+CMD> SD= 07 03 2014  
+CMD> S6 T= 20 00 00  
+CMD> STATUS     AMPLE= 00 00 15  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4049
+MTR time/date     = 19:08:34 07/03/2014
+Start time/date   = 20:00:00 07/03/2014
+Sample interval   = 00:00:15
+Records logged    = 232
+Extra samples     = 60 
+CMD> S TIME= 19 08 50  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4049
+MTR time/date     = 19:08:54 07/03/2014
+Start time/date   = 20:00:00 07/03/2014
+Sample interval   = 00:00:15
+Records logged    = 232
+Extra samples     = 60 
+CMD> LOG 
+
+Starting sampling will overwrite any
+previously recorded data in memory.
+OK? Y or (N) Y
+
+Next sample @ 20:00:00 

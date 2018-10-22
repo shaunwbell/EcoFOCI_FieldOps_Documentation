@@ -1,0 +1,63 @@
+
+
+Next sample @ 22:00:00
+
+Quit logging? Y or (N) Y
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:51:49 07/14/2014
+Start time/date   = 22:00:00 07/14/2014
+Sample interval   = 00:10:00
+Records logged    = 0
+Extra samples     = 0
+
+Command Mode: Type 'help' for command list.
+mtr> DATE= 07 14 2014  
+mtr> TIME= 22 52 20  
+mtr> SD= 08 23 2014  
+mtr> ST= 00 00 00  
+mtr> SAMPLE= 00 10 00  
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:53:14 07/14/2014
+Start time/date   = 00:00:00 08/23/2014
+Sample interval   = 00:10:00
+Records logged    = 0
+Extra samples     = 0 
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:53:29 07/14/2014
+Start time/date   = 00:00:00 08/23/2014
+Sample interval   = 00:10:00
+Records logged    = 0
+Extra samples     = 0 
+mtr> TIME= 22 53 45  
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:53:50 07/14/2014
+Start time/date   = 00:00:00 08/23/2014
+Sample interval   = 00:10:00
+Records logged    = 0
+Extra samples     = 0 
+mtr> LOG 
+
+Starting sampling will overwrite any
+previously recorded data in memory.
+OK? Y or (N) Y
+
+Next sample @ 00:00:00 

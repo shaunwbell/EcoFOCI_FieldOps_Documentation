@@ -1,0 +1,49 @@
+
+
+Next sample @ 255:255:255 invalid time! 
+
+Quit logging? Y or (N) Y
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4034
+MTR time/date     = 34:57:56 invalid time!  24/10/0060 invalid date! (year must have 4 digits) 
+Start time/date   = 255:255:255 invalid time!  255/255/25755 invalid date! (year must have 4 digits) 
+Sample interval   = 255:255:255 invalid time! 
+Records logged    = 65535
+Extra samples     = 255
+
+Command Mode: Type 'help' for command list.
+CMD> DATE= 07 03 2014  
+CMD> S TIME= 18 36 45  
+CMD> SD= 07 03 2014  
+CMD> ST= 20 00 00  
+CMD> SAMPLE  = 00 00 15  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4034
+MTR time/date     = 18:37:29 07/03/2014
+Start time/date   = 20:00:00 07/03/2014
+Sample interval   = 00:00:15
+Records logged    = 65535
+Extra samples     = 255 
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4034
+MTR time/date     = 18:37:39 07/03/2014
+Start time/date   = 20:00:00 07/03/2014
+Sample interval   = 00:00:15
+Records logged    = 65535
+Extra samples     = 255 
+CMD> TIME= 18 37 50  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4034
+MTR time/date     = 18:37:59 07/03/2014
+Start time/date   = 20:00:00 07/03/2014
+Sample interval   = 00:00:15
+Records logged    = 65535
+Extra samples     = 255 
+CMD> 

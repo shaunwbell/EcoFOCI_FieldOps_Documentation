@@ -1,0 +1,25 @@
+
+
+Quit logging? Y or (N) Y
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 3167
+MTR time/date     = 22:00:54 04/08/2014
+Start time/date   = 00:00:00 05/07/2014
+Sample interval   = 00:10:00
+Records logged    = 0
+Extra samples     = 0
+
+Command Mode: Type 'help' for command list.
+CMD> DATE= 04 -8 2014       08 2014  
+CMD> TIME- = 22 01 35  
+CMD> SD  = 05 07 2014  
+CMD> ST  = 00 00 00  
+CMD> SAMPLE  = 00 10 00  
+CMD> LOG 
+
+Starting sampling will overwrite any
+previously recorded data in memory.
+OK? Y or (N) Y
+
+Next sample @ 00:00:00 

@@ -1,0 +1,44 @@
+
+
+Quit logging? Y or (N) Y
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4003
+MTR time/date     = 88:75:20 invalid time!  00/01/0124 invalid date! (year must have 4 digits) 
+Start time/date   = 255:255:255 invalid time!  255/255/25755 invalid date! (year must have 4 digits) 
+Sample interval   = 255:255:255 invalid time! 
+Records logged    = 65535
+Extra samples     = 255
+
+Command Mode: Type 'help' for command list.
+CMD> DATE= 07 15 2014  
+CMD> TIME= 21 47 35  40  
+CMD> SD= 08 23 2014  
+CMD> ST= 00 00 00  
+CMD> SAMPLE= 00 10 1 00  
+CMD> STATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4003
+MTR time/date     = 21:48:09 07/15/2014
+Start time/date   = 00:00:00 08/23/2014
+Sample interval   = 00:10:00
+Records logged    = 65535
+Extra samples     = 255 
+CMD> TIME= 21 48 40  
+CMD> STT ATUS 
+
+PMEL MTR revision = V4.00 December 4, 1996
+MTR serial number = 4003
+MTR time/date     = 21:48:50 07/15/2014
+Start time/date   = 00:00:00 08/23/2014
+Sample interval   = 00:10:00
+Records logged    = 65535
+Extra samples     = 255 
+CMD> LOG 
+
+Starting sampling will overwrite any
+previously recorded data in memory.
+OK? Y or (N) Y
+
+Next sample @ 00:00:00 

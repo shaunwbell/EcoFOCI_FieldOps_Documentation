@@ -1,0 +1,49 @@
+
+
+Quit logging? Y or (N) Y
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 80:03:40 invalid time!  00/00/0024 invalid date! (year must have 4 digits) 
+Start time/date   = 255:255:255 invalid time!  255/255/25755 invalid date! (year must have 4 digits) 
+Sample interval   = 255:255:255 invalid time! 
+Records logged    = 65535
+Extra samples     = 255
+
+Command Mode: Type 'help' for command list.
+mtr> DATE= 04 - 08 2014  
+mtr> TIME= 22 13 15  
+mtr> SD= 05 07 2014  
+mtr> ST  = 00 00 00  
+mtr> SAMPLE= 00 10 00  
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:13:53 04/08/2014
+Start time/date   = 00:00:00 05/07/2014
+Sample interval   = 00:10:00
+Records logged    = 65535
+Extra samples     = 255 
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3251
+scale factor      = 04
+MTR time/date     = 22:14:00 04/08/2014
+Start time/date   = 00:00:00 05/07/2014
+Sample interval   = 00:10:00
+Records logged    = 65535
+Extra samples     = 255 
+mtr> LOG 
+
+Starting sampling will overwrite any
+previously recorded data in memory.
+OK? Y or (N) Y
+
+Next sample @ 00:00:00 

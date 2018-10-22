@@ -1,0 +1,40 @@
+
+
+Quit logging? Y or (N) Y
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3265
+scale factor      = 04
+MTR time/date     = 21:07:13 06/20/2014
+Start time/date   = 00:00:00 06/21/2014
+Sample interval   = 00:01:00
+Records logged    = 0
+Extra samples     = 0
+
+Command Mode: Type 'help' for command list.
+mtr> SD= 06 20 2014  
+mtr> ST= 22 00 00  
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3265
+scale factor      = 04
+MTR time/date     = 21:07:34 06/20/2014
+Start time/date   = 22:00:00 06/20/2014
+Sample interval   = 00:01:00
+Records logged    = 0
+Extra samples     = 0 
+mtr> STATUS 
+
+PMEL MTR version = V4.10 May 17, 2000
+with temp scaling.
+MTR serial number = 3265
+scale factor      = 04
+MTR time/date     = 21:07:40 06/20/2014
+Start time/date   = 22:00:00 06/20/2014
+Sample interval   = 00:01:00
+Records logged    = 0
+Extra samples     = 0 
+mtr> 
