@@ -4,6 +4,7 @@ Manuals, documentation and reference sheets for EcoFOCI Field Work
 
 ## Table of Contents
 1. CTDCruiseLogs - ECOFOCI Field Notes for CTD Casts
+1. MooringLogs - ECOFOCI Mooring Logs (static copy from online webform)
 1. Manuals
 1. Tech Notes
 1. CalibrationsByVendor - Calibration Documentation
