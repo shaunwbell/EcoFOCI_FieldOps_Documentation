@@ -17,7 +17,8 @@ Manuals, documentation and reference sheets for EcoFOCI Field Work
   - Satlantic
   - Seabird
   - WetLabs
-
+1. EcoFOCI_Config - Collection of configuration files for processing and visualizing EcoFOCI data.   
+- This is an ancillary package for most of the AtSea and MooringProcessing Utilities
 -----
 
 ################
