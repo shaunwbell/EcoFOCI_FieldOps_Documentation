@@ -56,3 +56,10 @@ CD_310:
   EPIC_KEY: 310
   units: 'degrees'
   longname: 'CURRENT DIRECTION (T)'
+S_41: 
+  EPIC_KEY: 41
+  name: S
+  generic_name: sal
+  fortran: ''
+  units: PSU
+  longname: 'SALINITY (PSU)'
