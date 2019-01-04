@@ -9,12 +9,15 @@ end_time: 2018-08-12
 #EPIC_Key: S_41
 #EPIC_Key_ctd: S_42
 #Ylabel: Salinity
-EPIC_Key: Fch_906
-EPIC_Key_ctd: Fch_906
-Ylabel: Chlor
+#EPIC_Key: Fch_906
+#EPIC_Key_ctd: Fch_906
+#Ylabel: Chlor
 #EPIC_Key: OST_62
 #EPIC_Key_ctd: OST_62
 #Ylabel: Oxygen_PSat
+EPIC_Key: O_65
+EPIC_Key_ctd: O_65
+Ylabel: Oxygen_Conc
 #EPIC_Key: PAR_908
 #EPIC_Key_ctd: PAR_905
 #Ylabel: PAR
@@ -27,24 +30,30 @@ ctd_files:
 - 'os1701l1c039_ctd.nc'
 mooring_data_path:
 - "/Users/bell/ecoraid/2017/Moorings/17ckip3a/working/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckip3a/working/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp3a/working/"
 mooring_files:
-- 17ckip3a_s37_0040m.unqcd.trimmed_missing.nc
+- 17ckip3a_s37_0032m.unqcd.trimmed_missing.nc
+- 17ckip3a_an9_0031m.unqcd.trimmed_missing.nc
 - 17ckp3a_sc_0041m.interpolated.trimmed_missing.nc
 colors:
 - red
+- blue
 - green
 linestyle:
 - '-'
 - '-'
+- '-'
 dtype: mooring
 legend:
-- 40m s37
+- 32m s37
+- 31m an9
 - 41m sc
 legend_loc: upper center
 legend_off: false
 nominal_depth:
-- 40
+- 32
+- 31
 - 41
 notes:
 output_type: png

@@ -70,3 +70,10 @@ OST_62:
   EPIC_KEY: 62
   units: '%'
   longname: 'Oxygen %sat'   
+O_65:
+  name: O
+  generic_name: ox
+  fortran: ''
+  EPIC_KEY: 65
+  units: 'umol/kg'
+  longname: 'OXYGEN (UMOL/KG)'  
