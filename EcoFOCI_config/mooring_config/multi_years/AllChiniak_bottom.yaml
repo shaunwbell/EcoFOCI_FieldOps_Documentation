@@ -1,0 +1,66 @@
+---
+MooringID: All_Chiniak
+ctd_data_path:
+- '/Users/bell/ecoraid/2017/CTDcasts/dy1704/initial_archive/'
+ctd_files:
+- 'dy1704c001_ctd.nc'
+mooring_data_path:
+- "/Users/bell/ecoraid/2016/Moorings/16cb1a/final_data/"
+- "/Users/bell/ecoraid/2015/Moorings/15cb1a/final_data/"
+- "/Users/bell/ecoraid/2013/Moorings/13cb1a/final_data/"
+- "/Users/bell/ecoraid/2013/Moorings/13cb1b/final_data/"
+- "/Users/bell/ecoraid/2013/Moorings/12cb1a/final_data/"
+- "/Users/bell/ecoraid/2013/Moorings/12cb1b/final_data/"
+mooring_files:
+- 16cb1a_s37_0188m.nc
+- 15cb1a_s37_0188m.nc
+- 13cb1a_s37_0188m.nc
+- 13cb1b_s37_0188m.nc
+- 12cb1a_s37_0188m.nc
+- 12cb1b_s37_0188m.nc
+nominal_depth:
+- 188
+- 188
+- 188
+- 188
+colors:
+- red
+- black
+- blue
+- green
+linestyle:
+- '-'
+- '-'
+- '-'
+- '-'
+legend:
+- 188m
+- 188m
+- 188m
+- 188m
+legend_loc: upper center
+legend_off: false
+#EPIC_Key: S_41
+#EPIC_Key_ctd: S_42
+#Ylabel: Salinity
+EPIC_Key: T_20
+EPIC_Key_ctd: T_28
+Ylabel: Temperature
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
+#EPIC_Key: OST_62
+#EPIC_Key_ctd: OST_62
+#Ylabel: Oxygen_PSat
+#EPIC_Key: O_65
+#EPIC_Key_ctd: O_65
+#Ylabel: Oxygen_Conc
+Date_Ticks: multi_month
+plot_stylesheet: seaborn-poster
+output_type: png
+start_time: '2016-02-09'
+end_time: '2017-04-23'
+depth_interval_m: 1
+depth_m: 190
+dtype: mooring
+notes: 
