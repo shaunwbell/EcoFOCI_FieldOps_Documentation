@@ -10,7 +10,7 @@ end_time: 2018-08-05
 #EPIC_Key_ctd: S_42
 #Ylabel: Salinity
 EPIC_Key: Fch_906
-EPIC_Key_ctd: Fch_906
+EPIC_Key_ctd: F_903
 Ylabel: Chlor
 #EPIC_Key: OST_62
 #EPIC_Key_ctd: OST_62
@@ -29,24 +29,30 @@ ctd_data_path:
 ctd_files:
 - 'os1701l1c011_ctd.nc'
 mooring_data_path:
+- "/Users/bell/ecoraid/2017/Moorings/17ckp4a/final_data/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp4a/working/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp4a/working/"
 mooring_files:
+- 17ckp4a_ecf_0039m.nc
 - 17ckp4a_an9_0038m.unqcd.trimmed_missing.nc
 - 17ckp4a_sc_0039m.interpolated.trimmed_missing.nc
 colors:
 - red
 - black
+- blue
 linestyle:
+- '-'
 - '-'
 - '-'
 dtype: mooring
 legend:
+- 39m eco
 - 38m rcm9
 - 39m sc
 legend_loc: upper center
 legend_off: false
 nominal_depth:
+- 39
 - 38
 - 39
 notes:
