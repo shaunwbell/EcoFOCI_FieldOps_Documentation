@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TurbidityMeter SensorID="67" SB_ConfigCTD_FileVersion="7.23.0.2" >
+  <SerialNumber>FLNTUS-350</SerialNumber>
+  <CalibrationDate>10-Mar-2016</CalibrationDate>
+  <ScaleFactor>5.000000</ScaleFactor>
+  <!-- Dark output -->
+  <DarkVoltage>0.076000</DarkVoltage>
+</TurbidityMeter>
