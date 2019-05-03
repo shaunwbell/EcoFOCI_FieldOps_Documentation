@@ -1,0 +1,19 @@
+ECO 	FLS-028	
+Created on: 	4/22/2019	
+		
+:     	chl=ug/l        	
+:       LSS=NTU		
+: 	"iengrunits = µg/l for CHL, PC, PE. Ppb for CDOM and uranine."	
+: 	column 5 = input scale factor and offset.	
+		
+maxvoltage=	4.98	
+asv1=	5.1923	
+asv2=	10.3769	
+asv4=	20.6226	
+		
+COLUMNS=5		
+N/U=1		
+N/U=2		
+N/U=3		
+CHL=4	0.0063	112
+N/U=5		
