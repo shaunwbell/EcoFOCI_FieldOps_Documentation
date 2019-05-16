@@ -1,0 +1,132 @@
+---
+MooringID: 18BS-2C
+Date_Ticks: multi_month
+start_time: '2018-10-03'
+end_time: '2019-04-24'
+#EPIC_Key: S_41
+#EPIC_Key_ctd: S_42
+#Ylabel: Salinity
+EPIC_Key: T_20
+EPIC_Key_ctd: T_28
+Ylabel: Temperature
+#EPIC_Key: Fch_906
+#EPIC_Key_ctd: F_903
+#Ylabel: Chlor
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
+#EPIC_Key: OST_62
+#EPIC_Key_ctd: OST_62
+#Ylabel: Oxygen_PSat
+#EPIC_Key: O_65
+#EPIC_Key_ctd: O_65
+#Ylabel: Oxygen_Conc
+colors:
+- red
+- blue
+- green
+- cyan
+- magenta
+- black
+- yellow
+- orange
+- darkred
+- navy
+- darkgreen
+- crimson
+- lightblue
+- olive
+- black
+- goldenrod
+- blue
+- magenta
+- green
+- red
+- yellow
+- orange
+- black
+linestyle:
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+ctd_data_path:
+- 
+ctd_files:
+- ''
+dtype: mooring
+legend:
+- 06m sc
+- 44m sc
+- 09m s56
+- 47m s56
+- 55m s56
+- 04m mtr
+- 32m mtr
+- 32m mtr
+- 12m s37
+- 24m s37
+- 50m s37
+- 60m s37
+- 15m s39
+- 18m s39
+- 21m s39
+- 28m s39
+- 35m s39
+- 39m s39
+- 11m eco
+- 25m eco
+- 55m eco
+legend_loc: upper center
+legend_off: false
+nominal_depth:
+- 6
+- 44
+- 9
+- 47
+- 55
+- 4
+- 32
+- 32
+- 12
+- 24
+- 50
+- 60
+- 15
+- 18
+- 21
+- 28
+- 35
+- 39
+- 11
+- 25
+- 55
+mooring_data_path:
+- ''
+mooring_files:
+- ''
+notes:
+output_type: png
+plot_stylesheet: seaborn-poster
+depth_interval_m: 1
+depth_m: 71
+dtype: mooring
