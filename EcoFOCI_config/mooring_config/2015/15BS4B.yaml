@@ -19,6 +19,8 @@ mooring_data_path:
 - /Users/bell/ecoraid/2015/Moorings/15bs4b/final_data/
 - /Users/bell/ecoraid/2015/Moorings/15bs4b/final_data/
 - /Users/bell/ecoraid/2015/Moorings/15bs4b/final_data/
+- /Users/bell/ecoraid/2015/Moorings/15bs4b/final_data/
+- /Users/bell/ecoraid/2015/Moorings/15bs4b/final_data/
 mooring_files:
 - 15bs4b_sc_0012m.nc
 - 15bs4b_s37_0018m.nc
@@ -32,6 +34,8 @@ mooring_files:
 - 15bs4b_s39_0045m.nc
 - 15bs4b_s39_0060m.nc
 - 15bs4b_s56_0040m.nc
+- 15bs4b_mt4019_0050m.nc
+- 15bs4b_mt4033_0067m.nc
 nominal_depth:
 - 12
 - 18
@@ -45,19 +49,32 @@ nominal_depth:
 - 45
 - 60
 - 40
+- 50
+- 67
 colors:
+- red
+- blue
+- green
+- cyan
+- magenta
 - black
+- yellow
+- orange
+- darkred
+- navy
+- darkgreen
+- crimson
+- lightblue
+- olive
+- black
+- goldenrod
 - blue
 - magenta
 - green
 - red
-- cyan
-- k
-- b
-- m
-- g
-- r
-- c
+- yellow
+- orange
+- black
 linestyle:
 - '-'
 - '-'
@@ -65,12 +82,23 @@ linestyle:
 - '-'
 - '-'
 - '-'
-- '-.'
-- '-.'
-- '-.'
-- '-.'
-- '-.'
-- '-.'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
 legend:
 - 12m sc
 - 18m s37
@@ -84,15 +112,17 @@ legend:
 - 45m s39
 - 60m s39
 - 40m s56
+- 50m mt
+- 67m mt
 dtype: mooring
 legend_loc: upper center
 legend_off: false
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
-EPIC_Key: T_20
-EPIC_Key_ctd: T_28
-Ylabel: Temperature
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
+#EPIC_Key: T_20
+#EPIC_Key_ctd: T_28
+#Ylabel: Temperature
 #EPIC_Key: P_1
 #EPIC_Key_ctd: P_1
 #Ylabel: Pressure (dB)

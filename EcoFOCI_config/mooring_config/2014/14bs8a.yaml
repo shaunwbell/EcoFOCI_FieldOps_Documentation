@@ -1,8 +1,8 @@
 MooringID: 14BS-8A
 Date_Ticks: multi_month
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
 #EPIC_Key: T_20
 #EPIC_Key_ctd: T_28
 #Ylabel: Temperature
@@ -12,9 +12,9 @@ Date_Ticks: multi_month
 #EPIC_Key: OST_62
 #EPIC_Key_ctd: OST_62
 #Ylabel: Oxygen_PSat
-EPIC_Key: O_65
-EPIC_Key_ctd: O_65
-Ylabel: Oxygen_Conc
+#EPIC_Key: O_65
+#EPIC_Key_ctd: O_65
+#Ylabel: Oxygen_Conc
 colors:
 - black
 - blue
