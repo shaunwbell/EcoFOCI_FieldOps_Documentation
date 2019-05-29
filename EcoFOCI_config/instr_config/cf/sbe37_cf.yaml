@@ -1,0 +1,26 @@
+---
+temp:
+  EPIC_KEY: T_20
+  generic_name: temp
+  longname: "Sea temperature in-situ ITS-90 scale"
+  standard_name: sea_water_temperature
+  units: degree_C
+pres: 
+  EPIC_KEY: P_1
+  generic_name: pres
+  units: decibar
+  longname: "Sea water pressure, equals 0 at sea-level"
+  standard_name: sea_water_pressure_due_to_sea_water
+C_50: 
+  EPIC_KEY: C_50
+  generic_name: cond
+  units: 'mmho/cm'
+  longname: "Sea water conductivity"
+  longname: 'sea_water_electrical_conductivity'
+S_41: 
+  EPIC_KEY: S_41
+  generic_name: psal
+  units: PSU
+  longname: "Practical salinity in-situ PSS-78 scale"
+  standard_name: sea_water_practical_salinity
+#CF Standard Names v66
