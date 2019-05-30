@@ -5,7 +5,8 @@
 # 
 # CF Standard Names v66
 #
-# SeaBird T Temperature Recorder (sbe56)
+# Wetlabs (or others) Fluorometry only (chlorophyll fluorescence) 
+# with standard deviation of sample average for burst measurements
 # ----
 #
 # dimensions
@@ -43,12 +44,21 @@ timeseries_id:
   long_name: "timeseries id"
   standard_name: ''
 #variables
-temp:
-  epic_key: T_20
-  generic_name: temp
-  long_name: "Sea temperature in-situ ITS-90 scale"
-  standard_name: sea_water_temperature
-  units: degree_C
-
-
-
+fluor_counts:
+  epic_key: fluor_3031
+  generic_name: fluor_counts
+  long_name: "Digital Counts from fluorometer"
+  standard_name: fluorometer_digital_counts
+  units: counts
+chlor_fluorescence:
+  epic_key: Fch_906
+  generic_name: chlor_fluorescence
+  long_name: "Mass Concdentration of chlorophyll from chlorophyll fluorescence"
+  standard_name: mass_concentration_of_chlorophyll_in_sea_water
+  units: ugrams/l
+fluor_counts_std:
+  epic_key: fluor_2031
+  generic_name: fluor_counts_std
+  long_name: "Standard Deviation of Digital Counts from fluorometer"
+  standard_name: fluorometer_digital_counts_std
+  units: counts
