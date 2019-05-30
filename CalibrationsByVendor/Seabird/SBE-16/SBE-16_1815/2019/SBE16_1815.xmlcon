@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.23.0.2" >
+  <Instrument Type="0" >
+    <Name>SBE 16 Seacat CTD</Name>
+    <!-- Pressure sensor type: -->
+    <!--     0 = digiquartz without temp comp -->
+    <!--     1 = digiquartz with temp comp -->
+    <!--     2 = strain gauge -->
+    <!--     3 = no pressure sensor -->
+    <PressureSensorType>3</PressureSensorType>
+    <!-- Moored pressure is only applicable if pressure sensor type = no pressure sensor. -->
+    <MooredPressure>0.000000000000</MooredPressure>
+    <!-- Temperature type is only applicable if pressure sensor type = digiquartz without temp comp. -->
+    <!--    0 = water temperature -->
+    <!--    1 = user supplied temperature -->
+    <TemperatureType>0</TemperatureType>
+    <UserSuppliedTemperature>15.000000000000</UserSuppliedTemperature>
+    <ExternalVoltageChannels>0</ExternalVoltageChannels>
+    <!-- Firmware version: 0 = version 4.0 or newer, 1 = older than version 4.0 -->
+    <FirmwareVersion>0</FirmwareVersion>
+    <SampleIntervalSeconds>15</SampleIntervalSeconds>
+    <NmeaPositionDataAdded>0</NmeaPositionDataAdded>
+    <NmeaDepthDataAdded>0</NmeaDepthDataAdded>
+    <NmeaTimeAdded>0</NmeaTimeAdded>
+    <NmeaDeviceConnectedToPC>0</NmeaDeviceConnectedToPC>
+    <ScanTimeAdded>0</ScanTimeAdded>
+    <SensorArray Size="2" >
+      <Sensor index="0" SensorID="55" >
+        <TemperatureSensor SensorID="55" >
+          <SerialNumber>1815</SerialNumber>
+          <CalibrationDate>07-May-19</CalibrationDate>
+          <UseG_J>1</UseG_J>
+          <A>0.00000000e+000</A>
+          <B>0.00000000e+000</B>
+          <C>0.00000000e+000</C>
+          <D>0.00000000e+000</D>
+          <F0_Old>0.000</F0_Old>
+          <G>4.17216399e-003</G>
+          <H>5.87402389e-004</H>
+          <I>9.43084568e-007</I>
+          <J>-2.40438103e-006</J>
+          <F0>1000.000</F0>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </TemperatureSensor>
+      </Sensor>
+      <Sensor index="1" SensorID="3" >
+        <ConductivitySensor SensorID="3" >
+          <SerialNumber>1815</SerialNumber>
+          <CalibrationDate>07-May-19</CalibrationDate>
+          <UseG_J>1</UseG_J>
+          <!-- Cell const and series R are applicable only for wide range sensors. -->
+          <SeriesR>0.0000</SeriesR>
+          <CellConst>2000.0000</CellConst>
+          <ConductivityType>0</ConductivityType>
+          <Coefficients equation="0" >
+            <A>0.00000000e+000</A>
+            <B>0.00000000e+000</B>
+            <C>0.00000000e+000</C>
+            <D>0.00000000e+000</D>
+            <M>0.0</M>
+            <CPcor>-9.57000000e-008</CPcor>
+          </Coefficients>
+          <Coefficients equation="1" >
+            <G>-4.05006850e+000</G>
+            <H>4.83611716e-001</H>
+            <I>1.02654606e-003</I>
+            <J>-1.47101755e-005</J>
+            <CPcor>-9.57000000e-008</CPcor>
+            <CTcor>3.2500e-006</CTcor>
+            <!-- WBOTC not applicable unless ConductivityType = 1. -->
+            <WBOTC>0.00000000e+000</WBOTC>
+          </Coefficients>
+          <Slope>1.00000000</Slope>
+          <Offset>0.00000</Offset>
+        </ConductivitySensor>
+      </Sensor>
+    </SensorArray>
+  </Instrument>
+</SBE_InstrumentConfiguration>
