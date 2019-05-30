@@ -1,26 +1,69 @@
 ---
+#############################################################
+# Utility to read the following in takes order into account
+#  Dimensions should stay in same order with cf_role id being last
+# 
+# CF Standard Names v66
+#
+# ----
+#
+# dimensions
+#
+time:
+  epic_key: TIM_601
+  name: time
+  generic_name: time
+  standard_name: time
+  long_name: date and time since reference time
+  time_origin: '1900-01-01 00:00:00'
+  units: 'days since 1900-01-01T00:00:00Z'
+depth: 
+  epic_key: D_3
+  generic_name: depth
+  units: meter
+  long_name: "depth below surface (meters)"
+  standard_name: depth
+latitude:
+  epic_key: LON_501
+  name: latitude
+  generic_name: latitude
+  units: degrees_north
+  long_name: 'latitude'
+  standard_name: 'latitude'
+longitude:
+  epic_key: LAT_500
+  name: longitude
+  generic_name: longitude
+  units: degrees_east
+  long_name: 'longitude'
+  standard_name: 'longitude'
+timeseries_id:
+  cf_role: 'timeseries_id'
+  long_name: "timeseries id"
+  standard_name: ''
+#variables
 temp:
-  EPIC_KEY: T_20
+  epic_key: T_20
   generic_name: temp
-  longname: "Sea temperature in-situ ITS-90 scale"
+  long_name: "Sea temperature in-situ ITS-90 scale"
   standard_name: sea_water_temperature
   units: degree_C
 pres: 
-  EPIC_KEY: P_1
+  epic_key: P_1
   generic_name: pres
   units: decibar
-  longname: "Sea water pressure, equals 0 at sea-level"
+  long_name: "Sea water pressure, equals 0 at sea-level"
   standard_name: sea_water_pressure_due_to_sea_water
-C_50: 
-  EPIC_KEY: C_50
+cond: 
+  epic_key: C_50
   generic_name: cond
   units: 'mmho/cm'
-  longname: "Sea water conductivity"
-  longname: 'sea_water_electrical_conductivity'
-S_41: 
-  EPIC_KEY: S_41
+  long_name: "Sea water conductivity"
+  standard_name: 'sea_water_electrical_conductivity'
+psal: 
+  epic_key: S_41
   generic_name: psal
   units: PSU
-  longname: "Practical salinity in-situ PSS-78 scale"
+  long_name: "Practical salinity in-situ PSS-78 scale"
   standard_name: sea_water_practical_salinity
-#CF Standard Names v66
+
