@@ -1,14 +1,14 @@
 ---
-MooringID: 16BS-2
+MooringID: 16BS-2C
 Date_Ticks: multi_month
 start_time: '2016-09-29'
 end_time: '2017-04-27'
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
-EPIC_Key: T_20
-EPIC_Key_ctd: T_28
-Ylabel: Temperature
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
+#EPIC_Key: T_20
+#EPIC_Key_ctd: T_28
+#Ylabel: Temperature
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor

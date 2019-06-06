@@ -93,12 +93,12 @@ colors:
 dtype: mooring
 legend_loc: upper center
 legend_off: false
-EPIC_Key: T_20
-EPIC_Key_ctd: T_28
-Ylabel: Temperature
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_41
-#Ylabel: Salinity
+#EPIC_Key: T_20
+#EPIC_Key_ctd: T_28
+#Ylabel: Temperature
+EPIC_Key: S_41
+EPIC_Key_ctd: S_41
+Ylabel: Salinity
 #EPIC_Key: P_1
 #EPIC_Key_ctd: P_1
 #Ylabel: Pressure (dB)
@@ -106,7 +106,7 @@ Date_Ticks: multi_month
 plot_stylesheet: seaborn-poster
 output_type: png
 start_time: '2013-05-06'
-end_time: '2014-09-14'
+end_time: '2013-09-14'
 depth_interval_m: 1
 depth_m: 72
 notes: >
