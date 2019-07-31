@@ -90,7 +90,7 @@ par:
 par_volts: 
   generic_name: par_volts
   epic_key: PAR_916
-  longname: 'Photosynthetic Active Radiation Volts'
+  long_name: 'Photosynthetic Active Radiation Volts'
   standard_name: omnidirectional_photosynthetic_photon_spherical_irradiance_in_sea_water_volts
   units: Volts
 oxy_conc:
@@ -103,6 +103,6 @@ oxy_psat:
   generic_name: oxy_psat
   epic_key: OST_62
   units: 'percent'
-  longname: 'Percent Saturation of oxygen over air' 
+  long_name: 'Percent Saturation of oxygen over air' 
   standard_name: 'fractional_saturation_of_oxygen_in_sea_water'  
 
