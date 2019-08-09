@@ -53,7 +53,7 @@ fluor_counts:
 chlor_fluorescence:
   epic_key: Fch_906
   generic_name: chlor_fluorescence
-  long_name: "Mass Concdentration of chlorophyll from chlorophyll fluorescence"
+  long_name: "Mass Concentration of chlorophyll from chlorophyll fluorescence"
   standard_name: mass_concentration_of_chlorophyll_in_sea_water
   units: ugrams/l
 fluor_counts_std:

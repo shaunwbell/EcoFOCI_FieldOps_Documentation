@@ -15,9 +15,9 @@ Ylabel: Salinity
 #EPIC_Key: P_1
 #EPIC_Key_ctd: P_1
 #Ylabel: Pressure
-#EPIC_Key: OST_62
-#EPIC_Key_ctd: OST_62
-#Ylabel: Oxygen_PSat
+EPIC_Key: OST_62
+EPIC_Key_ctd: OST_62
+Ylabel: Oxygen_PSat
 #EPIC_Key: O_65
 #EPIC_Key_ctd: O_65
 #Ylabel: Oxygen_Conc
@@ -93,6 +93,7 @@ legend:
 - 60m s39
 - 12m sc
 - 23m s56
+- 15m rcmsg
 legend_loc: upper center
 legend_off: false
 nominal_depth:
@@ -110,6 +111,7 @@ nominal_depth:
 - 60
 - 12
 - 23
+- 15
 mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18bs2c/final_data/"
 - "/Users/bell/ecoraid/2018/Moorings/18bs2c/final_data/"
@@ -125,6 +127,7 @@ mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18bs2c/final_data/"
 - "/Users/bell/ecoraid/2018/Moorings/18bs2c/final_data/"
 - "/Users/bell/ecoraid/2018/Moorings/18bs2c/final_data/"
+- "/Users/bell/ecoraid/2018/Moorings/18bs2c/working/"
 mooring_files:
 - 18bs2c_ecf_0011m.nc
 - 18bs2c_ecf_0023m.nc
@@ -140,6 +143,7 @@ mooring_files:
 - 18bs2c_s39_0060m.nc
 - 18bs2c_sc_0012m.nc
 - 18bs2c_s56_0023m.nc
+- 18bs2c_sg_0015.unqcd.trimmed_missing.nc
 notes:
 output_type: png
 plot_stylesheet: seaborn-poster
