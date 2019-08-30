@@ -30,11 +30,11 @@ ctd_files:
 - 'os1701l1c011_ctd.nc'
 mooring_data_path:
 - "/Users/bell/ecoraid/2017/Moorings/17ckp4a/final_data/"
-- "/Users/bell/ecoraid/2017/Moorings/17ckp4a/working/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckp4a/final_data/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp4a/working/"
 mooring_files:
 - 17ckp4a_ecf_0039m.nc
-- 17ckp4a_an9_0038m.unqcd.trimmed_missing.nc
+- 17ckp4a_an9_0038m.nc
 - 17ckp4a_sc_0039m.interpolated.trimmed_missing.nc
 colors:
 - red

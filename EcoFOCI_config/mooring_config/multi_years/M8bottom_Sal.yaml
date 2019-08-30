@@ -1,22 +1,64 @@
 MooringID: M8-BTM_Sal
 mooring_data_path:
-- /Users/bell/ecoraid/2016/Moorings/16bs8a/final_data/
+- /Users/bell/ecoraid/2009/Moorings/09bs8a/final_data/
+- /Users/bell/ecoraid/2010/Moorings/10bs8a/final_data/
+- /Users/bell/ecoraid/2011/Moorings/11bs8a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs8a/final_data/
+- /Users/bell/ecoraid/2013/Moorings/13bs8a/final_data/
+- /Users/bell/ecoraid/2014/Moorings/14bs8a/working/
+- /Users/bell/ecoraid/2015/Moorings/15bs8a/working/
+- /Users/bell/ecoraid/2016/Moorings/16bs8a/working/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/working/
 mooring_files:
-- 16bs8a_s37_0031m.nc
-- 17bs8a_s37_0055m.unqcd.trimmed_missing.nc
+- 09bs8a_s37_0055m.nc
+- 10bs8a_s37_0055m.nc
+- 11bs8a_s37_0055m.nc
+- 12bs8a_s37_0055m.nc
+- 13bs8a_s37_0055m.nc
+- 14bs8a_sc_0068m.interpolated.trimmed_missing.nc
+- 15bs8a_sc_0068m.interpolated.trimmed_missing.nc
+- 16bs8a_sc_0068m.nc
+- 17bs8a_sc_0068m.interpolated.trimmed_missing.nc
 nominal_depth:
-- 31
 - 55
+- 55
+- 55
+- 55
+- 55
+- 68
+- 68
+- 68
+- 68
 legend:
-- 31m s37
 - 55m s37
+- 55m s37
+- 55m s37
+- 55m s37
+- 55m s37
+- 68m sc
+- 68m sc
+- 68m sc
+- 68m sc
 legend_loc: upper center
 legend_off: false
 colors:
 - blue
 - blue
+- blue
+- blue
+- blue
+- blue
+- blue
+- blue
+- blue
 linestyle:
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
 - '-'
 - '-'
 dtype: unqcd

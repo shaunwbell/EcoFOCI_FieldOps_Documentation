@@ -26,7 +26,7 @@ ctd_data_path:
 ctd_files:
 - 'os1701l1c013_ctd.nc'
 mooring_data_path:
-- "/Users/bell/ecoraid/2017/Moorings/17ckp5a/working/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckp5a/final_data/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp5a/working/"
 - "/Users/bell/ecoraid/2017/Moorings/17ckp5a/final_data/"
 mooring_files:

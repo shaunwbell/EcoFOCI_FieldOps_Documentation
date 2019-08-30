@@ -56,7 +56,7 @@ linestyle:
 - '--'
 - '--'
 ctd_data_path:
-- '/Volumes/WDC_internal/Users/bell/ecoraid/2012/CTDCasts/dy1208/final_data/ctd/'
+- '/Users/bell/ecoraid/2012/CTDCasts/dy1208/final_data/ctd/'
 ctd_files:
 - 'dy1208c102_ctd.nc'
 dtype: mooring
@@ -91,19 +91,19 @@ nominal_depth:
 - 67
 - 17
 mooring_data_path:
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
+- /Users/bell/ecoraid/2012/Moorings/12bs5a/final_data/
 mooring_files:
 - 12bs5a_ecf_0018m.nc
 - 12bs5a_s37_0032m.nc

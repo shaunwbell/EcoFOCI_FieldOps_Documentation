@@ -1,23 +1,26 @@
 ---
 MooringID: 10CK_2A
 ctd_data_path:
-- /Volumes/WDC_internal/Users/bell/ecoraid/2010/CTDCasts/ae1001/final_data/ctd/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2011/CTDCasts/mb1101/final_data/ctd/
+#- /Users/bell/ecoraid/2010/CTDCasts/ae1001/final_data/ctd/
+- /Users/bell/ecoraid/2011/CTDCasts/mb1101/final_data/ctd/
 ctd_files:
-- ae1001c023_ctd.nc
+#- ae1001c023_ctd.nc
 - mb1101c031_ctd.nc
 dtype: mooring
 legend_loc: upper center
 legend_off: false
 mooring_data_path:
-- /Volumes/WDC_internal/Users/bell/ecoraid/2010/Moorings/10ckip2a/final_data/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2010/Moorings/10ckp2a/final_data/
+- /Users/bell/ecoraid/2010/Moorings/10ckp2a/final_data/
+- /Users/bell/ecoraid/2010/Moorings/10ckp2a/final_data/
+- /Users/bell/ecoraid/2010/Moorings/10ckip2a/final_data/
 mooring_files:
 - 10ckp2a_ecf_0037m.nc
 - 10ckp2a_sc_0039m.nc
+- 10ckip2a_an9_0040m.nc
 nominal_depth:
 - 37
 - 39
+- 40
 colors:
 - red
 - blue
@@ -47,15 +50,13 @@ linestyle:
 legend:
 - 37m ecf 
 - 39m sc 
+- 40m an9
 notes: 
 output_type: png
 plot_stylesheet: seaborn-poster
-#EPIC_Key: Fch_906
-#EPIC_Key_ctd: F_903
-#Ylabel: Chlor
-EPIC_Key: S_41
-EPIC_Key_ctd: S_41
-Ylabel: Salinity
+#EPIC_Key: S_41
+#EPIC_Key_ctd: S_41
+#Ylabel: Salinity
 #EPIC_Key: T_20
 #EPIC_Key_ctd: T_28
 #Ylabel: Temperature
@@ -68,5 +69,8 @@ Ylabel: Salinity
 #EPIC_Key: O_65
 #EPIC_Key_ctd: O_65
 #Ylabel: Oxygen_Conc
+EPIC_Key: Fch_906
+EPIC_Key_ctd: fWS_973
+Ylabel: Chlor
 Date_Ticks: multi_month
 
