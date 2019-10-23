@@ -5,7 +5,7 @@
 # 
 # CF Standard Names v67
 #
-# RCMSG, Seaguards
+# RCM7, RCM9, RCM11
 # These are platforms and can have oxy, turb, sal/cond on them as well
 # but we (FOCI) usually only have oxy/turb.  Salinity is captured from a 
 # nearby instrument to correct the oxygen measurements
