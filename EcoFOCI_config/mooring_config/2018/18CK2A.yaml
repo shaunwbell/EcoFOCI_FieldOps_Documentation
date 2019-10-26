@@ -31,12 +31,18 @@ ctd_files:
 mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18ckp2a/working/"
 - "/Users/bell/ecoraid/2018/Moorings/18ckp2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckip2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckip2a/working/"
 mooring_files:
 - 18ckp2a_ecf_0039m.interpolated.trimmed_missing.nc
 - 18ckp2a_sc_0039m.interpolated.trimmed_missing.nc
+- 18ckip2a_s37_0040m.unqcd.trimmed_missing.nc
+- 18ckip2a_an9_0039m.unqcd.trimmed_missing.nc
 colors:
 - green
 - black
+- red
+- blue
 linestyle:
 - '-'
 - '-'
@@ -46,10 +52,14 @@ dtype: mooring
 legend:
 - 39m eco
 - 39m sc
+- 40m s37
+- 39m rcm
 legend_loc: upper center
 legend_off: false
 nominal_depth:
 - 39
+- 39
+- 40
 - 39
 notes:
 output_type: png
