@@ -1,0 +1,94 @@
+---
+MooringID: 18CKP-5A
+Date_Ticks: multi_month
+start_time: 2018-08-16
+end_time: 2019-08-20
+#EPIC_Key: T_20
+#EPIC_Key_ctd: T_28
+#Ylabel: Temperature
+#EPIC_Key: S_41
+#EPIC_Key_ctd: S_42
+#Ylabel: Salinity
+EPIC_Key: Fch_906
+EPIC_Key_ctd: F_903
+Ylabel: Chlor
+#EPIC_Key: O_65
+#EPIC_Key_ctd: O_65
+#Ylabel: Oxygen_Conc
+#EPIC_Key: OST_62
+#EPIC_Key_ctd: OST_62
+#Ylabel: Oxygen_PSat
+#EPIC_Key: PAR_908
+#EPIC_Key_ctd: PAR_905
+#Ylabel: PAR
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
+ctd_data_path:
+- '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
+ctd_files:
+- 'os1901l1c036_ctd.nc'
+mooring_data_path:
+- "/Users/bell/ecoraid/2018/Moorings/18ckp5a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp5a/working/"
+mooring_files:
+- 18ckp5a_s37_0039m.unqcd.trimmed_missing.nc
+- 18ckp5a_eco_0040m.interpolated.trimmed_missing.nc
+colors:
+- red
+- blue
+- green
+- cyan
+- magenta
+- black
+- yellow
+- orange
+- darkred
+- navy
+- darkgreen
+- crimson
+- lightblue
+- olive
+- goldenrod
+- red
+- blue
+- magenta
+- green
+- black
+- yellow
+- orange
+- black
+linestyle:
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+dtype: mooring
+legend:
+- 39m s37
+- 40m eco
+legend_loc: upper center
+legend_off: false
+nominal_depth:
+- 39
+- 40
+notes:
+output_type: png
+plot_stylesheet: seaborn-poster
+
