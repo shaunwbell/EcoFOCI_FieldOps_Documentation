@@ -3,9 +3,9 @@ MooringID: 18CKV-2A
 Date_Ticks: multi_month
 start_time: '2018-08-13'
 end_time: '2019-08-14'
-#EPIC_Key: T_20
-#EPIC_Key_ctd: T_28
-#Ylabel: Temperature
+EPIC_Key: T_20
+EPIC_Key_ctd: T_28
+Ylabel: Temperature
 #EPIC_Key: S_41
 #EPIC_Key_ctd: S_42
 #Ylabel: Salinity
@@ -25,22 +25,80 @@ end_time: '2019-08-14'
 #EPIC_Key_ctd: P_1
 #Ylabel: Pressure
 ctd_data_path:
-- ''
+- '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
 ctd_files:
-- ''
+- 'os1901l1c041_ctd.nc'
 mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/final_data/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckv2a/final_data/"
 - "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
 - "/Users/bell/ecoraid/2018/Moorings/18ckv2a/working/"
 mooring_files:
 - 18ckv2a_ecf_0016m.interpolated.trimmed_missing.nc
 - 18ckv2a_s37_0014m.unqcd.trimmed_missing.nc
 - 18ckv2a_an9_0012m.unqcd.trimmed_missing.nc
+- 18ckv2a_mt3194_0006m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt3202_0043m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt3267_0043m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4019_0008m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4034_0010m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4063_0019m.nc
+- 18ckv2a_mt4083_0034m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4100_0031m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4104_0028m.nc
+- 18ckv2a_mt4118_0025m.interpolated.trimmed_missing.nc
+- 18ckv2a_mt4134_0040m.interpolated.trimmed_missing.nc
 colors:
+- red
+- blue
+- green
+- cyan
+- magenta
+- black
+- yellow
+- orange
+- darkred
+- navy
+- darkgreen
+- crimson
+- lightblue
+- olive
+- goldenrod
+- red
+- blue
+- magenta
 - green
 - black
-- red
+- yellow
+- orange
+- black
 linestyle:
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
+- '-'
 - '-'
 - '-'
 - '-'
@@ -50,13 +108,38 @@ legend:
 - 16m eco
 - 14m s37
 - 12m rcm9 
+- 06m mtr
+- 43m mtr
+- 40m mtr
+- 08m mtr
+- 10m mtr
+- 19m mtr
+- 31m mtr
+- 28m mtr
+- 25m mtr
+- 22m mtr
+- 34m mtr
 legend_loc: upper center
 legend_off: false
+notes: change all nominal depths to evaluate recovery cast at 40/41m
 nominal_depth:
 - 16
 - 14
 - 12
+- 6
+- 43
+- 43
+- 8
+- 10
+- 19
+- 34
+- 31
+- 28
+- 25
+- 40
 notes:
 output_type: png
 plot_stylesheet: seaborn-poster
+depth_interval_m: 1
+depth_m: 46
 

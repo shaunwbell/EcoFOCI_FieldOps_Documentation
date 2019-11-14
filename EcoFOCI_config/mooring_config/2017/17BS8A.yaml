@@ -1,8 +1,8 @@
 ---
 MooringID: 17BS-8A
 Date_Ticks: multi_month
-start_time: '2017-10-02'
-end_time: '2018-10-12'
+start_time: '2017-10-02T00:00:00'
+end_time: '2018-10-11T19:00:00'
 #EPIC_Key: S_41
 #EPIC_Key_ctd: S_42
 #Ylabel: Salinity
@@ -111,7 +111,7 @@ mooring_data_path:
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/working/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
-- /Users/bell/ecoraid/2017/Moorings/17bs8a/working/
+- /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
@@ -124,7 +124,7 @@ mooring_files:
 - 17bs8a_s37_0055m.unqcd.trimmed_missing.nc
 - 17bs8a_s39_0023m.nc
 - 17bs8a_s39_0027m.nc
-- 17bs8a_s39_0035m.unqcd.trimmed_missing.nc
+- 17bs8a_s39_0035m.nc
 - 17bs8a_s39_0040m.nc
 - 17bs8a_s39_0045m.nc
 - 17bs8a_s39_0050m.nc
