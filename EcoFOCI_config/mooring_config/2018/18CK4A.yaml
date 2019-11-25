@@ -26,13 +26,11 @@ Ylabel: Salinity
 #Ylabel: Pressure
 ctd_data_path:
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
-- '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
 ctd_files:
-- 'os1901l1c030_ctd.nc'
-- 'os1901l1c031_ctd.nc'
+- 'os1901l1c035_ctd.nc'
 mooring_data_path:
-- "/Users/bell/ecoraid/2018/Moorings/18ckip1a/working/"
-- "/Users/bell/ecoraid/2018/Moorings/18ckp1a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
 #- "/Users/bell/ecoraid/2018/Moorings/18ckp1a/working/"
 mooring_files:
 - 18ckip1a_s37_0040m.unqcd.trimmed_missing.nc

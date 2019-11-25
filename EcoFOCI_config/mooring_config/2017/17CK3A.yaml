@@ -12,30 +12,30 @@ end_time: 2018-08-12
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: Fch_906
 #Ylabel: Chlor
-#EPIC_Key: OST_62
-#EPIC_Key_ctd: OST_62
-#Ylabel: Oxygen_PSat
+EPIC_Key: OST_62
+EPIC_Key_ctd: OST_62
+Ylabel: Oxygen_PSat
 #EPIC_Key: O_65
 #EPIC_Key_ctd: O_65
 #Ylabel: Oxygen_Conc
 #EPIC_Key: PAR_908
 #EPIC_Key_ctd: PAR_905
 #Ylabel: PAR
-EPIC_Key: P_1
-EPIC_Key_ctd: P_1
-Ylabel: Pressure
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
 ctd_data_path:
-- '/Volumes/WDC_internal/Users/bell/ecoraid/2017/CTDcasts/os1701l1/initial_archive/ctd/'
+- '/Users/bell/ecoraid/2017/CTDcasts/os1701l1/initial_archive/ctd/'
 ctd_files:
 - 'os1701l1c039_ctd.nc'
 mooring_data_path:
-- "/Volumes/WDC_internal/Users/bell/ecoraid/2017/Moorings/17ckip3a/working/"
-- "/Volumes/WDC_internal/Users/bell/ecoraid/2017/Moorings/17ckip3a/final_data/"
-- "/Volumes/WDC_internal/Users/bell/ecoraid/2017/Moorings/17ckp3a/final_data/"
-- "/Volumes/WDC_internal/Users/bell/ecoraid/2017/Moorings/17ckp3a/final_data/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckip3a/working/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckip3a/working/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckp3a/final_data/"
+- "/Users/bell/ecoraid/2017/Moorings/17ckp3a/final_data/"
 mooring_files:
-- 17ckip3a_s37_0032m.unqcd.trimmed_missing.nc
-- 17ckip3a_an9_0031m.nc
+- 17ckip3a_s37_0039m.unqcd.trimmed_missing.nc
+- 17ckip3a_an9_0038m.unqcd.trimmed_missing.nc
 - 17ckp3a_sc_0041m.nc
 - 17ckp3a_ecf_0041m.nc
 colors:
@@ -50,15 +50,15 @@ linestyle:
 - '-'
 dtype: mooring
 legend:
-- 32m s37
-- 31m an9
+- 39m s37
+- 38m an9
 - 41m sc
 - 41m eco
 legend_loc: upper center
 legend_off: false
 nominal_depth:
-- 32
-- 31
+- 39
+- 38
 - 41
 - 41
 notes:
