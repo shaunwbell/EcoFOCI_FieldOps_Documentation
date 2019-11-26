@@ -1,14 +1,14 @@
 ---
-MooringID: 18CK-4A
+MooringID: 18AL-AU-PH1
 Date_Ticks: multi_month
-start_time: 2018-08-14
-end_time: 2019-08-18
+start_time: 2018-10-10T23:00:00
+end_time: 2019-08-11T02:00:00
 #EPIC_Key: T_20
 #EPIC_Key_ctd: T_28
 #Ylabel: Temperature
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
@@ -21,19 +21,17 @@ end_time: 2019-08-18
 #EPIC_Key: PAR_908
 #EPIC_Key_ctd: PAR_905
 #Ylabel: PAR
-EPIC_Key: P_1
-EPIC_Key_ctd: P_1
-Ylabel: Pressure
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
 ctd_data_path:
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
 ctd_files:
-- 'os1901l1c035_ctd.nc'
+- 'os1901l1c009_ctd.nc'
 mooring_data_path:
-- "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
-- "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18alauph1/working/"
 mooring_files:
-- 18ckp4a_eco_0045m.interpolated.trimmed_missing.nc
-- 18ckp4a_sc_0045m.interpolated.trimmed_missing.nc
+- 18alauph1_s37_0057m.unqcd.trimmed_missing.nc
 colors:
 - red
 - blue
@@ -81,13 +79,11 @@ linestyle:
 - '-'
 dtype: mooring
 legend:
-- 45m eco
-- 45m sc 
+- 57m s37
 legend_loc: upper center
 legend_off: false
 nominal_depth:
-- 45
-- 45
+- 56
 notes:
 output_type: png
 plot_stylesheet: seaborn-poster
