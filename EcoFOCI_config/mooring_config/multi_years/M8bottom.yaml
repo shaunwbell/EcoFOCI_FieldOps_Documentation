@@ -14,7 +14,7 @@ mooring_data_path:
 - /Users/bell/ecoraid/2015/Moorings/15bs8a/final_data/
 - /Users/bell/ecoraid/2016/Moorings/16bs8a/final_data/
 - /Users/bell/ecoraid/2017/Moorings/17bs8a/final_data/
-- /Users/bell/ecoraid/2018/Moorings/18bs8a/working/
+- /Users/bell/ecoraid/2018/Moorings/18bs8a/final_data/
 mooring_files:
 - 05bs8a_s39_0071m.nc
 - 05bs8b_s39_0067m.nc
@@ -30,7 +30,7 @@ mooring_files:
 - 15bs8a_s39_0067m.nc
 - 16bs8a_s39_0067m.nc
 - 17bs8a_s39_0067m.nc
-- 18bs8a_s39_0060m.unqcd.trimmed_missing.nc
+- 18bs8a_s39_0068m.nc
 nominal_depth:
 - 71
 - 67
@@ -46,7 +46,7 @@ nominal_depth:
 - 67
 - 67
 - 67
-- 60
+- 68
 legend:
 - 71
 - 67
@@ -62,7 +62,7 @@ legend:
 - 67 
 - 67
 - 67
-- 60
+- 68
 legend_loc: upper center
 legend_off: true
 colors: 
@@ -100,7 +100,8 @@ linestyle:
 - '-'
 - '-'
 dtype: unqcd
-EPIC_Key: T_20
+EPIC_Key: 
+  - T_20
 # update the plotting routine to take a list value
 Ylabel: Temperature
 Date_Ticks: multi_year
