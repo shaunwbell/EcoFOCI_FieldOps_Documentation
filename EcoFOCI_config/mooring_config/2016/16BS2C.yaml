@@ -113,21 +113,21 @@ nominal_depth:
 - 59
 - 13
 mooring_data_path:
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
-- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
+- /Users/bell/ecoraid/2016/Moorings/16bs2c/final_data/post_drag/
 mooring_files:
 - 16bs2c_ecf_0009m.nc
 - 16bs2c_ecf_0021m.nc

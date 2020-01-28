@@ -70,9 +70,13 @@ linestyle:
 - '-'
 - '-'
 ctd_data_path:
-- ''
+- /Users/bell/ecoraid/2019/CTDcasts/DY1904/initial_archive/
+- /Users/bell/ecoraid/2019/CTDcasts/DY1904/initial_archive/
+- /Users/bell/ecoraid/2019/CTDcasts/DY1908/initial_archive/
 ctd_files:
-- ''
+- 'DY1904c014_ctd.nc'
+- 'DY1904c051_ctd.nc'
+- 'DY1908c003_ctd.nc'
 dtype: mooring
 legend:
 - ecf 11m
@@ -89,6 +93,8 @@ legend:
 - s56 09m
 - s56 47m
 - s56 55m
+- s56 52m (on bsitaepr2a)
+- sc 01m (on bsitaepr2a)
 legend_loc: upper center
 legend_off: false
 nominal_depth:
@@ -106,37 +112,42 @@ nominal_depth:
 - 9
 - 47
 - 55
+- 52
+- 1
 mooring_data_path:
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsitaepr2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsitaepr2a/final_data/"
 mooring_files:
-- 19bsm2a_ecf_0011m.interpolated.trimmed_missing.nc
-- 19bsm2a_ecf_0025m.interpolated.trimmed_missing.nc
-- 19bsm2a_ecf_0055m.interpolated.trimmed_missing.nc
+- 19bsm2a_ecf_0011m.nc
+- 19bsm2a_ecf_0025m.nc
+- 19bsm2a_ecf_0055m.nc
 - 19bsm2a_s37_0012m.unqcd.trimmed_missing.nc
 - 19bsm2a_s37_0027m.unqcd.trimmed_missing.nc
 - 19bsm2a_s37_0060m.unqcd.trimmed_missing.nc
-- 19bsm2a_s39_0015m.unqcd.trimmed_missing.nc
-- 19bsm2a_s39_0018m.unqcd.trimmed_missing.nc
-- 19bsm2a_s39_0021m.unqcd.trimmed_missing.nc
-- 19bsm2a_s39_0035m.unqcd.trimmed_missing.nc
-- 19bsm2a_s39_0039m.unqcd.trimmed_missing.nc
-- 19bsm2a_s56_0009m.unqcd.trimmed_missing.nc
-- 19bsm2a_s56_0047m.unqcd.trimmed_missing.nc
-- 19bsm2a_s56_0055m.unqcd.trimmed_missing.nc
+- 19bsm2a_s39_0015m.nc
+- 19bsm2a_s39_0018m.nc
+- 19bsm2a_s39_0021m.nc
+- 19bsm2a_s39_0035m.nc
+- 19bsm2a_s39_0039m.nc
+- 19bsm2a_s56_0009m.nc
+- 19bsm2a_s56_0047m.nc
+- 19bsm2a_s56_0055m.nc
+- 19bsitaepr2a_s56_0052m.nc
+- 19bsitaepr2a_sc_0001m.nc
 notes:
 output_type: png
 plot_stylesheet: seaborn-poster
