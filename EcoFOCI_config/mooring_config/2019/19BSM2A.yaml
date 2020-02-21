@@ -3,12 +3,12 @@ MooringID: 19BSM-2A
 Date_Ticks: multi_month
 start_time: '2019-04-25'
 end_time: '2019-09-20'
-EPIC_Key: S_41
-EPIC_Key_ctd: S_42
-Ylabel: Salinity
-#EPIC_Key: T_20
-#EPIC_Key_ctd: T_28
-#Ylabel: Temperature
+#EPIC_Key: S_41
+#EPIC_Key_ctd: S_42
+#Ylabel: Salinity
+EPIC_Key: T_20
+EPIC_Key_ctd: T_28
+Ylabel: Temperature
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
@@ -95,6 +95,7 @@ legend:
 - s56 47m
 - s56 55m
 - sc 06m
+- sc 44m
 - s56 52m (on bsitaepr2a)
 - sc 01m (on bsitaepr2a)
 legend_loc: upper center
@@ -116,6 +117,7 @@ nominal_depth:
 - 47
 - 55
 - 6
+- 44
 - 52
 - 1
 mooring_data_path:
@@ -124,7 +126,8 @@ mooring_data_path:
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
-- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/working/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
+- "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
 - "/Users/bell/ecoraid/2019/Moorings/19bsm2a/final_data/"
@@ -143,7 +146,7 @@ mooring_files:
 - 19bsm2a_ecf_0055m.nc
 - 19bsm2a_s37_0012m.nc
 - 19bsm2a_s37_0027m.unqcd.trimmed_missing.nc
-- 19bsm2a_s37_0050m.unqcd.trimmed_missing.nc
+- 19bsm2a_s37_0050m.nc
 - 19bsm2a_s37_0060m.nc
 - 19bsm2a_s39_0015m.nc
 - 19bsm2a_s39_0018m.nc
@@ -153,7 +156,8 @@ mooring_files:
 - 19bsm2a_s56_0009m.nc
 - 19bsm2a_s56_0047m.nc
 - 19bsm2a_s56_0055m.nc
-- 19bsm2a_sc_0006m.interpolated.trimmed_missing.nc
+- 19bsm2a_sc_0006m.nc
+- 19bsm2a_sc_0044m.interpolated.trimmed_missing.nc
 - 19bsitaepr2a_s56_0052m.nc
 - 19bsitaepr2a_sc_0001m.nc
 notes:

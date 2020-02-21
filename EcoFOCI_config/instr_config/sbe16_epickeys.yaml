@@ -12,7 +12,7 @@ P_1:
   generic_name: pres
   fortran: f10.1
   EPIC_KEY: 1
-  units: db
+  units: dbar
   longname: 'PRESSURE (DB)'
 C_50: 
   EPIC_KEY: 50
