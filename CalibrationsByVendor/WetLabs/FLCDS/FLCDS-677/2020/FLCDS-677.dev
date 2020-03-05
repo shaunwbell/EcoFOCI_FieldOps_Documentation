@@ -1,0 +1,19 @@
+ECO 	FLCDS-677	
+Created on: 	2/25/2020	
+		
+:     	chl=ug/l        	
+:       LSS=NTU		
+: 	"iengrunits = µg/l for CHL, PC, PE. Ppb for CDOM and uranine."	
+: 	column 5 = input scale factor and offset.	
+		
+maxvoltage=	4.98	
+asv1=	27.8059	
+asv2=	55.6680	
+asv4=	110.6640	
+		
+COLUMNS=5		
+N/U=1		
+N/U=2		
+N/U=3		
+CDOM=4	0.0339	95
+N/U=5		
