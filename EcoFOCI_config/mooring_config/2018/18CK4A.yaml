@@ -12,18 +12,18 @@ end_time: 2019-08-18
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
-#EPIC_Key: O_65
-#EPIC_Key_ctd: O_65
-#Ylabel: Oxygen_Conc
-#EPIC_Key: OST_62
-#EPIC_Key_ctd: OST_62
-#Ylabel: Oxygen_PSat
+EPIC_Key: O_65
+EPIC_Key_ctd: O_65
+Ylabel: Oxygen_Conc
+EPIC_Key: OST_62
+EPIC_Key_ctd: OST_62
+Ylabel: Oxygen_PSat
 #EPIC_Key: PAR_908
 #EPIC_Key_ctd: PAR_905
 #Ylabel: PAR
-EPIC_Key: P_1
-EPIC_Key_ctd: P_1
-Ylabel: Pressure
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
 ctd_data_path:
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
 ctd_files:
@@ -31,9 +31,11 @@ ctd_files:
 mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
 - "/Users/bell/ecoraid/2018/Moorings/18ckp4a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp4a/final_data/"
 mooring_files:
 - 18ckp4a_eco_0045m.interpolated.trimmed_missing.nc
 - 18ckp4a_sc_0045m.interpolated.trimmed_missing.nc
+- 18ckp4a_sg_0045m.nc
 colors:
 - red
 - blue
@@ -83,9 +85,11 @@ dtype: mooring
 legend:
 - 45m eco
 - 45m sc 
+- 45m sg
 legend_loc: upper center
 legend_off: false
 nominal_depth:
+- 45
 - 45
 - 45
 notes:
