@@ -22,5 +22,13 @@
 		"EPIC_KEY": 2031,
 		"units": "ugrams/l",
 		"longname": "Standard Deviation fluor counts"
-	}
+	},
+	"Trb_2980": {
+		"name": "Trb",
+		"generic_name": "turbidity",
+		"fortran": "f10.1",
+		"EPIC_KEY": 2980,
+		"units": "NTU",
+		"longname": "Turbidity (NTU)"
+	},
 }

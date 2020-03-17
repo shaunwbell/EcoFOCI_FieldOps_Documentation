@@ -21,12 +21,12 @@ fluorstd_2031:
   fortran: 'f10.1'
   units: 'ugrams/l'
   longname: 'Standard Deviation fluor counts'
-Trb_980:
-  EPIC_KEY: 980
+Trb_2980:
+  EPIC_KEY: 2980
   fortran: f10.2
   generic_name: trb
-  longname: 'Turbidity(FNU)'
+  longname: 'Turbidity (NTU)'
   name: turb
-  units: 'Formazin Nephelometric Units'
+  units: 'Nephlometric Turbidity Units'
   #note - this should actully be NTU but that doesn't exist in EPIC
   #counts and std should be here too

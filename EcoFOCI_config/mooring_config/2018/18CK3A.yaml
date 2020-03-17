@@ -12,18 +12,21 @@ end_time: 2019-08-13
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
-#EPIC_Key: O_65
-#EPIC_Key_ctd: O_65
-#Ylabel: Oxygen_Conc
-EPIC_Key: OST_62
-EPIC_Key_ctd: OST_62
-Ylabel: Oxygen_PSat
+EPIC_Key: O_65
+EPIC_Key_ctd: O_65
+Ylabel: Oxygen_Conc
+#EPIC_Key: OST_62
+#EPIC_Key_ctd: OST_62
+#Ylabel: Oxygen_PSat
 #EPIC_Key: PAR_908
 #EPIC_Key_ctd: PAR_905
 #Ylabel: PAR
 #EPIC_Key: P_1
 #EPIC_Key_ctd: P_1
 #Ylabel: Pressure
+#EPIC_Key: Trb_2980
+#EPIC_Key_ctd: Trb_980
+#Ylabel: Turbidity
 ctd_data_path:
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/initial_archive/'
 ctd_files:
@@ -31,13 +34,13 @@ ctd_files:
 mooring_data_path:
 - "/Users/bell/ecoraid/2018/Moorings/18ckip3a/working/"
 - "/Users/bell/ecoraid/2018/Moorings/18ckip3a/working/"
-- "/Users/bell/ecoraid/2018/Moorings/18ckp3a/working/"
-- "/Users/bell/ecoraid/2018/Moorings/18ckp3a/working/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp3a/final_data/"
+- "/Users/bell/ecoraid/2018/Moorings/18ckp3a/final_data/"
 mooring_files:
 - 18ckip3a_s37_0042m.unqcd.trimmed_missing.nc
 - 18ckip3a_sg_0041m.unqcd.trimmed_missing.nc
-- 18ckp3a_eco_0040m.interpolated.trimmed_missing.nc
-- 18ckp3a_sc_0040m.interpolated.trimmed_missing.nc
+- 18ckp3a_eco_0040m.nc
+- 18ckp3a_sc_0040m.nc
 colors:
 - red
 - blue
