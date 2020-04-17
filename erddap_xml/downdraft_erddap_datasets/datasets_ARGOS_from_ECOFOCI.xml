@@ -27,3 +27,8 @@
     <sourceUrl>http://akutan.pmel.noaa.gov:8080/erddap/tabledap/2019_Argos_Drifters_NRT</sourceUrl>
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
 </dataset>
+
+<dataset type="EDDTableFromErddap" datasetID="2020_Argos_Drifters_NRT" active="true">
+    <sourceUrl>http://akutan.pmel.noaa.gov:8080/erddap/tabledap/2020_Argos_Drifters_NRT</sourceUrl>
+    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
+</dataset>
