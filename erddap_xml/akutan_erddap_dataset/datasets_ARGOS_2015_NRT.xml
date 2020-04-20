@@ -56,6 +56,7 @@
     </addAttributes>
     <dataVariable>
         <sourceName>***fileName,.*\.nc,0</sourceName>
+        <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
             <att name="units">sequential measurement id</att>
