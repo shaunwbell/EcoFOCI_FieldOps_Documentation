@@ -55,7 +55,7 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
         <att name="title">2019 ARGOS Drifter Float Data - NRT</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>***fileName,(?:(?!_).)*,0</sourceName>
+        <sourceName>***fileName,.*\.nc,0</sourceName>
         <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>

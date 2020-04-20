@@ -55,8 +55,7 @@
         <att name="title">2015 ARGOS Drifter Float Data - NRT</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>***fileName,(?:(?!\.).)*,0</sourceName>
-        <destinationName>trajectory_id</destinationName>
+        <sourceName>***fileName,.*\.nc,0</sourceName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
             <att name="units">sequential measurement id</att>

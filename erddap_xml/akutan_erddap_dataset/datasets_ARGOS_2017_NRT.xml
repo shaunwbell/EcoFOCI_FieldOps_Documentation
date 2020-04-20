@@ -55,7 +55,7 @@
         <att name="title">2017 ARGOS Drifter Float Data - NRT</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>***fileName,(?:(?!\.).)*,0</sourceName>
+        <sourceName>***fileName,.*\.nc,0</sourceName>
         <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
