@@ -381,7 +381,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     </dataVariable>   
     <dataVariable>
         <sourceName>global:WATER_DEPTH</sourceName>
-        <destinationName>Instrument_Identifier</destinationName>
+        <destinationName>Water_Depth</destinationName>
         <dataType>float</dataType>
         <addAttributes>
             <att name="ioos_category">Unknown</att>
