@@ -24,9 +24,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
             January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             </att>
-        <att name="MOORING">AW1</att>
-        <att name="WATER_DEPTH" type="int">112</att>
-        <att name="WATER_MASS">B</att>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
         <att name="cdm_timeseries_variables">profile_id, longitude, latitude</att>
@@ -232,7 +229,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>
-            <att names="instrument">wetstar</att>        
+            <att name="instrument">wetstar</att>        
         </addAttributes>
     </dataVariable>
     <dataVariable>

@@ -232,7 +232,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>
-            <att names="instrument">wetstar</att>        
+            <att name="instrument">wetstar</att>        
         </addAttributes>
     </dataVariable>
     <dataVariable>
