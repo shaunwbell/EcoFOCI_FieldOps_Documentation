@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10ckp1a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10ckp1a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/14ckp1a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -19,13 +19,13 @@ So far, T/S/O/Chl are accounted for-->
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">10ckp1a_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">14ckp1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">10ckp1a</att>
+        <att name="MOORING">14ckp1a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -264,10 +264,10 @@ May 30, 2019 23:02 UTC Data Trimmed
 
 So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10ckp1a_preliminary" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14ckp1a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10ckp1a/erddap/initial_archive/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/14ckp1a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -279,13 +279,13 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">10ckp1a_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">14ckp1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">10ckp1a</att>
+        <att name="MOORING">14ckp1a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -306,8 +306,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, latitude, longitude, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">Non-QC'd (preliminary) data from 10CKP-1A</att>
-        <att name="title">10CKP-1A preliminary data</att>
+        <att name="summary">Non-QC'd (preliminary) data from 14CKP-1A</att>
+        <att name="title">14CKP-1A preliminary data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
