@@ -48,18 +48,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <att name="title">CTD Data from NW1901 - Final</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>profile_id</sourceName>
-        <destinationName>station_id</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Identifier</att>
-            <att name="long_name">Station Id</att>
-            <att name="cf_role">profile_id</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
