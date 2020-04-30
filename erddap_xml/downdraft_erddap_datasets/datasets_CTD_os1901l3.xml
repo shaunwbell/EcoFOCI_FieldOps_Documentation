@@ -493,7 +493,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable> 
     <dataVariable>
-        <sourceName>sal00</sourceName>
+        <sourceName>sal11</sourceName>
         <destinationName>S_42</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -515,7 +515,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>sal11</sourceName>
+        <sourceName>sal00</sourceName>
         <destinationName>S_41</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>

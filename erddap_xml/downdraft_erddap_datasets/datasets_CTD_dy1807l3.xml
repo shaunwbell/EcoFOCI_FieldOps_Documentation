@@ -129,7 +129,7 @@ DY1807L3
         </addAttributes>
     </dataVariable> 
     <dataVariable>
-        <sourceName>sal00</sourceName>
+        <sourceName>sal11</sourceName>
         <destinationName>S_42</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -151,7 +151,7 @@ DY1807L3
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>sal11</sourceName>
+        <sourceName>sal00</sourceName>
         <destinationName>S_41</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
