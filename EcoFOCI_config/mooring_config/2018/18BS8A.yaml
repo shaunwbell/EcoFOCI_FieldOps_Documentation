@@ -3,12 +3,12 @@ MooringID: 18BS-8A
 Date_Ticks: multi_month
 start_time: '2018-10-12'
 end_time: '2019-09-23'
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
-EPIC_Key: T_20
-EPIC_Key_ctd: T_28
-Ylabel: Temperature
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
+#EPIC_Key: T_20
+#EPIC_Key_ctd: T_28
+#Ylabel: Temperature
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
@@ -71,7 +71,7 @@ linestyle:
 - '-'
 ctd_data_path:
 - /Users/bell/ecoraid/2018/CTDcasts/AQ1801/initial_archive/
-- /Users/bell/ecoraid/2019/CTDcasts/DY1908/initial_archive/
+- /Users/bell/ecoraid/2019/CTDcasts/DY1908/final_data/ctd/
 ctd_files:
 - 'AQ1801c026_ctd.nc'
 - 'DY1908c009_ctd.nc'
