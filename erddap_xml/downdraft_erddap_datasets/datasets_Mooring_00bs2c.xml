@@ -269,7 +269,7 @@ May 30, 2019 23:02 UTC Data Trimmed
 
 So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00bs2c_preliminary" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00bs2c_preliminary" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/00bs2c/erddap/initial_archive/</fileDir>
