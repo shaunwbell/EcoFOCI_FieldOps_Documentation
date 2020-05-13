@@ -61,3 +61,8 @@
     <sourceUrl>https://ferret.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_11010</sourceUrl>
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
 </dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9234" active="true">
+    <!-- NDBC Standard Meteorological Buoy Data -->
+    <sourceUrl>https://ferret.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9234</sourceUrl>
+    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
+</dataset>
