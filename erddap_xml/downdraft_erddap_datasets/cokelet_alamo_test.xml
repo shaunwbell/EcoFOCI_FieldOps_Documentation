@@ -1,0 +1,318 @@
+<!--
+Test of ERDDAP for ALAMO Float Data pertinent to Ned Cokelet Commentary:
+
+If the data structure of the original file is specified explicitly (eg netcdf file with ragged but 2d arrays where one is time and the other is depth... common in oceanography... will the served data maintain this formatting)
+
+Gridded Data
+- will be gridded but lose some searchability (so erddap is now just a file share device)
+- uneven grids? or index's (notion that everything is gridded at a fundemental level as opposed to the notion of being equal intervals on a described dimensionset eg lat/lon/depth)
+
+Tabular Data:
+- expected it will be in a DSG style netcdf file
+
+
+Original data is a single netcdf file per dive, it is ragged.  ERDDAP/PMEL aggregates these into a collection of dives for a single float ID (could also aggregate to a collection of dives for a collection of float ids)
+
+Gridded data comes from a single post processed file made by ned to be of geopnhyiscal structure
+
+EDDGridFromNCFiles -> use neds 2d file
+EDDTablefromNcFiles -> doesn't seem to want use neds file... its missing a DSG parameter and isn't of the right format (row index)...eg tables of tables not as doable
+
+EDDGridFromTable may be promising -> Neds framework from initial ingested data? and accessibleViaFiles should make initial file available too
+-->
+
+<!-- NOTE! The source for coklet_a835_1da4_96b6 has nGridVariables=10,
+  but this dataset will only serve 4 because the others use different dimensions. -->
+<dataset type="EDDGridFromNcFiles" datasetID="coklet_alamo_grid" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/Volumes/WDC_internal/Users/bell_local/Downloads/coklet/</fileDir>
+    <fileNameRegex>arctic_heat_alamo_2D_profiles_simple_9234.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
+    <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="history">FERRET V7.59 (debug) 11-May-20</att>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+        <att name="infoUrl">???</att>
+        <att name="institution">???</att>
+        <att name="keywords">bnds, data, density, earth, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, equals, in-situ, its, its-90, level, local, ocean, oceans, practical, PRES_ZT, pressure, SAL_ZT, salinity, scale, science, sea, sea level, sea-level, sea_water_practical_salinity, sea_water_pressure, sea_water_temperature, seawater, situ, source, T_AX, T_AX_bnds, TEMP_ZT, temperature, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">Data from a local source.</att>
+        <att name="title">Data from a local source.</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>T_AX</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            <att name="axis">T</att>
+            <att name="bounds">T_AX_bnds</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            <att name="units">seconds since 1970-01-01 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="bounds">null</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">T AX</att>
+            <att name="source_name">T_AX</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>bnds</sourceName>
+        <destinationName>bnds</destinationName>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">BNDS</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>T_AX_bnds</sourceName>
+        <destinationName>T_AX_bnds</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">T AX Bnds</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PRES_ZT</sourceName>
+        <destinationName>PRES_ZT</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_CoordinateAxisType">Height</att>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">-0.3599996948242179 94.75999993920327</att>
+            <att name="axis">Z</att>
+            <att name="colorBarMaximum" type="double">5000.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Sea Level</att>
+            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">sea_water_pressure</att>
+            <att name="units">decibar</att>
+            <att name="valid_max" type="double">12000.0</att>
+            <att name="valid_min" type="double">0.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TEMP_ZT</sourceName>
+        <destinationName>TEMP_ZT</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">-1.705 8.159</att>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">time latitude longitude PRES</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_Celsius</att>
+            <att name="valid_max" type="double">40.0</att>
+            <att name="valid_min" type="double">-2.5</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SAL_ZT</sourceName>
+        <destinationName>SAL_ZT</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">2.481 33.129</att>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="coordinates">time latitude longitude PRES</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="long_name">Salinity</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+            <att name="units">PSS-78</att>
+            <att name="valid_max" type="double">41.0</att>
+            <att name="valid_min" type="double">2.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+<!-- Table Attempt -->
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="coklet_alamo_table" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/Volumes/WDC_internal/Users/bell_local/Downloads/coklet/</fileDir>
+    <fileNameRegex>arctic_heat_alamo_2D_profiles_simple_9234.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>false</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>false</accessibleViaFiles>
+    <!-- sourceAttributes>
+        <att name="Conventions">CF-1.6</att>
+        <att name="history">FERRET V7.59 (debug) 11-May-20</att>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Point</att>
+        <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
+        <att name="infoUrl">???</att>
+        <att name="institution">???</att>
+        <att name="keywords">alamo, bnds, cycle, data, date, day, dive, format, instrument, julian, latitude, LOCATION_TIME, longitude, number, reference, relative, statistics, T_AX_bnds, test, time</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">ALAMO Test Data - NC format. Testing of erddap output format - using ALAMO data</att>
+        <att name="title">ALAMO Test Data, NC format</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>T_AX</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">T</att>
+            <att name="bounds">T_AX_bnds</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            <att name="units">seconds since 1970-01-01 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="bounds">null</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">T AX</att>
+            <att name="source_name">T_AX</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T_AX_bnds</sourceName>
+        <destinationName>T_AX_bnds</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">T AX Bnds</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LOCATION_TIME</sourceName>
+        <destinationName>LOCATION_TIME</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">1.55866878E9 1.57608234E9</att>
+            <att name="conventions">Relative julian days with decimal part (as parts of day)</att>
+            <att name="coordinates">time latitude longitude PRES</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Julian day (UTC) of the location relative to REFERENCE_DATE_TIME</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.58E9</att>
+            <att name="colorBarMinimum" type="double">1.555E9</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CYCLE</sourceName>
+        <destinationName>CYCLE</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="intList">0 365</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="conventions">0...N, 0 : launch cycle (if exists), 1 : first complete cycle</att>
+            <att name="coordinates">time latitude longitude PRES</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Instrument dive cycle number</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LON_PROFILE</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_CoordinateAxisType">Lon</att>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">-165.0954405 999.99999</att>
+            <att name="axis">X</att>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude of the station, best estimate</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+            <att name="valid_max" type="double">180.0</att>
+            <att name="valid_min" type="double">-180.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="source_name">LON_PROFILE</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LAT_PROFILE</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_CoordinateAxisType">Lat</att>
+            <att name="_FillValue" type="double">-1.0E34</att>
+            <att name="actual_range" type="doubleList">70.3753342 99.99999</att>
+            <att name="axis">Y</att>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude of the station, best estimate</att>
+            <att name="missing_value" type="double">-1.0E34</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+            <att name="valid_max" type="double">90.0</att>
+            <att name="valid_min" type="double">-90.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="source_name">LAT_PROFILE</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
