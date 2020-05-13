@@ -160,7 +160,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
     </dataVariable>
 </dataset>
 
-<!-- Table Attempt -->
+<!-- Table Attempt : NOT APPRPRIATE AS 2D DATASET NOT REPRESENTED IN TABLE WELL-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="coklet_alamo_table" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -317,6 +317,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
     </dataVariable>
 </dataset>
 
+<!-- throws an error in ddas
 <dataset type="EDDGridFromEDDTable" datasetID="arctic_heat_alamo_profiles_9234_GRID" active="true">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
     <gapThreshold>1000</gapThreshold>
@@ -560,3 +561,4 @@ completeness, or usefulness, of this information.</att>
 
 
 </dataset>
+-->

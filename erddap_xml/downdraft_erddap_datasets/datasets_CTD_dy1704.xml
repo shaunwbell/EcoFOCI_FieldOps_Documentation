@@ -21,7 +21,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
-        <att name="DATA_CMNT">DY1704 Oxygen Data.txt</att>
+        <att name="DATA_CMNT">CTD Data from DY1704 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
 August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
@@ -54,8 +54,8 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">DY1704 CTD Data - Final Bottle Data (usually little to no qc)</att>
-        <att name="title">DY1704 CTD Data - Final Bottle Data</att>
+        <att name="summary">CTD Data from DY1704 CTD Data - Final Bottle Data (usually little to no qc)</att>
+        <att name="title">CTD Data from DY1704 CTD Data - Final Bottle Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -372,7 +372,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
-        <att name="DATA_CMNT">DY1704 Oxygen Data.txt</att>
+        <att name="DATA_CMNT">CTD Data from DY1704 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
 August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
@@ -405,8 +405,8 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">DY1704 CTD Data - Final Oxygen Winkler Data </att>
-        <att name="title">DY1704 CTD Data - Final Oxygen Winkler Data</att>
+        <att name="summary">CTD Data from DY1704 CTD Data - Final Oxygen Winkler Data </att>
+        <att name="title">CTD Data from DY1704 CTD Data - Final Oxygen Winkler Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

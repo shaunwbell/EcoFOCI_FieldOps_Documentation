@@ -402,8 +402,8 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">DY1906L2 CTD Data - Final CTD Data </att>
-        <att name="title">DY1906L2 CTD Data - Final CTD Data</att>
+        <att name="summary">CTD Data from DY1906L2 - Final </att>
+        <att name="title">CTD Data from DY1906L2 - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

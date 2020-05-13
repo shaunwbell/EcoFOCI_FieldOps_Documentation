@@ -47,7 +47,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1704 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1704 Shiptrack</att>
+        <att name="title">CTD Data from DY1704 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>
@@ -186,7 +186,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1705 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1705 Shiptrack</att>
+        <att name="title">CTD Data from DY1705 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>
@@ -323,7 +323,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1706L1 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1706L1 Shiptrack</att>
+        <att name="title">CTD Data from DY1706L1 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>
@@ -460,7 +460,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1706L2 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1706L2 Shiptrack</att>
+        <att name="title">CTD Data from DY1706L2 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>
@@ -597,7 +597,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1706L3 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1706L3 Shiptrack</att>
+        <att name="title">CTD Data from DY1706L3 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>
@@ -734,7 +734,7 @@ Shiptrack data from SCS GPS files.  1s resolution
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">Shiptrack Data from DY1708 (Oscar Dyson Underway Global Positioning System (GPS) Data Feed)</att>
-        <att name="title">DY1708 Shiptrack</att>
+        <att name="title">CTD Data from DY1708 Shiptrack</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory_id</sourceName>

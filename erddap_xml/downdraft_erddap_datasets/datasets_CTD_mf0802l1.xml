@@ -51,8 +51,8 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">MF0802L1 CTD Data - Final CTD Data </att>
-        <att name="title">MF0802L1 CTD Data - Final CTD Data</att>
+        <att name="summary">CTD Data from MF0802L1 - Final </att>
+        <att name="title">CTD Data from MF0802L1 - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
