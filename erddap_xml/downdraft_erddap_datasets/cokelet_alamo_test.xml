@@ -79,17 +79,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>T_AX_bnds</sourceName>
-        <destinationName>T_AX_bnds</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">T AX Bnds</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>PRES_ZT</sourceName>
         <destinationName>PRES_ZT</destinationName>
         <dataType>double</dataType>
