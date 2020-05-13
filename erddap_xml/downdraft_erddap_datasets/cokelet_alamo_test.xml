@@ -394,26 +394,6 @@ completeness, or usefulness, of this information.</att>
         <addAttributes>
         </addAttributes>
     </axisVariable>
-    <axisVariable>
-        <sourceName>PRES</sourceName>
-        <destinationName>PRES</destinationName>
-        <!-- sourceAttributes>
-            <att name="_CoordinateAxisType">Height</att>
-            <att name="_FillValue" type="double">99999.0</att>
-            <att name="actual_range" type="doubleList">-0.3599996948242179 94.75999993920327</att>
-            <att name="axis">Z</att>
-            <att name="colorBarMaximum" type="double">5000.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Sea Level</att>
-            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
-            <att name="standard_name">sea_water_pressure</att>
-            <att name="units">decibar</att>
-            <att name="valid_max" type="double">12000.0</att>
-            <att name="valid_min" type="double">0.0</att>
-        </sourceAttributes -->
-        <addAttributes>
-        </addAttributes>
-    </axisVariable>
 
     <dataVariable>
         <sourceName>profileid</sourceName>
@@ -520,7 +500,26 @@ completeness, or usefulness, of this information.</att>
         <addAttributes>
         </addAttributes>
     </dataVariable>
-
+    <dataVariable>
+        <sourceName>PRES</sourceName>
+        <destinationName>PRES</destinationName>
+        <!-- sourceAttributes>
+            <att name="_CoordinateAxisType">Height</att>
+            <att name="_FillValue" type="double">99999.0</att>
+            <att name="actual_range" type="doubleList">-0.3599996948242179 94.75999993920327</att>
+            <att name="axis">Z</att>
+            <att name="colorBarMaximum" type="double">5000.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Sea Level</att>
+            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
+            <att name="standard_name">sea_water_pressure</att>
+            <att name="units">decibar</att>
+            <att name="valid_max" type="double">12000.0</att>
+            <att name="valid_min" type="double">0.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+        </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>TEMP</sourceName>
         <destinationName>TEMP</destinationName>
