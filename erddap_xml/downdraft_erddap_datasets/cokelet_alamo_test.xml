@@ -76,6 +76,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Z_index</att>
+            <att name="_CoordinateAxisType">Height</att>
         </addAttributes>
     </axisVariable>
     <dataVariable>
@@ -83,7 +84,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
         <destinationName>PRES_ZT</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="_CoordinateAxisType">Height</att>
             <att name="_FillValue" type="double">-1.0E34</att>
             <att name="actual_range" type="doubleList">-0.3599996948242179 94.75999993920327</att>
             <att name="axis">Z</att>
