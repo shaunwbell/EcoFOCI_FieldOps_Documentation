@@ -150,7 +150,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
 </dataset>
 
 <!-- Table Attempt : -->
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="coklet_a835_1da4_96b6" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="coklet_alamo_table" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/WDC_internal/Users/bell_local/Downloads/coklet/</fileDir>
