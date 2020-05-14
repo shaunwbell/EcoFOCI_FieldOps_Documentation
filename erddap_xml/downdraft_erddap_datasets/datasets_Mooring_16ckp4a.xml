@@ -122,7 +122,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">T_20</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
@@ -382,7 +382,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">T_20</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
