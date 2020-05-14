@@ -162,7 +162,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="Conventions">CF-1.6</att>
         <att name="history">FERRET V7.59 (debug) 11-May-20</att>
