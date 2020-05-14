@@ -172,7 +172,9 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
         <att name="subsetVariables">station_id, longitude, latitude</att>
     -->
     <addAttributes>
-        <att name="cdm_data_type">Point</att>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_altitude_proxy">Z_AX</att> 
+        <att name="cdm_profile_variables">CYCLE</att>
         <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
         <att name="infoUrl">???</att>
         <att name="institution">???</att>
@@ -244,6 +246,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
         </sourceAttributes -->
         <addAttributes>
             <att name="coordinates">null</att>
+            <att name="cf_role">profile_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
