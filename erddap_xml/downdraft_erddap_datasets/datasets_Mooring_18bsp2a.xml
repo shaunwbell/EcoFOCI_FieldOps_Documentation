@@ -60,7 +60,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     </axisVariable>
     <axisVariable>
         <sourceName>depth</sourceName>
-        <destinationName>depth2</destinationName>
+        <destinationName>depth</destinationName>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1</att>
             <att name="type">UNEVEN</att>
@@ -75,12 +75,12 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <axisVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">500</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_north</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -89,18 +89,21 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     </axisVariable>
     <axisVariable>
         <sourceName>lon</sourceName>
-        <destinationName>lon</destinationName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">501</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_west</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Lon</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+            <att name="scale_factor" type="double">-1.0</att>
+            <att name="add_offset" type="double">360</att>
         </addAttributes>
-    </axisVariable>
-    <dataVariable>
+    <axisVariable>
         <sourceName>v_1206</sourceName>
         <destinationName>v_1206</destinationName>
         <dataType>float</dataType>
@@ -112,6 +115,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="missing_value" type="double">-1.0E34</att>
             <att name="ioos_category">Currents</att>
         </addAttributes>
     </dataVariable>
@@ -127,6 +131,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="missing_value" type="double">-1.0E34</att>            
             <att name="ioos_category">Currents</att>
         </addAttributes>
     </dataVariable>
@@ -142,6 +147,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="missing_value" type="double">-1.0E34</att>
             <att name="ioos_category">Currents</att>
         </addAttributes>
     </dataVariable>
@@ -161,6 +167,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
+            <att name="missing_value" type="double">-1.0E34</att>
         </addAttributes>
     </dataVariable>
 </dataset>
@@ -229,7 +236,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     </dataVariable>
     <dataVariable>
         <sourceName>depth</sourceName>
-        <destinationName>depth2</destinationName>
+        <destinationName>depth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1</att>
