@@ -438,7 +438,7 @@ completeness, or usefulness, of this information.</att>
             <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="axisValuesStartStrideStop" type="doubleList">1565752180, 1800, 15681886570</att> 
+            <att name="axisValuesStartStrideStop" type="doubleList"> 1565752180, 1800, 1568188657</att> 
         </addAttributes>
     </axisVariable>
 
