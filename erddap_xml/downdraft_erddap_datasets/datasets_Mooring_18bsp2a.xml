@@ -240,17 +240,18 @@ May 30, 2019 23:02 UTC Data Trimmed
         <destinationName>depth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">1</att>
-            <att name="type">UNEVEN</att>
-            <att name="units">dbar</att>
+            <att name="epic_code">D_3</att>
+            <att name="generic_name">depth</att>
+            <att name="long_name">depth below surface (meters)</att>
+            <att name="standard_name">depth</att>
+            <att name="units">meter</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="standard_name">depth</att>
+            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -469,7 +470,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">PMEL</att>
-        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
+        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -496,7 +497,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     </dataVariable>
     <dataVariable>
         <sourceName>depth</sourceName>
-        <destinationName>depth2</destinationName>
+        <destinationName>depth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1</att>
