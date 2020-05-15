@@ -75,7 +75,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <axisVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -90,7 +89,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <axisVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
