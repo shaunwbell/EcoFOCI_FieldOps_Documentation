@@ -70,7 +70,9 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
             <att name="standard_name">depth</att>
-        </addAttributes>
+             <att name="scale_factor" type="double">1.0</att>
+            <att name="units">m</att>
+       </addAttributes>
     </axisVariable>
     <axisVariable>
         <sourceName>lat</sourceName>
@@ -252,14 +254,11 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
+     <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
+        <dataType>byte</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">500</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_north</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -272,16 +271,19 @@ May 30, 2019 23:02 UTC Data Trimmed
     </dataVariable>
     <dataVariable>
         <sourceName>lon</sourceName>
-        <destinationName>lon</destinationName>
-        <dataType>float</dataType>
+        <destinationName>longitude</destinationName>
+        <dataType>byte</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">501</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_west</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Lon</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+            <att name="scale_factor" type="double">-1.0</att>
+            <att name="add_offset" type="double">360</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -514,11 +516,8 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
+        <dataType>byte</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">500</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_north</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -531,16 +530,19 @@ May 30, 2019 23:02 UTC Data Trimmed
     </dataVariable>
     <dataVariable>
         <sourceName>lon</sourceName>
-        <destinationName>lon</destinationName>
-        <dataType>float</dataType>
+        <destinationName>longitude</destinationName>
+        <dataType>byte</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">501</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_west</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Lon</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+            <att name="scale_factor" type="double">-1.0</att>
+            <att name="add_offset" type="double">360</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
