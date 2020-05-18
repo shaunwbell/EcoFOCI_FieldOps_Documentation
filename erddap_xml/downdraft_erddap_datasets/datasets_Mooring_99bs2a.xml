@@ -45,7 +45,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="subsetVariables">depth, latitude, longitude, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
+        <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) data from 99BS-2A</att>
         <att name="title">99BS-2A data</att>
     </addAttributes>
@@ -310,7 +310,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="subsetVariables">depth, latitude, longitude, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
+        <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">Non-QC'd (preliminary) data from 99BS-2A</att>
         <att name="title">99BS-2A preliminary data</att>
     </addAttributes>
