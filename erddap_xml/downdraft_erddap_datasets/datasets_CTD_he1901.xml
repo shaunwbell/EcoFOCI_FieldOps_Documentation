@@ -321,10 +321,11 @@ csv hosting of WHOI *.bot files
     <dataVariable>
         <sourceName>wocecode</sourceName>
         <destinationName>wocecode</destinationName>
-        <dataType>string</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
+            <att name="_FillValue">999999999999</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>

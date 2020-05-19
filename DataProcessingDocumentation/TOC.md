@@ -32,3 +32,6 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 	c. Internal data distribtuion
 		1. Pavlof file-tree
 		2. ERDDAP (Akutan/Downdraft/Thundersnow)
+5. Thoughts and Musings for future challenges
+	a. AI/ML for Quality Control
+	b. Cloud based data storage solutions
