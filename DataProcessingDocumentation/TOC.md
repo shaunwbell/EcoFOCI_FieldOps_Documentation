@@ -16,7 +16,7 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 2. The Pavlof / Ecoraid data storage resource
 	a. Pavlof Website
 	b. EcoRaid raid server
-	c. Akutan
+	c. Akutan/Downdraft/Thundersnow/Pavlof/Krafla... and more
 3. Quality Control of incoming data streams
 	a. Moored Time-series data
 	b. Shipboard CTD data
