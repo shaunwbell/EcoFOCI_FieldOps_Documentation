@@ -1,6 +1,10 @@
 <!--
- hosting of WHOI processed *.dccs files. 
+csv hosting of WHOI processed *.dccs files. These have been concatenated into a single csv file 
+with proper headings and formatting to be erddap friendly. Specifically with lat/lon and id.
 
+csv hosting of WHOI *.bot files
+
+??? hosting of PMEL updated oxygen data and nutrient data (appended or corrected on WHOI data) - 
 -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_he1901" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
