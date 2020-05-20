@@ -61,7 +61,7 @@ csv hosting of WHOI *.bot files
 
         The overall CTD data quality was excellent. Downcast 1\-db pressure\-averaged files were produced following each cast. At the conclusion of the cruise a small number of density inversions were interpolated over, and the salinity data were assessed using a small number of bottle measurements (see the CTD calibration report). The final_data quality\-controlled, calibrated CTD files are available for download below.
 
-        Using the downcast files, we constructed vertical sections of CTD variables and absolute geostrophic velocity for each transect. The plots include the soundspeed\-corrected bottom topography from the ship\’s Knudsen recorder (smoothed to remove noise). We also constructed sections of the primary water masses present at each transect, which are all available for download </att>
+        Using the downcast files, we constructed vertical sections of CTD variables and absolute geostrophic velocity for each transect. The plots include the soundspeed\-corrected bottom topography from the ships Knudsen recorder (smoothed to remove noise). We also constructed sections of the primary water masses present at each transect, which are all available for download </att>
         <att name="title">CTD Data from 2019 Healy DBO Cruise (HE1901)</att>
     </addAttributes>
     <dataVariable>
