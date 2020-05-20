@@ -41,6 +41,11 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 	a. Google Drive / Docs   
 	b. Github   
 	c. Local Systems   
-6. Thoughts and Musings for future challenges
+6. Common Software
+	a. Python (2.7,3.7+)
+	b. QGIS
+	c. Matlab   
+	d. R/Rstudio
+7. Thoughts and Musings for future challenges
 	a. AI/ML for Quality Control   
 	b. Cloud based data storage solutions   
