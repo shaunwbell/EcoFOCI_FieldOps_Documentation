@@ -11,7 +11,9 @@ _2020-05-20_
 
 **Format and hosting subject to evolution / change**   
 Each Chapter will be a subdirectory in this repository collection, currently written in MarkDown, and hosted on github with chapters being subdirectories, subsections being files and subsubsections being subsections within the files..   
-_FoldersHaveSpacesRemoved_
+
+- _FoldersHaveSpacesRemoved_ 
+- **each folder will have an overview README.md file**
 
 1. EcoFOCI data philosophy
 2. The Pavlof / Ecoraid data storage resource
@@ -23,6 +25,8 @@ _FoldersHaveSpacesRemoved_
 	b. Shipboard CTD data   
 	c. Drifter data   
 	d. Along track (ship based / glider based) data   
+	e. Notes for Associated QC Software   
+		1. EcoFOCI_FieldOps_Documentation/EcoFOCI_config/ : 
 4. Data Distribution
 	a. agreements with data partners   
 		1. IOOS
@@ -33,6 +37,10 @@ _FoldersHaveSpacesRemoved_
 	c. Internal data distribtuion   
 		1. Pavlof file-tree
 		2. ERDDAP (Akutan/Downdraft/Thundersnow)
-5. Thoughts and Musings for future challenges
+5. Software and Documentation Repositories
+	a. Google Drive / Docs   
+	b. Github   
+	c. Local Systems   
+6. Thoughts and Musings for future challenges
 	a. AI/ML for Quality Control   
 	b. Cloud based data storage solutions   

@@ -23,3 +23,7 @@ Suggeted subsetting:
 3. Cruises should have preliminary/final/hydrographic bottles/oxygen/salinity dataset descriptors all in one xml file.  This could get large and unweildy so be careful.
 
 The goal is to be able to cut and paste previous sets and then edit the necessary metadata to create consistent and well documented data.
+
+**POINTS to WATCH for in datasets.xml**
+
+1. MissingValue = 1e35 (often for FOCI - this is a value chosen to make math impossibly large and to remove invalid data, but it also is a standin for missing data) - alternatively `_FillValue` should\could be set to 1e35.  Play and test your dataset for this to make sure missing values are properly being addressed
