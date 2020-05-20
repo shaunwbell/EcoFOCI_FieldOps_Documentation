@@ -9,7 +9,7 @@ csv hosting of WHOI *.bot files
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_he1901" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/CTDcasts/HE1901/final/erddap/WHOI/ctd/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2019/CTDcasts/HE1901/final_data/erddap/WHOI/ctd/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -59,7 +59,7 @@ csv hosting of WHOI *.bot files
 
         A total of 124 CTD casts were occupied on the cruise, comprising 11 transects. The instrument package consisted of a Sea-Bird 911plus CTD measuring temperature and conductivity (dual sensors), pressure, oxygen, beam transmission, fluorescence, and PAR. This was mounted on a 24-position rosette with 10 liter Niskin bottles. An altimeter was used to bring the package approximately 2 m above the sea floor on the shelf stations (5 m in rough weather), and approximately 10 m above the sea floor on the stations seaward of the shelfbreak. Water samples were generally taken every 10 m on the shelf, including at the bottom of the cast, just below the surface, and at the subsurface fluorescence maximum (when it was present). For the stations seaward of the shelfbreak the CTD casts were limited to 300m except station 54. Bottle salinity samples were taken at the bottom of most of the shelf stations (usually in a bottom mixed-layer), and over a range of depths at the deep station (see CTD table linked below below, or cruise report).
 
-        The overall CTD data quality was excellent. Downcast 1-db pressure-averaged files were produced following each cast. At the conclusion of the cruise a small number of density inversions were interpolated over, and the salinity data were assessed using a small number of bottle measurements (see the CTD calibration report). The final quality-controlled, calibrated CTD files are available for download below.
+        The overall CTD data quality was excellent. Downcast 1-db pressure-averaged files were produced following each cast. At the conclusion of the cruise a small number of density inversions were interpolated over, and the salinity data were assessed using a small number of bottle measurements (see the CTD calibration report). The final_data quality-controlled, calibrated CTD files are available for download below.
 
         Using the downcast files, we constructed vertical sections of CTD variables and absolute geostrophic velocity for each transect. The plots include the soundspeed-corrected bottom topography from the ship’s Knudsen recorder (smoothed to remove noise). We also constructed sections of the primary water masses present at each transect, which are all available for download below..</att>
         <att name="title">CTD Data from 2019 Healy DBO Cruise (HE1901)</att>
