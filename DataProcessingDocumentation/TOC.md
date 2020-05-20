@@ -10,7 +10,8 @@ Author: S.Bell
 2020-05-20
 
 **Format and hosting subject to evolution / change**   
-Each Chapter will be a subdirectory in this repository collection, currently written in MarkDown, and hosted on github with chapters being subdirectories, subsections being files and subsubsections being subsections within the files..
+Each Chapter will be a subdirectory in this repository collection, currently written in MarkDown, and hosted on github with chapters being subdirectories, subsections being files and subsubsections being subsections within the files..   
+_FoldersHaveSpacesRemoved_
 
 1. EcoFOCI data philosophy
 2. The Pavlof / Ecoraid data storage resource
