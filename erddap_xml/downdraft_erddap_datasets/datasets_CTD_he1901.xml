@@ -321,7 +321,7 @@ csv hosting of WHOI *.bot files
     <dataVariable>
         <sourceName>wocecode</sourceName>
         <destinationName>wocecode</destinationName>
-        <dataType>string</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
