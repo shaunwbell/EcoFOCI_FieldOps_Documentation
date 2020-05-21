@@ -129,6 +129,8 @@ Seattle, WA</att>
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -151,6 +153,8 @@ Seattle, WA</att>
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -172,6 +176,8 @@ Seattle, WA</att>
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -192,6 +198,8 @@ Seattle, WA</att>
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -210,11 +218,12 @@ Seattle, WA</att>
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Temperature</att>
         </addAttributes>
@@ -232,6 +241,8 @@ Seattle, WA</att>
             <att name="units">1e-3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -253,6 +264,8 @@ Seattle, WA</att>
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
@@ -272,6 +285,8 @@ Seattle, WA</att>
             <att name="units">g/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
@@ -410,6 +425,8 @@ Seattle, WA data from a local source.</att>
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -428,11 +445,12 @@ Seattle, WA data from a local source.</att>
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
@@ -451,6 +469,8 @@ Seattle, WA data from a local source.</att>
             <att name="units">meter^-1 steradian^-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
             <att name="long_name">Wlbb2fl Sig470nm Adjusted</att>
@@ -469,6 +489,8 @@ Seattle, WA data from a local source.</att>
             <att name="units">micrograms/liter</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Biology</att>
             <att name="long_name">Wlbb2fl Sig695nm Adjusted</att>
@@ -487,6 +509,8 @@ Seattle, WA data from a local source.</att>
             <att name="units">meter^-1 steradian^-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
             <att name="long_name">Wlbb2fl Sig700nm Adjusted</att>
@@ -621,6 +645,8 @@ offgrid, offset, optical, optical properties, optode, ovshoot, oxy, peak, phase,
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -639,11 +665,12 @@ offgrid, offset, optical, optical properties, optode, ovshoot, oxy, peak, phase,
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
@@ -660,6 +687,8 @@ offgrid, offset, optical, optical properties, optode, ovshoot, oxy, peak, phase,
             <att name="units">uM</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">umoles L-1</att>
         </addAttributes>
@@ -675,6 +704,8 @@ offgrid, offset, optical, optical properties, optode, ovshoot, oxy, peak, phase,
             <att name="units">percent</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>

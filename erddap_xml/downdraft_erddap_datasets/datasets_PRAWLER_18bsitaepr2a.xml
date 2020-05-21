@@ -65,6 +65,8 @@
             <att name="units">hours since 1900-1-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -84,6 +86,8 @@
             <att name="units">m s-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -103,6 +107,8 @@
             <att name="units">m s-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
@@ -122,6 +128,8 @@
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -142,6 +150,8 @@
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -162,6 +172,8 @@
             <att name="units">mbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">1050.0</att>
             <att name="colorBarMinimum" type="double">950.0</att>
@@ -181,6 +193,8 @@
             <att name="units">percent</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -200,10 +214,11 @@
             <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">air_temperature</att>
         </addAttributes>
@@ -220,6 +235,8 @@
             <att name="units">degrees true</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -239,6 +256,8 @@
             <att name="units">m s-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
@@ -324,6 +343,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="name">Chlorophyll</att>
             <att name="units">ugrams/l</att>        </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -344,6 +365,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -363,8 +386,9 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -380,8 +404,9 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -397,6 +422,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -417,6 +444,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -438,6 +467,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">hours since 1900-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
@@ -455,6 +486,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">kg m-3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -473,6 +506,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">FNU</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -489,6 +524,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
         </addAttributes>
@@ -507,6 +544,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -528,6 +567,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
