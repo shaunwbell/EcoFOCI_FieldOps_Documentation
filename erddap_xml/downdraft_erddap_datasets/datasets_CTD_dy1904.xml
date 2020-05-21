@@ -84,7 +84,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
             <att name="standard_name">sea_water_pressure</att>
@@ -120,7 +119,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -161,7 +159,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
@@ -183,7 +180,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
@@ -206,7 +202,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">sea_water_sigma_t</att>
             <att name="units">kg m-3</att>
@@ -223,12 +218,13 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>        </addAttributes>
@@ -248,7 +244,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -270,7 +266,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
         </addAttributes>
@@ -290,7 +285,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
             <att name="units">umol/kg</att>
@@ -311,7 +305,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -332,7 +326,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Unknown</att>
             <att name="units">percent</att>
             <att name="standard_name">seawater_optical_transmission_ratio</att>
@@ -481,7 +474,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
             <att name="standard_name">sea_water_pressure</att>
@@ -503,7 +495,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
@@ -525,7 +516,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
@@ -542,12 +532,13 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>        </addAttributes>
@@ -567,7 +558,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -588,7 +579,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -609,7 +600,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
             <att name="units">um/kg</att>
@@ -630,7 +620,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
             <att name="units">um/kg</att>
@@ -651,7 +640,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">oxygen_saturation_over_air</att>
             <att name="units">%</att>
@@ -672,7 +660,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">oxygen_saturation_over_air</att>
             <att name="units">%</att>
@@ -693,7 +680,6 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Unknown</att>
             <att name="units">percent</att>
             <att name="standard_name">seawater_optical_transmission_ratio</att>

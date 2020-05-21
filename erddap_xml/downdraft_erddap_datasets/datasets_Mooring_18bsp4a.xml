@@ -260,7 +260,7 @@ May 30, 2019 23:02 UTC Data Trimmed
      <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -275,7 +275,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -304,6 +304,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <addAttributes>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
@@ -519,7 +520,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -534,7 +535,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -563,6 +564,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <addAttributes>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>

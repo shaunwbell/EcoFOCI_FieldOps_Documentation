@@ -94,6 +94,7 @@
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -108,6 +109,7 @@
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -127,7 +129,6 @@
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="standard_name">depth</att>
             <att name="units">m</att>

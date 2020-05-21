@@ -89,7 +89,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -104,7 +104,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -131,6 +131,7 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -147,7 +148,8 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">decibar</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="ioos_category">Sea Level</att>
         </addAttributes>
     </dataVariable>
@@ -187,6 +189,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         </sourceAttributes -->
         <addAttributes>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -349,7 +353,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -364,7 +368,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <dataVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>byte</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -391,6 +395,7 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -407,7 +412,8 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">decibar</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="ioos_category">Sea Level</att>
         </addAttributes>
     </dataVariable>
@@ -447,6 +453,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         </sourceAttributes -->
         <addAttributes>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>

@@ -57,7 +57,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">trajectory_id</att>
         </addAttributes>
@@ -74,7 +73,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -94,7 +92,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -115,7 +112,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -135,7 +131,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -211,7 +206,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -231,7 +225,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -252,7 +245,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -272,7 +264,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -348,7 +339,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -368,7 +358,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -389,7 +378,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -409,7 +397,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -485,7 +472,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -505,7 +491,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -526,7 +511,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -546,7 +530,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -622,7 +605,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -642,7 +624,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -663,7 +644,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -683,7 +663,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -759,7 +738,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -779,7 +757,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -800,7 +777,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -820,7 +796,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -896,7 +871,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
         </addAttributes>
@@ -916,7 +890,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
@@ -937,7 +910,6 @@ Shiptrack data from SCS GPS files.  1s resolution
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -957,7 +929,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>

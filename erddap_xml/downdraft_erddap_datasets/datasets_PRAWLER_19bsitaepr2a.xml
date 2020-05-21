@@ -110,7 +110,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -132,7 +131,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Wind</att>
             <att name="standard_name">northward_wind</att>
         </addAttributes>
@@ -152,7 +150,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">1050.0</att>
             <att name="colorBarMinimum" type="double">950.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Pressure</att>
             <att name="standard_name">air_pressure</att>
         </addAttributes>
@@ -172,7 +169,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Meteorology</att>
             <att name="standard_name">relative_humidity</att>
         </addAttributes>
@@ -192,7 +188,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">air_temperature</att>
         </addAttributes>
@@ -212,7 +208,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Wind</att>
             <att name="standard_name">eastward_wind</att>
         </addAttributes>
@@ -303,7 +298,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
         </addAttributes>
@@ -323,7 +317,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
         </addAttributes>
@@ -341,7 +334,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -358,7 +351,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -377,7 +370,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
@@ -399,7 +391,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="standard_name">depth</att>
             <att name="units">m</att>
@@ -413,7 +404,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -433,7 +423,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
@@ -450,7 +439,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue">1.0E35</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Dissolved O2</att>
         </addAttributes>
     </dataVariable>
@@ -471,7 +459,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
         </addAttributes>
@@ -493,7 +480,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="fill_value">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
         </addAttributes>
