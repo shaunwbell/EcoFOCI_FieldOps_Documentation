@@ -246,7 +246,8 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="colorBarScale">Log</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
-            <att name="units">ugrams/l</att>        </addAttributes>
+            <att name="units">ugrams/l</att>        
+        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>T_28</sourceName>
@@ -359,7 +360,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>    
     <dataVariable>
-        <sourceName>***fileName,.*\.cf.nc,(1)</sourceName>
+        <sourceName>***fileName,.*\.cf.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
