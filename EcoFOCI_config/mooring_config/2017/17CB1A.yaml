@@ -3,18 +3,18 @@ MooringID: 17CB-1A
 Date_Ticks: multi_month
 start_time: '2017-04-23'
 end_time: '2019-04-20'
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
 #EPIC_Key: T_20
 #EPIC_Key_ctd: T_28
 #Ylabel: Temperature
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
-EPIC_Key: P_1
-EPIC_Key_ctd: P_1
-Ylabel: Pressure
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
 #EPIC_Key: OST_62
 #EPIC_Key_ctd: OST_62
 #Ylabel: Oxygen_PSat
@@ -89,7 +89,7 @@ mooring_data_path:
 - /Users/bell/ecoraid/2017/Moorings/17cb1a/working/
 mooring_files:
 - 17cb1a_an9_0183m.unqcd.nc
-- 17cb1a_s37_0188m.unqcd.nc
+- 17cb1a_s37_0188m.unqcd.trimmed_missing.nc
 notes:
 output_type: png
 plot_stylesheet: seaborn-poster
