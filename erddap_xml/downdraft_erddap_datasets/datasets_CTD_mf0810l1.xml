@@ -378,7 +378,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,.*\.cf.nc,0</sourceName>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>

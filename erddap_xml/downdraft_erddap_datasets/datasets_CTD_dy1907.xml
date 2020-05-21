@@ -1043,7 +1043,7 @@ completeness, or usefulness, of this information.</att>
             </addAttributes>
         </dataVariable>    
         <dataVariable>
-            <sourceName>***fileName,.*\.cf.nc,0</sourceName>
+            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
             <dataType>String</dataType>
             <!-- sourceAttributes>
