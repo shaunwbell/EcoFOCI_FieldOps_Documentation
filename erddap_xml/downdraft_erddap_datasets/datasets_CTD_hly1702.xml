@@ -87,8 +87,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -106,8 +104,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -128,8 +124,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">degree_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -150,8 +144,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">degree_west</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
@@ -174,8 +166,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -197,8 +187,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -221,8 +209,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">kg m-3</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -241,9 +227,9 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="long_name">Chlorophyll A</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -266,8 +252,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">5.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -290,9 +274,8 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -311,8 +294,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -334,8 +315,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
@@ -356,9 +335,8 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -375,8 +353,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="name">BTL_103</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -396,8 +372,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -419,8 +393,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -442,8 +414,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">4.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -465,8 +435,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">1.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -488,8 +456,6 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>

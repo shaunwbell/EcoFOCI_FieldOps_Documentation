@@ -71,8 +71,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -92,8 +90,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="name">ChlorophyllA</att>
             <att name="units">ugrams/l</att>        </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
@@ -112,8 +108,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -129,8 +124,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -150,8 +143,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -185,8 +176,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>

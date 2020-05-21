@@ -66,8 +66,7 @@ csv hosting of matlab - thingspeak data
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature on CCS811 (AQ Sensor)</att>
             <att name="standard_name">air_temperature</att>
@@ -107,8 +106,7 @@ csv hosting of matlab - thingspeak data
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Second colocated Temperature sensor</att>
             <att name="standard_name">air_temperature</att>

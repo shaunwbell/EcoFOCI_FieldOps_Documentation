@@ -78,8 +78,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -98,8 +96,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -133,8 +129,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -157,8 +151,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -180,8 +172,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -200,9 +190,9 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="long_name">Chlorophyll A</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -226,9 +216,8 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -248,9 +237,8 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">C</att>
@@ -270,8 +258,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
@@ -292,8 +278,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
@@ -314,8 +298,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">oxygen_saturation_over_air</att>
@@ -336,8 +318,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">oxygen_saturation_over_air</att>
@@ -356,8 +336,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -453,8 +431,6 @@ completeness, or usefulness, of this information.</att>
             <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="axisValuesStartStrideStop" type="doubleList"> 1565752180, 300, 1568188657</att> 
         </addAttributes>
     </axisVariable>
@@ -464,6 +440,7 @@ completeness, or usefulness, of this information.</att>
         <destinationName>pressure</destinationName>
         <!-- sourceAttributes>
             <att name="_CoordinateAxisType">Height</att>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">0.0 280.0</att>
             <att name="axis">Z</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
@@ -477,8 +454,6 @@ completeness, or usefulness, of this information.</att>
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="axisValuesStartStrideStop" type="doubleList">0, 1, 280</att> 
         </addAttributes>
     </axisVariable>
@@ -487,6 +462,7 @@ completeness, or usefulness, of this information.</att>
         <destinationName>latitude</destinationName>
         <!-- sourceAttributes>
             <att name="_CoordinateAxisType">Lat</att>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">54.8025 58.016</att>
             <att name="axis">Y</att>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -499,8 +475,6 @@ completeness, or usefulness, of this information.</att>
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -519,8 +493,6 @@ completeness, or usefulness, of this information.</att>
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -532,14 +504,13 @@ completeness, or usefulness, of this information.</att>
             <att name="ioos_category">Statistics</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>S_42</sourceName>
         <destinationName>S_42</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">30.8107 33.872</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -552,14 +523,13 @@ completeness, or usefulness, of this information.</att>
             <att name="units">PSU</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>S_41</sourceName>
         <destinationName>S_41</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">30.8137 33.8752</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -572,14 +542,13 @@ completeness, or usefulness, of this information.</att>
             <att name="units">PSU</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>ST_70</sourceName>
         <destinationName>ST_70</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">22.90894 26.7926</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -592,34 +561,35 @@ completeness, or usefulness, of this information.</att>
             <att name="units">kg m-3</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>Fch_906</sourceName>
         <destinationName>Fch_906</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>T_28</sourceName>
         <destinationName>T_28</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">4.9197 14.6754</att>
             <att name="epic_code" type="int">28</att>
             <att name="generic_name">temp</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
@@ -627,14 +597,13 @@ completeness, or usefulness, of this information.</att>
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>OST_62</sourceName>
         <destinationName>OST_62</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">24.37077 130.0676</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -646,14 +615,13 @@ completeness, or usefulness, of this information.</att>
             <att name="units">percent</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>O_65</sourceName>
         <destinationName>O_65</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">75.68702 342.2299</att>
             <att name="epic_code" type="int">65</att>
             <att name="generic_name">ox</att>
@@ -664,17 +632,17 @@ completeness, or usefulness, of this information.</att>
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>T2_35</sourceName>
         <destinationName>T2_35</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="actual_range" type="floatList">4.9229 14.6792</att>
             <att name="epic_code" type="int">35</att>
             <att name="generic_name">temp</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Secondary Temperature</att>
             <att name="name">T2_35</att>
@@ -682,14 +650,13 @@ completeness, or usefulness, of this information.</att>
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>Tr_904</sourceName>
         <destinationName>Tr_904</destinationName>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
@@ -697,8 +664,6 @@ completeness, or usefulness, of this information.</att>
             <att name="units">percent</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -709,8 +674,6 @@ completeness, or usefulness, of this information.</att>
             <att name="ioos_category">Identifier</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
 
@@ -933,6 +896,8 @@ completeness, or usefulness, of this information.</att>
             </sourceAttributes -->
             <addAttributes>
                 <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
                 <att name="units">ugrams/l</att>
                 <att name="_FillValue">1.0E35</att>
                 <att name="colorBarMaximum" type="double">30.0</att>
@@ -957,7 +922,8 @@ completeness, or usefulness, of this information.</att>
             </sourceAttributes -->
             <addAttributes>
                 <att name="_FillValue">1.0E35</att>
-                    <att name="ioos_category">Temperature</att>
+                    <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
                 <att name="standard_name">sea_water_temperature</att>
                 <att name="units">C</att>
             </addAttributes>
@@ -1017,7 +983,8 @@ completeness, or usefulness, of this information.</att>
             </sourceAttributes -->
             <addAttributes>
                 <att name="_FillValue">1.0E35</att>
-                    <att name="ioos_category">Temperature</att>
+                    <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
                 <att name="standard_name">sea_water_temperature</att>
                 <att name="units">C</att>
             </addAttributes>

@@ -61,8 +61,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="units">seconds since 1970-01-01 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="bounds">null</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">T AX</att>
@@ -100,8 +98,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">0.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
         </addAttributes>
     </dataVariable>
@@ -116,6 +112,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">time latitude longitude PRES</att>
             <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="missing_value" type="double">-1.0E34</att>
@@ -125,8 +122,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">-2.5</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
         </addAttributes>
     </dataVariable>
@@ -150,8 +145,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">2.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
         </addAttributes>
     </dataVariable>
@@ -206,8 +199,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="units">seconds since 1970-01-01 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="bounds">null</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">T AX</att>
@@ -233,8 +224,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">1.58E9</att>
             <att name="colorBarMinimum" type="double">1.555E9</att>
             <att name="coordinates">null</att>
@@ -257,8 +246,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="missing_value" type="double">-1.0E34</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
             <att name="cf_role">profile_id</att>
         </addAttributes>
@@ -284,8 +271,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">-180.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="source_name">LON_PROFILE</att>
         </addAttributes>
     </dataVariable>
@@ -310,8 +295,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">-90.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="source_name">LAT_PROFILE</att>
         </addAttributes>
     </dataVariable>
@@ -326,8 +309,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="standard_name">depth</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -356,8 +337,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">0.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -371,6 +350,7 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">time latitude longitude PRES</att>
             <att name="history">From arctic_heat_alamo_profiles_ERDDAP_9234</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="missing_value" type="double">-1.0E34</att>
@@ -380,8 +360,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">-2.5</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
         </addAttributes>
     </dataVariable>
@@ -405,8 +383,6 @@ EDDGridFromTable may be promising -> Neds framework from initial ingested data? 
             <att name="valid_min" type="double">2.0</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="coordinates">null</att>
         </addAttributes>
     </dataVariable>

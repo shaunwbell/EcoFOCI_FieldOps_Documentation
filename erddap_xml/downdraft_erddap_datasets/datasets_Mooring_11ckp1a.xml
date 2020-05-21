@@ -76,8 +76,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">meter</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -92,8 +90,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -109,8 +105,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -128,14 +122,13 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">T_20</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -152,8 +145,8 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">decibar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="ioos_category">Sea Level</att>
         </addAttributes>
     </dataVariable>
@@ -162,8 +155,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <destinationName>salinity</destinationName>
         <dataType>float</dataType>
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">35.0</att>
             <att name="colorBarMinimum" type="double">28.0</att>
             <att name="ioos_category">Salinity</att>
@@ -182,8 +173,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">uEin cm-2 s-1</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Optical Properties</att>
         </addAttributes>
     </dataVariable>
@@ -196,9 +185,9 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="long_name">Chlorophyll A</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -219,8 +208,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -240,8 +227,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
@@ -355,8 +340,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">meter</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -371,8 +354,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -388,8 +369,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -407,14 +386,13 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">T_20</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -431,8 +409,8 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">decibar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="ioos_category">Sea Level</att>
         </addAttributes>
     </dataVariable>
@@ -441,8 +419,6 @@ May 30, 2019 23:02 UTC Data Trimmed
         <destinationName>salinity</destinationName>
         <dataType>float</dataType>
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">35.0</att>
             <att name="colorBarMinimum" type="double">28.0</att>
             <att name="ioos_category">Salinity</att>
@@ -461,8 +437,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">uEin cm-2 s-1</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Optical Properties</att>
         </addAttributes>
     </dataVariable>
@@ -475,9 +449,9 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="long_name">Chlorophyll A</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -498,8 +472,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -519,8 +491,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
