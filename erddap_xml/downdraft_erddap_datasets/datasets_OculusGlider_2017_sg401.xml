@@ -128,6 +128,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICES</att>
@@ -141,6 +143,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE MAMPS</att>
@@ -159,6 +163,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -180,6 +186,8 @@
             <att name="units">micromoles/kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -201,6 +209,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -222,6 +232,8 @@
             <att name="units">cm</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -243,6 +255,8 @@
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Ctd Time</att>
@@ -260,6 +274,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -277,6 +293,8 @@
             <att name="units">degrees</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Pitch Ang</att>
@@ -295,6 +313,8 @@
             <att name="units">meter^-1 steradian^-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Wlbb2fl Sig470nm Adjusted</att>
@@ -313,6 +333,8 @@
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Wlbb2fl Results Time</att>
@@ -330,6 +352,8 @@
             <att name="units">micromoles/kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -353,6 +377,8 @@
             <att name="units">g/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
@@ -370,6 +396,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Pitch Ctl</att>
@@ -389,6 +417,8 @@
             <att name="units">g/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -407,6 +437,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -427,6 +459,8 @@
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -447,6 +481,8 @@
             <att name="units">micromoles/L</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="long_name">Eng Aa4330 O2</att>
@@ -464,6 +500,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Aa4330 Cal Phase</att>
@@ -482,6 +520,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -501,6 +541,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -522,6 +564,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -542,6 +586,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -559,6 +605,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Sbect Cond Freq</att>
@@ -576,6 +624,8 @@
             <att name="units">S/m</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">30.0</att>
@@ -597,6 +647,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Aa4330 Air Sat</att>
@@ -615,6 +667,8 @@
             <att name="units">micrograms/liter</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Wlbb2fl Sig695nm Adjusted</att>
@@ -633,6 +687,8 @@
             <att name="units">S/m</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">30.0</att>
@@ -653,6 +709,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -672,6 +730,8 @@
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -693,6 +753,8 @@
             <att name="units">seconds</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Eng Elaps T 0000</att>
@@ -711,11 +773,12 @@
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Potential Temperature</att>
         </addAttributes>
@@ -733,10 +796,11 @@
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Eng Aa4330 Temp</att>
         </addAttributes>
@@ -750,6 +814,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Vbd CC</att>
@@ -766,6 +832,8 @@
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
@@ -783,6 +851,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -802,6 +872,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -821,6 +893,8 @@
             <att name="units">degrees</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Head</att>
@@ -838,6 +912,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -856,6 +932,8 @@
             <att name="units">1e-3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -878,6 +956,8 @@
             <att name="units">seconds</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Eng Elaps T</att>
@@ -896,6 +976,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -915,6 +997,8 @@
             <att name="units">degrees</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Roll Ang</att>
@@ -932,6 +1016,8 @@
             <att name="units">g</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -951,6 +1037,8 @@
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Aanderaa4330 Results Time</att>
@@ -969,11 +1057,12 @@
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Temperature</att>
         </addAttributes>
@@ -990,6 +1079,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -1008,11 +1099,12 @@
             <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="coordinates">null</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature Raw</att>
         </addAttributes>
@@ -1026,6 +1118,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Rec</att>
@@ -1044,6 +1138,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1065,6 +1161,8 @@
             <att name="units">meter^-1 steradian^-1</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Wlbb2fl Sig700nm Adjusted</att>
@@ -1082,6 +1180,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Aa4330 TCPhase</att>
@@ -1099,6 +1199,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Wlbb2fl Sig695nm</att>
@@ -1116,6 +1218,8 @@
             <att name="units">g/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Physical Oceanography</att>
@@ -1136,6 +1240,8 @@
             <att name="units">micromoles/kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1157,6 +1263,8 @@
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -1177,6 +1285,8 @@
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -1198,6 +1308,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Wlbb2fl Sig700nm</att>
@@ -1216,6 +1328,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -1234,6 +1348,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -1252,6 +1368,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Unknown</att>
@@ -1267,6 +1385,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Roll Ctl</att>
@@ -1283,6 +1403,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Sbect Temp Freq</att>
@@ -1301,6 +1423,8 @@
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">5000.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1321,6 +1445,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Wlbb2fl Temp</att>
@@ -1338,6 +1464,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -1357,6 +1485,8 @@
             <att name="units">g/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Physical Oceanography</att>
@@ -1376,6 +1506,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1397,6 +1529,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1416,6 +1550,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -1434,6 +1570,8 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Eng Wlbb2fl Sig470nm</att>
@@ -1452,6 +1590,8 @@
             <att name="units">1e-3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -1476,6 +1616,8 @@
             <att name="units">meters</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -1498,6 +1640,8 @@
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -1515,6 +1659,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
@@ -1529,6 +1675,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE SECS</att>
@@ -1543,6 +1691,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log GPS1</att>
@@ -1557,6 +1707,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log GPS2</att>
@@ -1570,6 +1722,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SENSOR SECS</att>
@@ -1584,6 +1738,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log GPS</att>
@@ -1597,6 +1753,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SENSOR MAMPS</att>
@@ -1610,6 +1768,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SENSORS</att>
@@ -1623,6 +1783,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log KALMAN X</att>
@@ -1636,6 +1798,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log KALMAN Y</att>
@@ -1649,6 +1813,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Calibcomm Wetlabs</att>
@@ -1662,6 +1828,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1678,6 +1846,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log IRIDIUM FIX</att>
@@ -1691,6 +1861,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -1706,6 +1878,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Calibcomm</att>
@@ -1719,6 +1893,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CFSIZE</att>
@@ -1732,6 +1908,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Comm Oxy Type</att>
@@ -1745,6 +1923,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Calibcomm Optode</att>
@@ -1758,6 +1938,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TGT LATLONG</att>
@@ -1771,6 +1953,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log KALMAN CONTROL</att>
@@ -1784,6 +1968,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TT8 MAMPS</att>
@@ -1797,6 +1983,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FINISH1</att>
@@ -1813,6 +2001,8 @@
             <att name="nodc_name">glider</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -1827,6 +2017,8 @@
             <att name="make_model">magnetometer</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -1839,6 +2031,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log 10 V AH</att>
@@ -1852,6 +2046,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Log SPEED LIMITS</att>
@@ -1865,6 +2061,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log 24 V AH</att>
@@ -1879,6 +2077,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Mission Title</att>
@@ -1892,6 +2092,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DATA FILE SIZE</att>
@@ -1905,6 +2107,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CAP FILE SIZE</att>
@@ -1918,6 +2122,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sat1000</att>
@@ -1931,6 +2137,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sat1001</att>
@@ -1946,6 +2154,8 @@
             <att name="make_model">Wetlabs backscatter fluorescence puck</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
         </addAttributes>
@@ -1958,6 +2168,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MEM</att>
@@ -1975,6 +2187,8 @@
             <att name="nodc_name">optode</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -1991,6 +2205,8 @@
             <att name="nodc_name">thermosalinograph</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -2004,6 +2220,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Sg Cal Id Str</att>
@@ -2017,6 +2235,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TGT NAME</att>
@@ -2033,6 +2253,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2051,6 +2273,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2071,6 +2295,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2089,6 +2315,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2107,6 +2335,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2125,6 +2355,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2143,6 +2375,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2161,6 +2395,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2180,6 +2416,8 @@
             <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2195,6 +2433,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef0</att>
@@ -2208,6 +2448,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef1</att>
@@ -2221,6 +2463,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef2</att>
@@ -2234,6 +2478,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef3</att>
@@ -2247,6 +2493,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef4</att>
@@ -2260,6 +2508,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef5</att>
@@ -2273,6 +2523,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVUCoef6</att>
@@ -2286,6 +2538,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A0</att>
@@ -2299,6 +2553,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A9</att>
@@ -2312,6 +2568,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A8</att>
@@ -2326,6 +2584,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Sbect C D0</att>
@@ -2339,6 +2599,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A3</att>
@@ -2352,6 +2614,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Phase Coef1</att>
@@ -2365,6 +2629,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Phase Coef0</att>
@@ -2378,6 +2644,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Phase Coef3</att>
@@ -2391,6 +2659,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Phase Coef2</att>
@@ -2404,6 +2674,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A5</att>
@@ -2417,6 +2689,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A4</att>
@@ -2430,6 +2704,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal T J</att>
@@ -2443,6 +2719,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig470nm Scale Factor</att>
@@ -2456,6 +2734,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal T H</att>
@@ -2469,6 +2749,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal T I</att>
@@ -2483,6 +2765,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Sbect Nu 0i</att>
@@ -2496,6 +2780,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A7</att>
@@ -2509,6 +2795,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig700nm Scale Factor</att>
@@ -2522,6 +2810,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B12</att>
@@ -2535,6 +2825,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B13</att>
@@ -2548,6 +2840,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B10</att>
@@ -2561,6 +2855,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal T G</att>
@@ -2575,6 +2871,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Ctcor</att>
@@ -2588,6 +2886,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal C I</att>
@@ -2602,6 +2902,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Cpcor</att>
@@ -2615,6 +2917,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A6</att>
@@ -2628,6 +2932,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode SVU Enabled</att>
@@ -2641,6 +2947,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal C H</att>
@@ -2654,6 +2962,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig695nm Resolution Counts</att>
@@ -2669,6 +2979,8 @@
             <att name="units">cc/dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Abs Compress</att>
@@ -2682,6 +2994,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A2</att>
@@ -2695,6 +3009,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig695nm Scale Factor</att>
@@ -2708,6 +3024,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B8</att>
@@ -2721,6 +3039,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B9</att>
@@ -2736,6 +3056,8 @@
             <att name="units">kg/m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -2752,6 +3074,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Hd A</att>
@@ -2766,6 +3090,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Hd C</att>
@@ -2780,6 +3106,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Hd B</att>
@@ -2793,6 +3121,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B0</att>
@@ -2806,6 +3136,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B1</att>
@@ -2819,6 +3151,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B2</att>
@@ -2832,6 +3166,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B3</att>
@@ -2845,6 +3181,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B4</att>
@@ -2858,6 +3196,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B5</att>
@@ -2871,6 +3211,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B6</att>
@@ -2884,6 +3226,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig700nm Resolution Counts</att>
@@ -2897,6 +3241,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A11</att>
@@ -2910,6 +3256,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A10</att>
@@ -2923,6 +3271,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A13</att>
@@ -2936,6 +3286,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig470nm Dark Counts</att>
@@ -2949,6 +3301,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig700nm Dark Counts</att>
@@ -2963,6 +3317,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Sbect Nu 0e</att>
@@ -2976,6 +3332,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal C J</att>
@@ -2989,6 +3347,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B7</att>
@@ -3002,6 +3362,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal C G</att>
@@ -3017,6 +3379,8 @@
             <att name="units">kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -3032,6 +3396,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A1</att>
@@ -3045,6 +3411,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig470nm Resolution Counts</att>
@@ -3058,6 +3426,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Wlbb2fl Sig695nm Dark Counts</att>
@@ -3071,6 +3441,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Conc Coef0</att>
@@ -3084,6 +3456,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Conc Coef1</att>
@@ -3099,6 +3473,8 @@
             <att name="units">m^3</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Volmax</att>
@@ -3112,6 +3488,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef A12</att>
@@ -3127,6 +3505,8 @@
             <att name="units">kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -3143,6 +3523,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Sbect Modes</att>
@@ -3158,6 +3540,8 @@
             <att name="units">cc/degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Therm Expan</att>
@@ -3171,6 +3555,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Sg Cal Optode Foil Coef B11</att>
@@ -3184,6 +3570,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T EPIRB</att>
@@ -3197,6 +3585,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CAPUPLOAD</att>
@@ -3210,6 +3600,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log N FILEKB</att>
@@ -3223,6 +3615,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PHONE DEVICE</att>
@@ -3236,6 +3630,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD DBAND</att>
@@ -3249,6 +3645,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T NO W</att>
@@ -3262,6 +3660,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SURFACE URGENCY</att>
@@ -3275,6 +3675,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log XPDR VALID</att>
@@ -3288,6 +3690,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log TGT DEFAULT LON</att>
@@ -3301,6 +3705,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD PUMP AD RATE APOGEE</att>
@@ -3314,6 +3720,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T MISSION</att>
@@ -3327,6 +3735,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Log FIX MISSING TIMEOUT</att>
@@ -3340,6 +3750,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T SLOITER</att>
@@ -3353,6 +3765,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D SAFE</att>
@@ -3366,6 +3780,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D BOOST</att>
@@ -3379,6 +3795,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FG AHR 10 Vo</att>
@@ -3392,6 +3810,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Log VBD TIMEOUT</att>
@@ -3405,6 +3825,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log P OVSHOOT</att>
@@ -3418,6 +3840,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log TGT DEFAULT LAT</att>
@@ -3431,6 +3855,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log COMPASS2 DEVICE</att>
@@ -3444,6 +3870,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Log PITCH TIMEOUT</att>
@@ -3457,6 +3885,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HUMID</att>
@@ -3470,6 +3900,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D NO BLEED</att>
@@ -3483,6 +3915,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -3498,6 +3932,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FG AHR 24 Vo</att>
@@ -3511,6 +3947,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SURFACE URGENCY TRY</att>
@@ -3524,6 +3962,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log C ROLL DIVE</att>
@@ -3537,6 +3977,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log W ADJ DBAND</att>
@@ -3550,6 +3992,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TCM TEMP</att>
@@ -3563,6 +4007,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD MAX</att>
@@ -3576,6 +4022,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log RAFOS MMODEM</att>
@@ -3589,6 +4037,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T TURN</att>
@@ -3602,6 +4052,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log RAFOS DEVICE</att>
@@ -3615,6 +4067,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log C ROLL CLIMB</att>
@@ -3628,6 +4082,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HEAD ERRBAND</att>
@@ -3641,6 +4097,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log LOGGERDEVICE1</att>
@@ -3654,6 +4112,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM TOP MIN OBSTACLE</att>
@@ -3667,6 +4127,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Log PRESSURE YINT</att>
@@ -3680,6 +4142,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL DEG</att>
@@ -3693,6 +4157,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CALL WAIT</att>
@@ -3706,6 +4172,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log LOGGERDEVICE3</att>
@@ -3719,6 +4187,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Log ROLL TIMEOUT</att>
@@ -3732,6 +4202,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CALL TRIES</att>
@@ -3745,6 +4217,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM BOTTOM PING RANGE</att>
@@ -3758,6 +4232,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD C J</att>
@@ -3771,6 +4247,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD CNV</att>
@@ -3784,6 +4262,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD C H</att>
@@ -3797,6 +4277,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log C VBD</att>
@@ -3810,6 +4292,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH CNV</att>
@@ -3823,6 +4307,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD C G</att>
@@ -3836,6 +4322,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD MIN</att>
@@ -3849,6 +4337,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log RAFOS PEAK OFFSET</att>
@@ -3863,6 +4353,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HD B</att>
@@ -3877,6 +4369,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HD C</att>
@@ -3890,6 +4384,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PHONE SUPPLY</att>
@@ -3903,6 +4399,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log N DIVES</att>
@@ -3916,6 +4414,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH W DBAND</att>
@@ -3929,6 +4429,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MINV 24 V</att>
@@ -3942,6 +4444,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH AD RATE</att>
@@ -3955,6 +4459,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH MIN</att>
@@ -3968,6 +4474,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH ADJ DBAND</att>
@@ -3981,6 +4489,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Log INT PRESSURE SLOPE</att>
@@ -3994,6 +4504,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HEADING</att>
@@ -4007,6 +4519,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log  SM DEPTHo</att>
@@ -4020,6 +4534,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log COMM SEQ</att>
@@ -4033,6 +4549,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log KALMAN USE</att>
@@ -4046,6 +4564,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log UPLOAD DIVES MAX</att>
@@ -4059,6 +4579,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TGT AUTO DEFAULT</att>
@@ -4072,6 +4594,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM PING DELTA</att>
@@ -4085,6 +4609,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL MAX</att>
@@ -4098,6 +4624,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D CALL</att>
@@ -4112,6 +4640,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HD A</att>
@@ -4125,6 +4655,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FERRY MAX</att>
@@ -4138,6 +4670,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log RAFOS CORR THRESH</att>
@@ -4151,6 +4685,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D FLARE</att>
@@ -4164,6 +4700,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T GPS</att>
@@ -4177,6 +4715,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ESCAPE HEADING DELTA</att>
@@ -4190,6 +4730,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH VBD SHIFT</att>
@@ -4203,6 +4745,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH MAX</att>
@@ -4216,6 +4760,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TCM PITCH OFFSET</att>
@@ -4229,6 +4775,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log XPDR INHIBIT</att>
@@ -4242,6 +4790,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log APOGEE PITCH</att>
@@ -4255,6 +4805,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log C PITCH</att>
@@ -4268,6 +4820,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MASS</att>
@@ -4281,6 +4835,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T ABORT</att>
@@ -4294,6 +4850,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Log SPEED FACTOR</att>
@@ -4307,6 +4865,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log STROBE</att>
@@ -4320,6 +4880,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log COMPASS DEVICE</att>
@@ -4333,6 +4895,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM TOP PING RANGE</att>
@@ -4346,6 +4910,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE6</att>
@@ -4359,6 +4925,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE4</att>
@@ -4372,6 +4940,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH GAIN</att>
@@ -4385,6 +4955,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE2</att>
@@ -4398,6 +4970,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE3</att>
@@ -4411,6 +4985,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE1</att>
@@ -4424,6 +5000,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log  SM ANGLEo</att>
@@ -4437,6 +5015,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T TURN SAMPINT</att>
@@ -4450,6 +5030,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MAXI 10 V</att>
@@ -4463,6 +5045,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CAPMAXSIZE</att>
@@ -4476,6 +5060,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FG AHR 10 V</att>
@@ -4489,6 +5075,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ESCAPE HEADING</att>
@@ -4502,6 +5090,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log LOGGERDEVICE4</att>
@@ -4515,6 +5105,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL CNV</att>
@@ -4528,6 +5120,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Ice Distribution</att>
             <att name="long_name">Log USE ICE</att>
@@ -4541,6 +5135,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log LOGGERDEVICE2</att>
@@ -4554,6 +5150,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TGT RADIUS</att>
@@ -4567,6 +5165,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log R STBD OVSHOOT</att>
@@ -4580,6 +5180,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PROTOCOL</att>
@@ -4593,6 +5195,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -4608,6 +5212,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Ice Distribution</att>
             <att name="long_name">Log ICE FREEZE MARGIN</att>
@@ -4621,6 +5227,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Log PRESSURE SLOPE</att>
@@ -4634,6 +5242,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D ABORT</att>
@@ -4647,6 +5257,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Log INT PRESSURE YINT</att>
@@ -4660,6 +5272,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM SENSITIVITY</att>
@@ -4673,6 +5287,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -4688,6 +5304,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log TCM ROLL OFFSET</att>
@@ -4701,6 +5319,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log N GPS</att>
@@ -4714,6 +5334,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log  XMS NAKs</att>
@@ -4727,6 +5349,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MINV 10 V</att>
@@ -4740,6 +5364,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T DIVE</att>
@@ -4753,6 +5379,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MAX BUOY</att>
@@ -4766,6 +5394,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FILEMGR</att>
@@ -4779,6 +5409,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D TGT</att>
@@ -4792,6 +5424,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log AH0 10 V</att>
@@ -4805,6 +5439,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD T H</att>
@@ -4818,6 +5454,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FINISH2</att>
@@ -4831,6 +5469,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log COMPASS USE</att>
@@ -4844,6 +5484,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T RSLEEP</att>
@@ -4857,6 +5499,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log N NOSURFACE</att>
@@ -4870,6 +5514,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T WATCHDOG</att>
@@ -4883,6 +5529,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH W GAIN</att>
@@ -4896,6 +5544,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEEPGLIDER</att>
@@ -4909,6 +5559,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DIVE</att>
@@ -4922,6 +5574,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log RELAUNCH</att>
@@ -4935,6 +5589,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SIM PITCH</att>
@@ -4948,6 +5604,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log HEAPDBG</att>
@@ -4961,6 +5619,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log USE BATHY</att>
@@ -4974,6 +5634,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log XPDR DEVICE</att>
@@ -4987,6 +5649,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D GRID</att>
@@ -5000,6 +5664,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL ADJ DBAND</att>
@@ -5013,6 +5679,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Log ID</att>
@@ -5026,6 +5694,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D SURF</att>
@@ -5040,6 +5710,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log SEABIRD C Z</att>
@@ -5053,6 +5725,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL AD RATE</att>
@@ -5066,6 +5740,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log AD7714 Ch0 Gain</att>
@@ -5079,6 +5755,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Log ALTIM PING DEPTH</att>
@@ -5092,6 +5770,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log AH0 24 V</att>
@@ -5105,6 +5785,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD LP IGNORE</att>
@@ -5118,6 +5800,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DEVICE5</att>
@@ -5131,6 +5815,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log  XMS TOUTs</att>
@@ -5144,6 +5830,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD T I</att>
@@ -5157,6 +5845,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Log INTERNAL PRESSURE</att>
@@ -5170,6 +5860,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD BLEED AD RATE</att>
@@ -5183,6 +5875,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD T J</att>
@@ -5196,6 +5890,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D PITCH</att>
@@ -5209,6 +5905,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log FG AHR 24 V</att>
@@ -5222,6 +5920,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T LOITER</att>
@@ -5235,6 +5935,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log CALL NDIVES</att>
@@ -5248,6 +5950,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log LOGGERS</att>
@@ -5261,6 +5965,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D FINISH</att>
@@ -5274,6 +5980,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log NAV MODE</att>
@@ -5287,6 +5995,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -5302,6 +6012,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM TOP TURN MARGIN</att>
@@ -5317,6 +6029,8 @@
             <att name="units">gram/cc</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">log RHO</att>
@@ -5330,6 +6044,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH DBAND</att>
@@ -5343,6 +6059,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SM CC</att>
@@ -5356,6 +6074,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD C I</att>
@@ -5369,6 +6089,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Log N NOCOMM</att>
@@ -5382,6 +6104,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log D OFFGRID</att>
@@ -5395,6 +6119,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log VBD PUMP AD RATE SURFACE</att>
@@ -5408,6 +6134,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SIM W</att>
@@ -5421,6 +6149,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Wind</att>
             <att name="long_name">Log RAFOS HIT WINDOW</att>
@@ -5434,6 +6164,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log NOCOMM ACTION</att>
@@ -5447,6 +6179,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM PULSE</att>
@@ -5460,6 +6194,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MASS COMP</att>
@@ -5473,6 +6209,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log XPDR PINGS</att>
@@ -5486,6 +6224,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log T BOOST</att>
@@ -5499,6 +6239,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL MIN</att>
@@ -5512,6 +6254,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MAXI 24 V</att>
@@ -5525,6 +6269,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log R PORT OVSHOOT</att>
@@ -5538,6 +6284,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log  CALLS</att>
@@ -5551,6 +6299,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SEABIRD T G</att>
@@ -5564,6 +6314,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -5579,6 +6331,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log STOP T</att>
@@ -5592,6 +6346,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log P OVSHOOT WITHG</att>
@@ -5605,6 +6361,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM FREQUENCY</att>
@@ -5618,6 +6376,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log UNCOM BLEED</att>
@@ -5631,6 +6391,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log SURFACE URGENCY FORCE</att>
@@ -5644,6 +6406,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log DBDW</att>
@@ -5657,6 +6421,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ROLL ADJ GAIN</att>
@@ -5670,6 +6436,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log GLIDE SLOPE</att>
@@ -5683,6 +6451,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log GPS DEVICE</att>
@@ -5696,6 +6466,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MOTHERBOARD</att>
@@ -5709,6 +6481,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log PITCH ADJ GAIN</att>
@@ -5722,6 +6496,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log MISSION</att>
@@ -5735,6 +6511,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Log ALTIM BOTTOM TURN MARGIN</att>
@@ -5749,6 +6527,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Reviewed</att>
@@ -5764,6 +6544,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Flight Avg Speed North Gsm</att>
@@ -5779,6 +6561,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -5798,6 +6582,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -5817,6 +6603,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Flight Avg Speed East Gsm</att>
@@ -5833,6 +6621,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -5852,6 +6642,8 @@
             <att name="units">seconds</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Start Of Climb Time</att>
@@ -5867,6 +6659,8 @@
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -5885,6 +6679,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -5901,6 +6697,8 @@
             <att name="fill_value" type="double">1.0E35</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Magnetic Variation</att>
@@ -5917,6 +6715,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">0.5</att>
             <att name="colorBarMinimum" type="double">-0.5</att>
@@ -5934,6 +6734,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Flight Avg Speed North</att>
@@ -5950,6 +6752,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -5970,6 +6774,8 @@
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">0.5</att>
             <att name="colorBarMinimum" type="double">-0.5</att>
@@ -5987,6 +6793,8 @@
             <att name="units">m/s</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Flight Avg Speed East</att>

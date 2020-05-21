@@ -86,6 +86,8 @@ No Met data for 2019 Arctic
             <att name="name">Chlorophyll</att>
             <att name="units">ugrams/l</att>        </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -106,6 +108,8 @@ No Met data for 2019 Arctic
             <att name="units">&#37;</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -125,8 +129,9 @@ No Met data for 2019 Arctic
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -142,8 +147,9 @@ No Met data for 2019 Arctic
             <att name="units">C</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
@@ -159,6 +165,8 @@ No Met data for 2019 Arctic
             <att name="units">psu</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -179,6 +187,8 @@ No Met data for 2019 Arctic
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
@@ -195,6 +205,8 @@ No Met data for 2019 Arctic
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -214,6 +226,8 @@ No Met data for 2019 Arctic
             <att name="units">NTU</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
@@ -230,6 +244,8 @@ No Met data for 2019 Arctic
             <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
         </addAttributes>
@@ -248,6 +264,8 @@ No Met data for 2019 Arctic
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -269,6 +287,8 @@ No Met data for 2019 Arctic
             <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
