@@ -43,8 +43,8 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">May 14, 2019 17:07 UTC</att>
         <att name="History">null</att>
-        <att name="infoUrl">https://www.pmel.noaa.gov/edd/pmel-theme/prawler</att>
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
+        <att name="institution">NOAA/PMEL - ITAE</att>
         <att name="keywords">air, air_pressure, air_pressure_at_sealevel, air_temperature, atmosphere, atmospheric, barometric, data, degree, degrees, direction, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Static Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, eastward, eastward_wind, humidity, identifier, latitude, level, local, longitude, measurements, meteorology, northward, northward_wind, percent, pressure, relative, relative_humidity, science, sea, seawater, source, static, station_id, surface, temperature, time, timeseries, true, u, v, vapor, water, wind, wind_speed, winds</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
@@ -265,16 +265,14 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_profile_variables">profile_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="CREATION_DATE">null</att>
         <att name="creation_date">May, 4 2019 20:37 UTC</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
-        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_name">NOAA/PMEL - ITAE</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
-        <att name="History">null</att>
         <att name="history">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="institution">NOAA/PMEL - ITAE</att>
         <att name="keywords">19BSITAEPR-2A, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
         Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
         Oceans &gt; Salinity/Density &gt; Salinity,

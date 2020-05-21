@@ -41,7 +41,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
-        <att name="institution">PMEL</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
@@ -49,7 +49,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 19BSM-2A</att>
-        <att name="title">19BSM-2A data</att>
+        <att name="title">Mooring Data from 19BSM-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -316,15 +316,15 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
-        <att name="institution">PMEL</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">Non-QC'd (preliminary) data from 19BSM-2A</att>
-        <att name="title">19BSM-2A preliminary data</att>
+        <att name="summary">Non-QC'd (preliminary) mooring data from 19BSM-2A</att>
+        <att name="title">Mooring Data from 19BSM-2A - preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
