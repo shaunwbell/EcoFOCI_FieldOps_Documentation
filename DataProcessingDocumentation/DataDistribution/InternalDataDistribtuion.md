@@ -26,4 +26,4 @@ The goal is to be able to cut and paste previous sets and then edit the necessar
 
 **POINTS to WATCH for in datasets.xml**
 
-1. MissingValue = 1e35 (often for FOCI - this is a value chosen to make math impossibly large and to remove invalid data, but it also is a standin for missing data) - alternatively `_FillValue` should\could be set to 1e35.  Play and test your dataset for this to make sure missing values are properly being addressed
+1. MissingValue = 1e35 (often for FOCI - this is a value chosen to make math impossibly large and to remove invalid data, but it also is a standin for missing data) - alternatively `_FillValue` should\could be set to 1e35.  Play and test your dataset for this to make sure missing values are properly being addressed.  Occasionally a -9999 exists instead of a 1e35 (there is not a consistent distinction between the two).  In these cases missing should be -9999 and fill should be 1e35 (or internally defined if possible)
