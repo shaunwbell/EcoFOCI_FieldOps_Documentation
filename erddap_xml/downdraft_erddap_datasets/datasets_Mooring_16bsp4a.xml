@@ -67,8 +67,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
             <att name="standard_name">depth</att>
@@ -82,8 +80,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -98,8 +94,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
