@@ -246,7 +246,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:DATA_CMNT</sourceName>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
@@ -524,7 +524,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:DATA_CMNT</sourceName>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
