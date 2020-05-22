@@ -47,7 +47,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 16CKP-7A</att>
-        <att name="title">16CKP-7A data</att>
+        <att name="title">Mooring Data from 16CKP-7A data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -326,7 +326,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">Non-QC'd (preliminary) data from 16CKP-7A</att>
-        <att name="title">16CKP-7A preliminary data</att>
+        <att name="title">Mooring Data from 16CKP-7A preliminary data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
