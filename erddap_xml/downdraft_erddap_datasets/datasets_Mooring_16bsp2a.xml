@@ -24,7 +24,7 @@ Grid data for EIN/VEL -->
 April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 </att>
         <att name="INST_TYPE">wcp</att>
-        <att name="MOORING">18BSP-2A</att>
+        <att name="MOORING">16BSP-2A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
         <att name="WATER_MASS">B</att>
     </sourceAttributes -->
@@ -40,8 +40,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 18BSP-2A</att>
-        <att name="title">QC'd (final) ADCP Vel Data from 18BSP-2A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 16BSP-2A</att>
+        <att name="title">QC'd (final) ADCP Vel Data from 16BSP-2A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>time</sourceName>
