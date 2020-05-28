@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_13ckp1a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_13ckp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2013/Moorings/13ckp1a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2013/Moorings/13ckp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel.cf.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -24,7 +24,7 @@ So far, T/S/O/Chl are accounted for-->
 April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 </att>
         <att name="INST_TYPE">wcp</att>
-        <att name="MOORING">13CKP-1A</att>
+        <att name="MOORING">13CKP-2A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
         <att name="WATER_MASS">B</att>
     </sourceAttributes -->
@@ -40,8 +40,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 13CKP-1A</att>
-        <att name="title">QC'd (final) ADCP Vel Data from 13CKP-1A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 13CKP-2A</att>
+        <att name="title">QC'd (final) ADCP Vel Data from 13CKP-2A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>time</sourceName>
@@ -184,10 +184,10 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13ckp1a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13ckp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/13ckp1a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/13ckp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -199,13 +199,13 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">13ckp1a_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">13ckp2a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">13ckp1a</att>
+        <att name="MOORING">13ckp2a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -226,8 +226,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 13CKP-1A</att>
-        <att name="title">Mooring Data from 13CKP-1A data</att>
+        <att name="summary">QC'd (final) mooring data from 13CKP-2A</att>
+        <att name="title">Mooring Data from 13CKP-2A data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
