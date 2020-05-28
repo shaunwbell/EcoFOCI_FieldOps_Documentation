@@ -43,9 +43,12 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 	c. Local Systems   
 6. Common Software
 	a. Python (2.7,3.7+)
+		- pre 2.7 is EOL as of 2019
 	b. QGIS
 	c. Matlab   
 	d. R/Rstudio
+	e. AdobeCloud/VLC
+	f. Text editors / git clients / programming IDE's
 7. Thoughts and Musings for future challenges
 	a. AI/ML for Quality Control   
 	b. Cloud based data storage solutions   
