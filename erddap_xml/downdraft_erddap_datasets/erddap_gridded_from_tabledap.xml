@@ -1,5 +1,5 @@
 
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_96bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_96bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21,7 +21,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 96BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 96BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 96BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -221,7 +221,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_96bs2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_96bs2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -243,7 +243,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 96BS2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 96BS2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 96BS2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -443,7 +443,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_97bs2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_97bs2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -465,7 +465,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 97BS2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 97BS2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 97BS2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -665,7 +665,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_97bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_97bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -687,7 +687,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 97BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 97BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 97BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -887,7 +887,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_98bs2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_98bs2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -909,7 +909,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 98BS2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 98BS2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 98BS2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -1109,7 +1109,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_98bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_98bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -1131,7 +1131,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 98BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 98BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 98BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -1331,7 +1331,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_99bs2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_99bs2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -1353,7 +1353,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 99BS2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 99BS2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 99BS2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -1553,7 +1553,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_96bs2b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_96bs2b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -1575,7 +1575,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 96BS2B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 96BS2B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 96BS2B - final</att>
             </addAttributes>
             <axisVariable>
@@ -1775,7 +1775,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_97bs2b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_97bs2b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -1797,7 +1797,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 97BS2B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 97BS2B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 97BS2B - final</att>
             </addAttributes>
             <axisVariable>
@@ -1997,7 +1997,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_98bs2b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_98bs2b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -2019,7 +2019,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 98BS2B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 98BS2B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 98BS2B - final</att>
             </addAttributes>
             <axisVariable>
@@ -2219,7 +2219,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_07bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_07bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -2241,7 +2241,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 07BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 07BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 07BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -2441,7 +2441,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_95bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_95bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -2463,7 +2463,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 95BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 95BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 95BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -2663,7 +2663,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_96bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_96bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -2685,7 +2685,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 96BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 96BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 96BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -2885,7 +2885,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_97bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_97bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -2907,7 +2907,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 97BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 97BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 97BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -3107,7 +3107,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_98bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_98bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -3129,7 +3129,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 98BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 98BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 98BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -3329,7 +3329,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_00bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_00bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -3351,7 +3351,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 00BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 00BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 00BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -3551,7 +3551,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_11bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_11bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -3573,7 +3573,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 11BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 11BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 11BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -3773,7 +3773,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_08bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_08bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -3795,7 +3795,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 08BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 08BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 08BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -3995,7 +3995,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -4017,7 +4017,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -4217,7 +4217,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_99bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_99bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -4239,7 +4239,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 99BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 99BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 99BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -4439,7 +4439,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_07bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_07bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -4461,7 +4461,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 07BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 07BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 07BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -4661,7 +4661,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_07bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_07bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -4683,7 +4683,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 07BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 07BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 07BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -4883,7 +4883,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_07bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_07bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -4905,7 +4905,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 07BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 07BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 07BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -5105,7 +5105,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_08bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_08bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -5127,7 +5127,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 08BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 08BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 08BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -5327,7 +5327,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_11bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_11bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -5349,7 +5349,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 11BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 11BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 11BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -5549,7 +5549,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_12bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_12bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -5571,7 +5571,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 12BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 12BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 12BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -5771,7 +5771,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckip2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckip2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -5793,7 +5793,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKIP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKIP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKIP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -5993,7 +5993,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -6015,7 +6015,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -6215,7 +6215,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_01bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_01bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -6237,7 +6237,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 01BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 01BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 01BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -6437,7 +6437,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_03bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_03bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -6459,7 +6459,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 03BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 03BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 03BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -6659,7 +6659,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_04bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_04bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -6681,7 +6681,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 04BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 04BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 04BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -6881,7 +6881,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -6903,7 +6903,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -7103,7 +7103,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_06bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_06bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -7125,7 +7125,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 06BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 06BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 06BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -7325,7 +7325,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_06bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_06bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -7347,7 +7347,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 06BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 06BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 06BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -7547,7 +7547,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_06bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_06bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -7569,7 +7569,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 06BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 06BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 06BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -7769,7 +7769,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_08bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_08bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -7791,7 +7791,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 08BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 08BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 08BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -7991,7 +7991,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_09bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_09bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -8013,7 +8013,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 09BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 09BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 09BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -8213,7 +8213,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_09bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_09bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -8235,7 +8235,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 09BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 09BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 09BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -8435,7 +8435,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_09bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_09bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -8457,7 +8457,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 09BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 09BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 09BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -8657,7 +8657,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_09bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_09bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -8679,7 +8679,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 09BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 09BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 09BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -8879,7 +8879,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -8901,7 +8901,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -9101,7 +9101,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -9123,7 +9123,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -9323,7 +9323,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_11bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_11bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -9345,7 +9345,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 11BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 11BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 11BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -9545,7 +9545,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_11bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_11bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -9567,7 +9567,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 11BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 11BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 11BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -9767,7 +9767,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_12bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_12bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -9789,7 +9789,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 12BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 12BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 12BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -9989,7 +9989,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_14bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_14bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -10011,7 +10011,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 14BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 14BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 14BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -10211,7 +10211,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -10233,7 +10233,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -10433,7 +10433,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_99bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_99bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -10455,7 +10455,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 99BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 99BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 99BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -10655,7 +10655,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_02bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_02bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -10677,7 +10677,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 02BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 02BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 02BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -10877,7 +10877,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -10899,7 +10899,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -11099,7 +11099,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bs5b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bs5b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -11121,7 +11121,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BS5B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BS5B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BS5B - final</att>
             </addAttributes>
             <axisVariable>
@@ -11321,7 +11321,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -11343,7 +11343,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -11543,7 +11543,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_06bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_06bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -11565,7 +11565,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 06BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 06BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 06BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -11765,7 +11765,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -11787,7 +11787,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -11987,7 +11987,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -12009,7 +12009,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -12209,7 +12209,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_11bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_11bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -12231,7 +12231,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 11BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 11BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 11BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -12431,7 +12431,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_12bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_12bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -12453,7 +12453,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 12BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 12BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 12BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -12653,7 +12653,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_13bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_13bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -12675,7 +12675,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 13BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 13BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 13BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -12875,7 +12875,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -12897,7 +12897,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -13097,7 +13097,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -13119,7 +13119,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -13319,7 +13319,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -13341,7 +13341,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -13541,7 +13541,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_13bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_13bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -13563,7 +13563,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 13BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 13BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 13BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -13763,7 +13763,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_14bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_14bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -13785,7 +13785,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 14BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 14BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 14BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -13985,7 +13985,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_14bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_14bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -14007,7 +14007,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 14BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 14BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 14BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -14207,7 +14207,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_15bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_15bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -14229,7 +14229,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 15BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 15BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 15BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -14429,7 +14429,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17bs8a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17bs8a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -14451,7 +14451,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17BS8A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17BS8A - final</att>
             </addAttributes>
             <axisVariable>
@@ -14651,7 +14651,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ck14a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ck14a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -14673,7 +14673,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CK14A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CK14A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CK14A - final</att>
             </addAttributes>
             <axisVariable>
@@ -14873,7 +14873,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp12a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp12a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -14895,7 +14895,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP12A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP12A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP12A - final</att>
             </addAttributes>
             <axisVariable>
@@ -15095,7 +15095,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp3a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp3a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -15117,7 +15117,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP3A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP3A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP3A - final</att>
             </addAttributes>
             <axisVariable>
@@ -15317,7 +15317,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckip2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckip2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -15339,7 +15339,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKIP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKIP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKIP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -15539,7 +15539,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckip3a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckip3a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -15561,7 +15561,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKIP3A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKIP3A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKIP3A - final</att>
             </addAttributes>
             <axisVariable>
@@ -15761,7 +15761,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_15bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_15bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -15783,7 +15783,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 15BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 15BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 15BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -15983,7 +15983,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -16005,7 +16005,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -16205,7 +16205,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp3a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp3a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -16227,7 +16227,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP3A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP3A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP3A - final</att>
             </addAttributes>
             <axisVariable>
@@ -16427,7 +16427,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -16449,7 +16449,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -16649,7 +16649,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -16671,7 +16671,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -16871,7 +16871,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp3a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp3a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -16893,7 +16893,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP3A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP3A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP3A - final</att>
             </addAttributes>
             <axisVariable>
@@ -17093,7 +17093,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp4a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp4a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -17115,7 +17115,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP4A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP4A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP4A - final</att>
             </addAttributes>
             <axisVariable>
@@ -17315,7 +17315,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -17337,7 +17337,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -17537,7 +17537,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp1a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp1a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -17559,7 +17559,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP1A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP1A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP1A - final</att>
             </addAttributes>
             <axisVariable>
@@ -17759,7 +17759,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp4a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp4a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -17781,7 +17781,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP4A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP4A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP4A - final</att>
             </addAttributes>
             <axisVariable>
@@ -17981,7 +17981,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -18003,7 +18003,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -18203,7 +18203,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_19bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_19bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -18225,7 +18225,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 19BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 19BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 19BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -18425,7 +18425,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bs8b_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bs8b_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -18447,7 +18447,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BS8B.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BS8B.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BS8B - final</att>
             </addAttributes>
             <axisVariable>
@@ -18647,7 +18647,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_12bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_12bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -18669,7 +18669,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 12BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 12BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 12BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -18869,7 +18869,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_13bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_13bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -18891,7 +18891,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 13BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 13BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 13BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -19091,7 +19091,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_15bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_15bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -19113,7 +19113,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 15BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 15BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 15BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -19313,7 +19313,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp4a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp4a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -19335,7 +19335,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP4A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP4A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP4A - final</att>
             </addAttributes>
             <axisVariable>
@@ -19535,7 +19535,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp10a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp10a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -19557,7 +19557,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP10A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP10A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP10A - final</att>
             </addAttributes>
             <axisVariable>
@@ -19757,7 +19757,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_09bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_09bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -19779,7 +19779,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 09BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 09BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 09BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -19979,7 +19979,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -20001,7 +20001,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -20201,7 +20201,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18bs2c_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -20223,7 +20223,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18BS2C.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18BS2C.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18BS2C - final</att>
             </addAttributes>
             <axisVariable>
@@ -20423,7 +20423,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18bs5a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18bs5a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -20445,7 +20445,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18BS5A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18BS5A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18BS5A - final</att>
             </addAttributes>
             <axisVariable>
@@ -20645,7 +20645,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -20667,7 +20667,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -20867,7 +20867,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_01bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_01bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -20889,7 +20889,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 01BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 01BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 01BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -21089,7 +21089,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_02bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_02bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21111,7 +21111,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 02BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 02BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 02BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -21311,7 +21311,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_03bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_03bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21333,7 +21333,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 03BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 03BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 03BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -21533,7 +21533,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_04bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_04bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21555,7 +21555,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 04BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 04BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 04BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -21755,7 +21755,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_05bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_05bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21777,7 +21777,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 05BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 05BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 05BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -21977,7 +21977,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_06bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_06bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -21999,7 +21999,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 06BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 06BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 06BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -22199,7 +22199,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_07bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_07bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -22221,7 +22221,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 07BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 07BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 07BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -22421,7 +22421,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_08bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_08bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -22443,7 +22443,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 08BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 08BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 08BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -22643,7 +22643,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -22665,7 +22665,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -22865,7 +22865,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckip1a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckip1a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -22887,7 +22887,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKIP1A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKIP1A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKIP1A - final</att>
             </addAttributes>
             <axisVariable>
@@ -23087,7 +23087,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckp3a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckp3a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -23109,7 +23109,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKP3A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKP3A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKP3A - final</att>
             </addAttributes>
             <axisVariable>
@@ -23309,7 +23309,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_13bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_13bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -23331,7 +23331,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 13BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 13BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 13BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -23531,7 +23531,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -23553,7 +23553,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -23753,7 +23753,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp1a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp1a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -23775,7 +23775,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP1A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP1A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP1A - final</att>
             </addAttributes>
             <axisVariable>
@@ -23975,7 +23975,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp11a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp11a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -23997,7 +23997,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP11A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP11A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP11A - final</att>
             </addAttributes>
             <axisVariable>
@@ -24197,7 +24197,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp1a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp1a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -24219,7 +24219,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP1A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP1A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP1A - final</att>
             </addAttributes>
             <axisVariable>
@@ -24419,7 +24419,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp10a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp10a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -24441,7 +24441,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP10A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP10A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP10A - final</att>
             </addAttributes>
             <axisVariable>
@@ -24641,7 +24641,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp11a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp11a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -24663,7 +24663,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP11A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP11A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP11A - final</att>
             </addAttributes>
             <axisVariable>
@@ -24863,7 +24863,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp12a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp12a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -24885,7 +24885,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP12A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP12A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP12A - final</att>
             </addAttributes>
             <axisVariable>
@@ -25085,7 +25085,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp10a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp10a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -25107,7 +25107,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP10A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP10A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP10A - final</att>
             </addAttributes>
             <axisVariable>
@@ -25307,7 +25307,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17ckp12a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17ckp12a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -25329,7 +25329,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17CKP12A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17CKP12A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17CKP12A - final</att>
             </addAttributes>
             <axisVariable>
@@ -25529,7 +25529,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_18ckp11a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_18ckp11a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -25551,7 +25551,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 18CKP11A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 18CKP11A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 18CKP11A - final</att>
             </addAttributes>
             <axisVariable>
@@ -25751,7 +25751,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_16ckp9a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_16ckp9a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -25773,7 +25773,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 16CKP9A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 16CKP9A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 16CKP9A - final</att>
             </addAttributes>
             <axisVariable>
@@ -25973,7 +25973,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_17bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_17bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -25995,7 +25995,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 17BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 17BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 17BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -26195,7 +26195,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_14bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_14bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -26217,7 +26217,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 14BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 14BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 14BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -26417,7 +26417,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_15bsm2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_15bsm2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -26439,7 +26439,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 15BSM2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 15BSM2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 15BSM2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -26639,7 +26639,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckp2a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckp2a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -26661,7 +26661,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKP2A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKP2A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKP2A - final</att>
             </addAttributes>
             <axisVariable>
@@ -26861,7 +26861,7 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDGridFromNcFiles" datasetID="1min_gridded_datasets_Mooring_10ckp1a_final" active="true">
+        <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_10ckp1a_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Volumes/WDC_internal/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
@@ -26883,7 +26883,7 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">QC'd (final) mooring data from 10CKP1A.  This dataset has been gridded to 1min resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
+                <att name="summary">QC'd (final) mooring data from 10CKP1A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_19bsm2a_final </att>
                 <att name="title">Gridded Mooring Data from 10CKP1A - final</att>
             </addAttributes>
             <axisVariable>
