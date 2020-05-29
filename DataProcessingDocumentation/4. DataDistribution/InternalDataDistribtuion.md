@@ -32,3 +32,4 @@ The goal is to be able to cut and paste previous sets and then edit the necessar
 ** xml file characteristics **
 1.  A mooring site may have 2-3 datasets associatied with it (ADCP gridded, tabular timeseries - both preliminary and final, and timeseriesprofile if prawler-like).  Each site is broken into its own dataset subset for ease of editing.
 2.  A cruise may have 3-4 datasets associated with it (preliminary CTD, final CTD, hydrographic bottles, shiptrack)
+3.  Some files are generated based on existing erddap datasets.  These are "backups" that are archived in netcdf format and gridded products from tabular products.  Since both are dynamically driven, they are not archived in the EcoRAID structure, but instead on a seperate location (currently downdraft/thundersnow)
