@@ -4,6 +4,7 @@ This is an evolving repository for EcoFOCI related documentation particularly of
 
 It will spell out the primary resources available, the primary tools that are used, and point to some strengths and weeknesses.  It will guide some of the future development by documenting choices (with links to references or standards where applicable), and provide clues and cross-links with other tools maintained in various github repositories and at PMEL that are useful for EcoFOCI data work.
 
+It is cetainly centric to workflows assumed by and created by S.Bell
 
 ***Author: S.Bell***
 
@@ -37,6 +38,11 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 	c. Internal data distribtuion   
 		1. Pavlof file-tree
 		2. ERDDAP (Akutan/Downdraft/Thundersnow)
+	d. Tools and Jobs to assist with data
+		1. Automated Jobs List
+			- generation of erddap backups
+			- generation of erddap gridded data from tables
+			- rsync of jobs to and from user systems
 5. Software and Documentation Repositories
 	a. Google Drive / Docs   
 	b. Github   
@@ -52,3 +58,6 @@ Each Chapter will be a subdirectory in this repository collection, currently wri
 7. Thoughts and Musings for future challenges
 	a. AI/ML for Quality Control   
 	b. Cloud based data storage solutions   
+		- azure
+		- gcloud
+		- Amazon Web Services
