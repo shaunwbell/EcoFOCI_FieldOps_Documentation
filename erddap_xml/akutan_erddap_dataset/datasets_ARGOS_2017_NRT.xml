@@ -163,6 +163,7 @@
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+            <att name="add_offset" type="float">360.</att> 
         </addAttributes>
     </dataVariable>
 </dataset>
