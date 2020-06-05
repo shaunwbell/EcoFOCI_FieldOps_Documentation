@@ -105,7 +105,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_1206</sourceName>
+        <sourceName>V_321</sourceName>
         <destinationName>v_1206</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -116,7 +116,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
@@ -124,7 +123,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_1205</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_1205</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -135,7 +134,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
             <att name="ioos_category">Currents</att>
@@ -154,7 +152,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
@@ -174,7 +171,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -183,7 +179,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>
 </dataset>
-
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_06bsp5b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
