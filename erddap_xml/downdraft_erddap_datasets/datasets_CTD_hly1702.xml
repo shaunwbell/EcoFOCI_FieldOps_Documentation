@@ -47,7 +47,7 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
         <att name="history">April 25, 2018 - Data converted from DBO flatfiles for additional QC and merging of oxygen and nutrients
         April 25, 2018 15:42 UTC C. Mordy - upper 500 m only (ml/l + 0.2310)* 44.661))
         </att>
-        <att name="institution">PMEL EcoFOCI</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">ammonia, ammonium, bottle, BTL_103, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved nutrients, dissolved o2, Fch_906, identifier, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_189, niskin, nitrate, nitrite, NO2_184, no3, NO3_182, number, nutrients, O2, O_65, ocean, ocean color, oceans,
         Oceans &gt; Ocean Chemistry &gt; Ammonia,
         Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
