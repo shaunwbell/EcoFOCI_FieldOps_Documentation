@@ -10,12 +10,9 @@
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
-    <preExtractRegex></preExtractRegex>
-    <postExtractRegex>\.nc</postExtractRegex>
-    <extractRegex>.*</extractRegex>
-    <columnNameForExtract>station_id</columnNameForExtract>
-    <removeMVRows>false</removeMVRows>
-    <sortFilesBySourceNames>station_id</sortFilesBySourceNames>
+    <standardizeWhat>0</standardizeWhat>
+    <sortedColumnSourceName>time</sortedColumnSourceName>
+    <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
@@ -55,17 +52,18 @@
         <att name="title">CTD Data from OS1702 - Final</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>station_id</sourceName>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
+            <att name="cf_role">profile_id</att>
+            <att name="long_name">timeseries id</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Identifier</att>
-            <att name="long_name">Profile ID</att>
             <att name="cf_role">profile_id</att>
         </addAttributes>
-    </dataVariable>
+    </dataVariable>  
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
