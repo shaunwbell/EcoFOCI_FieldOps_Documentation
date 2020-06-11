@@ -2,7 +2,7 @@
 
 
 <!-- OS1702 -->
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_os1702" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_os1702_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/CTDcasts/os1702/final_data/erddap/</fileDir>
@@ -51,8 +51,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">time, latitude, longitude, station_id</att>
-        <att name="summary">OS1702</att>
-        <att name="title">CTD Data from 2017 Ocean Starr Cruise (OS1702)</att>
+        <att name="summary">CTD Data from OS1702 - Final </att>
+        <att name="title">CTD Data from OS1702 - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>station_id</sourceName>
