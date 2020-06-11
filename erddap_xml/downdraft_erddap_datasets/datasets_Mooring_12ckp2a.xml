@@ -187,7 +187,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_12ckp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/12ckp2a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2012/Moorings/12ckp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
