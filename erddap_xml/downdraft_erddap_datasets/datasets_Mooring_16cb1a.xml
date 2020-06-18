@@ -274,20 +274,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>   
-    <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
-        <destinationName>Source_File</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-            <att name="cf_role">profile_id</att>
-            <att name="long_name">timeseries id</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Identifier</att>
-        </addAttributes>
-    </dataVariable>  
 </dataset>
 
 <!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
@@ -565,18 +551,4 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>   
-    <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
-        <destinationName>Source_File</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-            <att name="cf_role">profile_id</att>
-            <att name="long_name">timeseries id</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Identifier</att>
-        </addAttributes>
-    </dataVariable>  
 </dataset>
