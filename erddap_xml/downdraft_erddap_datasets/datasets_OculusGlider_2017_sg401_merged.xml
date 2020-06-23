@@ -109,7 +109,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">Temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>

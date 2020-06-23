@@ -309,7 +309,7 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_20</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -576,7 +576,7 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_20</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>

@@ -126,7 +126,7 @@ No Met data for 2019 Arctic
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">Temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -144,7 +144,7 @@ No Met data for 2019 Arctic
             <att name="generic_name">temp</att>
             <att name="long_name">Oxy_Temperature (C)</att>
             <att name="name">Oxy_Temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>

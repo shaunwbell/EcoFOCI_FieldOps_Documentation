@@ -71,7 +71,7 @@ csv hosting of matlab - thingspeak data
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature on CCS811 (AQ Sensor)</att>
             <att name="standard_name">air_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
     </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -112,7 +112,7 @@ csv hosting of matlab - thingspeak data
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Second colocated Temperature sensor</att>
             <att name="standard_name">air_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
     </addAttributes>
     </dataVariable>
     <dataVariable>

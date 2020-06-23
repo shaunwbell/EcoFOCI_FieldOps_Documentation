@@ -223,7 +223,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -231,7 +231,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -245,7 +245,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -253,7 +253,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

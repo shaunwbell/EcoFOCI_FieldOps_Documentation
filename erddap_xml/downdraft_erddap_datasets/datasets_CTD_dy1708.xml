@@ -19,18 +19,6 @@ initial pulls from csv files (or initial archive? depending on cruise)
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>false</accessibleViaFiles>
-    <!-- sourceAttributes>
-        <att name="COMPOSITE" type="int">1</att>
-        <att name="CREATION_DATE">April 25, 2018 15:53 UTC</att>
-        <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
-        <att name="History"></att>
-        <att name="MOORING" type="int">141</att>
-        <att name="WATER_DEPTH" type="int">9999</att>
-    </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
-        <att name="subsetVariables">station, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
@@ -255,14 +243,14 @@ initial pulls from csv files (or initial archive? depending on cruise)
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -318,14 +306,14 @@ initial pulls from csv files (or initial archive? depending on cruise)
             <att name="generic_name">temp</att>
             <att name="long_name">Secondary Temperature</att>
             <att name="name">T2_35</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -705,7 +693,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -713,7 +701,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -771,7 +759,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">Secondary Temperature</att>
             <att name="name">T2_35</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -779,7 +767,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

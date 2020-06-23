@@ -63,7 +63,7 @@ csv hosting of matlab - thingspeak data
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Temp</att>
             <att name="standard_name">air_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
     </addAttributes>
     </dataVariable>
     <dataVariable>

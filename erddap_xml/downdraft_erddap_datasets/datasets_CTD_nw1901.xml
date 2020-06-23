@@ -235,7 +235,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -243,7 +243,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -301,7 +301,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">Secondary Temperature</att>
             <att name="name">T2_35</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -309,7 +309,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -618,7 +618,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -626,7 +626,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -640,7 +640,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -648,7 +648,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
-            <att name="units">C</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
