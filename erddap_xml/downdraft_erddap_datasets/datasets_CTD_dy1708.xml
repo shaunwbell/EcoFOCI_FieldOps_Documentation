@@ -397,7 +397,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
     <dataVariable>
         <sourceName>global:WIND_DIR</sourceName>
         <destinationName>wind_direction</destinationName>
-        <dataType>double</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -442,10 +442,8 @@ initial pulls from csv files (or initial archive? depending on cruise)
     <dataVariable>
         <sourceName>global:STATION_NAME</sourceName>
         <destinationName>Station_Name</destinationName>
-        <dataType>string</dataType>
+        <dataType>String</dataType>
         <addAttributes>
-            <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">foci_station_name</att>
             <att name="description">FOCI station name</att>
