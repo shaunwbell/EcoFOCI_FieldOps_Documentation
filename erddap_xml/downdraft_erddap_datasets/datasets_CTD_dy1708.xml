@@ -383,7 +383,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
     </dataVariable>  
     <dataVariable>
         <sourceName>global:BAROMETER</sourceName>
-        <destinationName>air_pressure</destinationName>
+        <destinationName>air_pressure_at_sealevel</destinationName>
         <dataType>float</dataType>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -391,7 +391,8 @@ initial pulls from csv files (or initial archive? depending on cruise)
             <att name="colorBarMaximum" type="double">1050.0</att>
             <att name="colorBarMinimum" type="double">950.0</att>
             <att name="ioos_category">Pressure</att>
-            <att name="standard_name">air_pressure</att>
+            <att name="name">air_pressure_at_sealevel</att>
+            <att name="units">mbar</att>
         </addAttributes>
     </dataVariable>  
     <dataVariable>
@@ -437,6 +438,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">air_temperature</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
