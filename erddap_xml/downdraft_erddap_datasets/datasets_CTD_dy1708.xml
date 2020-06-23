@@ -438,6 +438,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">air_temperature</att>
         </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>global:STATION_NAME</sourceName>
         <destinationName>Station_Name</destinationName>
