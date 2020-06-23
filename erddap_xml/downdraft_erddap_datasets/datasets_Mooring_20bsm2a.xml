@@ -41,15 +41,14 @@
         <att name="title">Meteorological Data from 20BSM-2A - NRT</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>sampletime</sourceName>
+        <sourceName>year_doy_hhmm</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Sampletime</att>
-            <att name="source_name">sampletime</att>
+            <att name="long_name">Time</att>
             <att name="standard_name">time</att>
             <att name="time_precision">2070-01-01T00:00:00Z</att>
             <att name="units">yyyy-MM-dd&#39; &#39;HH:mm:ss</att>
