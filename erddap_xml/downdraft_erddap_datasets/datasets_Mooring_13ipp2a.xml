@@ -92,7 +92,7 @@ So far, T/S/O/Chl are accounted for-->
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_1206</sourceName>
+        <sourceName>V_321</sourceName>
         <destinationName>v_1206</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -111,7 +111,7 @@ So far, T/S/O/Chl are accounted for-->
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_1205</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_1205</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
