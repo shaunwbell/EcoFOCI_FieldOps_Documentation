@@ -18,8 +18,8 @@
     <columnSeparator>,</columnSeparator>
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
-    <sortedColumnSourceName>year_doy_hhmm</sortedColumnSourceName>
-    <sortFilesBySourceNames>year_doy_hhmm</sortFilesBySourceNames>
+    <sortedColumnSourceName>sampletime</sortedColumnSourceName>
+    <sortFilesBySourceNames>sampletime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
@@ -35,7 +35,7 @@
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">argosid, atmosphere, atmospheric, data, direction, doy, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, hhmm, latitude, local, longitude, time, science, source, surface, wind, wind_from_direction, winds, year, year_doy_hhmm</att>
+        <att name="keywords">argosid, atmosphere, atmospheric, data, direction, doy, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, hhmm, latitude, local, longitude, time, science, source, surface, wind, wind_from_direction, winds, year, sampletime</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -45,7 +45,7 @@
         <att name="title">Meteorological Data from 19BSM-2A - NRT</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>year_doy_hhmm</sourceName>
+        <sourceName>sampletime</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
