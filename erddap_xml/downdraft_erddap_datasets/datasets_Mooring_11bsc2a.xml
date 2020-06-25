@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_11cb1a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_11bsc2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2011/Moorings/11cb1a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2011/Moorings/11bsc2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -30,8 +30,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 11CB-1A</att>
-        <att name="title">Mooring Data from 11CB-1A - final</att>
+        <att name="summary">QC'd (final) mooring data from 11BSC-2A</att>
+        <att name="title">Mooring Data from 11BSC-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -258,5 +258,4 @@ So far, T/S/O/Chl are accounted for-->
             <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>   
-
 </dataset>
