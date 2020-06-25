@@ -92,7 +92,7 @@ So far, T/S/O/Chl are accounted for
     </dataVariable>
     <dataVariable>
         <sourceName>lon</sourceName>
-        <destinationName>lon</destinationName>
+        <destinationName>longitude</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">501</att>
