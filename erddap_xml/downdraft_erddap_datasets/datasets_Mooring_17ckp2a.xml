@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_17ckp2A_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_17ckp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17ckp2A/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17ckp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel.cf.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
