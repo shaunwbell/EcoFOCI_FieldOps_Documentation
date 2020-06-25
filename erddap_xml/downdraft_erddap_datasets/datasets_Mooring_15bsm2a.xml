@@ -206,6 +206,7 @@ So far, T/S/O/Chl are accounted for
             <att name="standard_name">relative_humidity</att>
             <att name="units">%</att>
         </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>Qs_133</sourceName>
         <destinationName>solar_radiation</destinationName>
