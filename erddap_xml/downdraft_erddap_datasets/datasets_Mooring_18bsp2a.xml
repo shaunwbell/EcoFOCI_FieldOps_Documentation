@@ -443,7 +443,20 @@ May 30, 2019 23:02 UTC Data Trimmed
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>   
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>    
 </dataset>
 
 <!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
@@ -710,5 +723,18 @@ May 30, 2019 23:02 UTC Data Trimmed
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>   
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>    
 </dataset>
