@@ -66,8 +66,8 @@ So far, T/S/O/Chl are accounted for
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="standard_name">depth</att>
+            <att name="long_name">Altitude</att>
+            <att name="standard_name">height_above_sealevel</att>
             <att name="scale_factor" type="double">-1.0</att>
             <att name="units">m</att>
             </addAttributes>
