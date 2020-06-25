@@ -124,6 +124,7 @@ So far, T/S/O/Chl are accounted for
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">air_temperature</att>
             <att name="units">degree_C</att>
+        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>BP_915</sourceName>
