@@ -281,6 +281,19 @@ So far, T/S/O/Chl are accounted for
             <att name="units">m s-1</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">timeseries_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
 
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Met_15bsm2a_NRT" active="true">
