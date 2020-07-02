@@ -138,7 +138,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -162,7 +161,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -185,7 +183,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -231,7 +228,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
@@ -253,7 +249,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
             <att name="units">ml/l</att>
@@ -275,7 +270,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
             <att name="units">ml/l</att>
@@ -297,7 +291,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
@@ -317,7 +310,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>

@@ -71,7 +71,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -92,7 +91,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Wind</att>
@@ -113,7 +111,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
             <att name="ioos_category">Wind</att>
@@ -134,7 +131,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -156,7 +152,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -178,7 +173,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">1050.0</att>
             <att name="colorBarMinimum" type="double">950.0</att>
             <att name="ioos_category">Pressure</att>
@@ -199,7 +193,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Meteorology</att>
@@ -220,7 +213,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="ioos_category">Temperature</att>
@@ -241,7 +233,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Wind</att>
@@ -262,7 +253,6 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">-15.0</att>
             <att name="ioos_category">Wind</att>
@@ -354,7 +344,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
@@ -377,7 +366,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -399,7 +387,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
@@ -418,7 +405,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water</att>
         </addAttributes>
@@ -437,7 +423,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -459,7 +444,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -482,7 +466,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -501,7 +484,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
@@ -522,7 +504,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">sea_water_turbidity</att>
         </addAttributes>
@@ -541,7 +522,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">umol kg-1</att>
             <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
@@ -563,7 +543,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -586,7 +565,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>

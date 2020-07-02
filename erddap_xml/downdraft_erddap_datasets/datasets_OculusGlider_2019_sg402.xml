@@ -139,7 +139,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -163,7 +162,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -186,7 +184,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -208,7 +205,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
         </addAttributes>
@@ -228,7 +224,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -251,7 +246,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="coordinates">null</att>
@@ -274,7 +268,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
         </addAttributes>
@@ -295,7 +288,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
             <att name="coordinates">null</att>
@@ -441,7 +433,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
         </addAttributes>
@@ -461,7 +452,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -485,7 +475,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
             <att name="long_name">Wlbb2fl Sig470nm Adjusted</att>
         </addAttributes>
@@ -505,7 +494,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Biology</att>
             <att name="long_name">Wlbb2fl Sig695nm Adjusted</att>
         </addAttributes>
@@ -525,7 +513,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
             <att name="long_name">Wlbb2fl Sig700nm Adjusted</att>
         </addAttributes>
@@ -669,7 +656,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
         </addAttributes>
@@ -689,7 +675,6 @@ Seattle, WA</att>
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>

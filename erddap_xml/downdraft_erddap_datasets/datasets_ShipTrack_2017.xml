@@ -58,7 +58,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">trajectory_id</att>
         </addAttributes>
@@ -74,7 +73,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -95,7 +93,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -117,7 +114,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -140,7 +136,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -217,7 +212,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -238,7 +232,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -260,7 +253,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -283,7 +275,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -360,7 +351,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -381,7 +371,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -403,7 +392,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -426,7 +414,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -503,7 +490,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -524,7 +510,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -546,7 +531,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -569,7 +553,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -646,7 +629,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -667,7 +649,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -689,7 +670,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -712,7 +692,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -789,7 +768,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -810,7 +788,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -832,7 +809,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -855,7 +831,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>
@@ -932,7 +907,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
@@ -953,7 +927,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -975,7 +948,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -998,7 +970,6 @@ Shiptrack data from SCS GPS files.  1s resolution
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Time</att>
             <att name="standard_name">time</att>
         </addAttributes>

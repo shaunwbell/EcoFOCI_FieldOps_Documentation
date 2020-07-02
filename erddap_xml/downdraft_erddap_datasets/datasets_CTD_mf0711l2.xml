@@ -82,7 +82,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -103,7 +102,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -124,7 +122,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
@@ -166,7 +163,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -189,7 +185,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -213,7 +208,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
@@ -261,7 +255,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
@@ -282,7 +275,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -305,7 +297,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
             <att name="units">umol/kg</att>
@@ -327,7 +318,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
@@ -347,7 +337,6 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
