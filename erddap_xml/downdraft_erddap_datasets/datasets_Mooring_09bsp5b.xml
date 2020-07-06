@@ -4,10 +4,10 @@ Grid data for EIN/VEL -->
 
 <!-- NOTE! The source for final_data_f8d7_75bd_ecdf has nGridVariables=8,
   but this dataset will only serve 4 because the others use different dimensions. -->
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_09bsp2a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_09bsp5b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2009/Moorings/09bsp2a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2009/Moorings/09bsp5b/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel.cf.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -24,7 +24,7 @@ Grid data for EIN/VEL -->
 April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 </att>
         <att name="INST_TYPE">wcp</att>
-        <att name="MOORING">09BSP-2A</att>
+        <att name="MOORING">09BSP-5B</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
         <att name="WATER_MASS">B</att>
     </sourceAttributes -->
@@ -40,8 +40,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 09BSP-2A</att>
-        <att name="title">QC'd (final) ADCP Vel Data from 09BSP-2A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 09BSP-5B</att>
+        <att name="title">QC'd (final) ADCP Vel Data from 09BSP-5B</att>
     </addAttributes>
     <axisVariable>
         <sourceName>time</sourceName>
@@ -105,7 +105,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_1206</sourceName>
+        <sourceName>V_321</sourceName>
         <destinationName>v_1206</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -116,7 +116,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
@@ -124,7 +123,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_1205</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_1205</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -135,7 +134,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
             <att name="ioos_category">Currents</att>
@@ -154,7 +152,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
@@ -174,7 +171,6 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -184,11 +180,10 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     </dataVariable>
 </dataset>
 
-
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_09bsp2a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_09bsp5b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2009/Moorings/09bsp2a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2009/Moorings/09bsp5b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -200,13 +195,13 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <accessibleViaFiles>false</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">09bsp2a_s39_1673_0060m.asc</att>
+        <att name="DATA_CMNT">09bsp5b_s39_1673_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">09bsp2a</att>
+        <att name="MOORING">09bsp5b</att>
         <att name="SERIAL_NUMBER">1673</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -227,8 +222,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 09BSP-2A</att>
-        <att name="title">Mooring Data from 09BSP-2A - final</att>
+        <att name="summary">QC'd (final) mooring data from 09BSP-5B</att>
+        <att name="title">Mooring Data from 09BSP-5B - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
