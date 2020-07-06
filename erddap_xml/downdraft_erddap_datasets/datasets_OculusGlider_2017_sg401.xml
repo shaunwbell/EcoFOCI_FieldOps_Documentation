@@ -160,8 +160,6 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -204,8 +202,6 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -500,8 +496,6 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -520,8 +514,6 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
@@ -934,8 +926,6 @@
             <att name="platform">glider</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
