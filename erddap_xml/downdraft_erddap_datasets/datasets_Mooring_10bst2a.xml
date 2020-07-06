@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10cb1b_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10bst2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10cb1b/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10bst2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -17,22 +17,6 @@ So far, T/S/O/Chl are accounted for-->
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>false</accessibleViaFiles>
-    <!-- sourceAttributes>
-        <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">10cb1b_s39_1773_0060m.asc</att>
-        <att name="featureType">timeSeries</att>
-        <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
-        <att name="INST_TYPE">s39</att>
-        <att name="MOORING">10cb1b</att>
-        <att name="SERIAL_NUMBER">1773</att>
-        <att name="WATER_DEPTH">74</att>
-    </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
-        <att name="subsetVariables">station_id, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, Serial_Number, latitude, longitude</att>
@@ -46,8 +30,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 10CB-1A</att>
-        <att name="title">Mooring Data from 10CB-1A - final</att>
+        <att name="summary">QC'd (final) mooring data from 10BST-2A</att>
+        <att name="title">Mooring Data from 10BST-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -287,5 +271,4 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
-
 </dataset>
