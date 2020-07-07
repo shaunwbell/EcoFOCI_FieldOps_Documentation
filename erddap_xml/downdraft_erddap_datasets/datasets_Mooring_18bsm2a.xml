@@ -142,7 +142,7 @@ So far, T/S/O/Chl are accounted for
     </dataVariable>
     <dataVariable>
         <sourceName>WD_410</sourceName>
-        <destinationName>WD_410</destinationName>
+        <destinationName>wind_direction</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">410</att>
@@ -151,6 +151,9 @@ So far, T/S/O/Chl are accounted for
             <att name="units">degrees</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">WD_410</att>
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Wind</att>
