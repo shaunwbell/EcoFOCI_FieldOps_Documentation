@@ -227,7 +227,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -450,7 +450,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -673,7 +673,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -896,7 +896,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -1119,7 +1119,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -1342,7 +1342,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -1565,7 +1565,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -1788,7 +1788,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -2011,7 +2011,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -2234,7 +2234,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -2457,7 +2457,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -2680,7 +2680,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -2903,7 +2903,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -3126,7 +3126,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -3349,7 +3349,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -3572,7 +3572,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -3795,7 +3795,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -4018,7 +4018,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -4241,7 +4241,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -4464,7 +4464,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -4687,7 +4687,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -4910,7 +4910,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -5133,7 +5133,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -5356,7 +5356,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -5579,7 +5579,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -5802,7 +5802,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -6025,7 +6025,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -6248,7 +6248,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -6471,7 +6471,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -6694,7 +6694,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -6917,7 +6917,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -7140,7 +7140,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -7363,7 +7363,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -7586,7 +7586,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -7809,7 +7809,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -8032,7 +8032,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -8255,7 +8255,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -8478,7 +8478,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -8701,7 +8701,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -8924,7 +8924,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -9147,7 +9147,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -9370,7 +9370,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -9593,7 +9593,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -9816,7 +9816,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -10039,7 +10039,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -10262,7 +10262,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -10485,7 +10485,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -10708,7 +10708,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -10931,7 +10931,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -11154,7 +11154,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -11377,7 +11377,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -11600,7 +11600,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -11823,7 +11823,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -12046,7 +12046,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -12269,7 +12269,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -12492,7 +12492,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -12715,7 +12715,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -12938,7 +12938,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -13161,7 +13161,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -13384,7 +13384,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -13607,7 +13607,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -13830,7 +13830,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -14053,7 +14053,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -14276,7 +14276,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -14499,7 +14499,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -14722,7 +14722,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -14945,7 +14945,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -15168,7 +15168,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -15391,7 +15391,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -15614,7 +15614,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -15837,7 +15837,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -16060,7 +16060,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -16283,7 +16283,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -16506,7 +16506,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -16729,7 +16729,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -16952,7 +16952,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -17175,7 +17175,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -17398,7 +17398,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -17621,7 +17621,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -17844,7 +17844,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -18067,7 +18067,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -18290,7 +18290,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -18513,7 +18513,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -18736,7 +18736,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -18959,7 +18959,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -19182,7 +19182,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -19405,7 +19405,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -19628,7 +19628,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -19851,7 +19851,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -20074,7 +20074,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -20297,7 +20297,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -20520,7 +20520,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -20743,7 +20743,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -20966,7 +20966,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -21189,7 +21189,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -21412,7 +21412,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -21635,7 +21635,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -21858,7 +21858,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -22081,7 +22081,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -22304,7 +22304,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -22527,7 +22527,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -22750,7 +22750,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -22973,7 +22973,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -23196,7 +23196,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -23419,7 +23419,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -23642,7 +23642,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -23865,7 +23865,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -24088,7 +24088,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -24311,7 +24311,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -24534,7 +24534,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -24757,7 +24757,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -24980,7 +24980,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -25203,7 +25203,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -25426,7 +25426,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -25649,7 +25649,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -25872,7 +25872,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -26095,7 +26095,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -26318,7 +26318,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -26541,7 +26541,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -26764,7 +26764,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -26987,7 +26987,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -27210,7 +27210,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -27433,7 +27433,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -27656,7 +27656,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -27879,7 +27879,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -28102,7 +28102,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -28325,7 +28325,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -28548,7 +28548,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -28771,7 +28771,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -28994,7 +28994,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -29217,7 +29217,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -29440,7 +29440,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -29663,7 +29663,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -29886,7 +29886,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -30109,7 +30109,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -30332,7 +30332,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -30555,7 +30555,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -30778,7 +30778,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -31001,7 +31001,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -31224,7 +31224,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -31447,7 +31447,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -31670,7 +31670,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -31893,7 +31893,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -32116,7 +32116,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -32339,7 +32339,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -32562,7 +32562,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -32785,7 +32785,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33008,7 +33008,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33231,7 +33231,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33454,7 +33454,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33677,7 +33677,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33900,7 +33900,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -34123,7 +34123,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -34346,7 +34346,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -34569,7 +34569,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -34792,7 +34792,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -35015,7 +35015,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -35238,7 +35238,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -35461,7 +35461,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -35684,7 +35684,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -35907,7 +35907,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -36130,7 +36130,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -36353,7 +36353,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -36576,7 +36576,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -36799,7 +36799,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -37022,7 +37022,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -37245,7 +37245,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -37468,7 +37468,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -37691,7 +37691,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -37914,7 +37914,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -38137,7 +38137,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -38360,7 +38360,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -38583,7 +38583,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -38806,7 +38806,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -39029,7 +39029,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -39252,7 +39252,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -39475,7 +39475,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -39698,7 +39698,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -39921,7 +39921,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -40144,7 +40144,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -40367,7 +40367,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -40590,7 +40590,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -40813,7 +40813,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -41036,7 +41036,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -41259,7 +41259,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -41482,7 +41482,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -41705,7 +41705,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -41928,7 +41928,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -42151,7 +42151,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -42374,7 +42374,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -42597,7 +42597,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -42820,7 +42820,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -43043,7 +43043,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -43266,7 +43266,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -43489,7 +43489,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -43712,7 +43712,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -43935,7 +43935,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -44158,7 +44158,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -44381,7 +44381,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -44604,7 +44604,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -44827,7 +44827,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -45050,7 +45050,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -45273,7 +45273,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -45496,7 +45496,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -45719,7 +45719,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -45942,7 +45942,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -46165,7 +46165,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -46388,7 +46388,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -46611,7 +46611,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -46834,7 +46834,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -47057,7 +47057,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -47280,7 +47280,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -47503,7 +47503,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -47726,7 +47726,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -47949,7 +47949,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -48172,7 +48172,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
