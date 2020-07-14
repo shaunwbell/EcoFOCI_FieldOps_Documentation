@@ -11,6 +11,7 @@ WPAK and special insts need to be accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/1998/Moorings/98bsm2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -18,7 +19,7 @@ WPAK and special insts need to be accounted for-->
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">98bsm2b_s39_1773_0060m.asc</att>

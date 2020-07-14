@@ -9,6 +9,7 @@ So far, T/S/O/Chl are accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10ckip3a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -16,7 +17,7 @@ So far, T/S/O/Chl are accounted for-->
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">10ckip3a_s39_1073_0060m.asc</att>
@@ -301,6 +302,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/10ckip3a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -308,7 +310,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">10ckip3a_s39_1073_0060m.asc</att>

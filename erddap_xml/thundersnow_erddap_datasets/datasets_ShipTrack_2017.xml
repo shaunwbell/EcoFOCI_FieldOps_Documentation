@@ -8,6 +8,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1704/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -18,7 +19,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -147,6 +148,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1705/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -157,7 +159,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -286,6 +288,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1706l1/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -296,7 +299,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -425,6 +428,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1706l2/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -435,7 +439,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -564,6 +568,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1706l3/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -574,7 +579,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -703,6 +708,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/dy1708/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -713,7 +719,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>
@@ -842,6 +848,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/hly1702/shiptrack/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -852,7 +859,7 @@ Shiptrack data from SCS GPS files.  1s resolution
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 05, 2018 23:07 UTC</att>
         <att name="History">File Created from SCS GPPGA GPS data.</att>

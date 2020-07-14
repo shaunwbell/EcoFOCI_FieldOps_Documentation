@@ -20,7 +20,7 @@ DY1805
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 

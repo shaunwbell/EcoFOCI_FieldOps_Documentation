@@ -18,7 +18,7 @@ csv hosting of matlab - thingspeak data
     <sortedColumnSourceName>Column#0</sortedColumnSourceName>
     <sortFilesBySourceNames>Column#0</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...

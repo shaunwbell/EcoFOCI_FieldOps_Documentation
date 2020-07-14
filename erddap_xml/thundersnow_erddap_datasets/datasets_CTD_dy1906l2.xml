@@ -24,7 +24,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">May 14, 2019 17:07 UTC</att>
@@ -364,6 +364,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2019/CTDcasts/dy1906l2/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -371,7 +372,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>

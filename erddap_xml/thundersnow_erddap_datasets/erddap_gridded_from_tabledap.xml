@@ -3,13 +3,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_96bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+            <accessibleViaFiles>false</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -225,13 +226,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -447,13 +449,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bst2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -669,13 +672,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_96bs2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -891,13 +895,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_96bs2b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -1113,13 +1118,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97bs2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -1335,13 +1341,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97bs2b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -1557,13 +1564,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -1779,13 +1787,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_98bs2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -2001,13 +2010,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_98bs2b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -2223,13 +2233,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_98bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -2445,13 +2456,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_99bs2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -2667,13 +2679,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ip1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -2889,13 +2902,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_00bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -3111,13 +3125,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bsm4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -3333,13 +3348,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_95bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -3555,13 +3571,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_95bsm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -3777,13 +3794,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_96bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -3999,13 +4017,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_96bsm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -4221,13 +4240,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -4443,13 +4463,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97bsm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -4665,13 +4686,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_98bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -4887,13 +4909,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -5109,13 +5132,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -5331,13 +5355,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -5553,13 +5578,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -5775,13 +5801,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -5997,13 +6024,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -6219,13 +6247,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -6441,13 +6470,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -6663,13 +6693,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -6885,13 +6916,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -7107,13 +7139,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -7329,13 +7362,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -7551,13 +7585,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -7773,13 +7808,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -7995,13 +8031,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -8217,13 +8254,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12cb1b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -8439,13 +8477,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -8661,13 +8700,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckip2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -8883,13 +8923,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -9105,13 +9146,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -9327,13 +9369,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01bs4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -9549,13 +9592,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01bs4b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -9771,13 +9815,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_03bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -9993,13 +10038,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_04bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -10215,13 +10261,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -10437,13 +10484,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -10659,13 +10707,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -10881,13 +10930,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -11103,13 +11153,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -11325,13 +11376,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bsv8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -11547,13 +11599,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -11769,13 +11822,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -11991,13 +12045,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -12213,13 +12268,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -12435,13 +12491,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -12657,13 +12714,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -12879,13 +12937,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -13101,13 +13160,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -13323,13 +13383,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -13545,13 +13606,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bsc2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -13767,13 +13829,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -13989,13 +14052,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -14211,13 +14275,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -14433,13 +14498,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -14655,13 +14721,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -14877,13 +14944,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_02bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -15099,13 +15167,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_04cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -15321,13 +15390,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -15543,13 +15613,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bs5b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -15765,13 +15836,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -15987,13 +16059,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -16209,13 +16282,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -16431,13 +16505,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -16653,13 +16728,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -16875,13 +16951,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bsv5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -17097,13 +17174,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08kc2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -17319,13 +17397,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bst2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -17541,13 +17620,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bsv8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -17763,13 +17843,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -17985,13 +18066,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -18207,13 +18289,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11cb1b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -18429,13 +18512,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -18651,13 +18735,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -18873,13 +18958,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -19095,13 +19181,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08pa1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -19317,13 +19404,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09kc2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -19539,13 +19627,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckip1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -19761,13 +19850,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckip2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -19983,13 +20073,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckip3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -20205,13 +20296,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12ckip2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -20427,13 +20519,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12ckip4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -20649,13 +20742,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12pa1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -20871,13 +20965,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -21093,13 +21188,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -21315,13 +21411,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -21537,13 +21634,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -21759,13 +21857,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15cb1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -21981,13 +22080,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17bs8a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -22203,13 +22303,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ck14a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -22425,13 +22526,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -22647,13 +22749,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -22869,13 +22972,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09pa1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -23091,13 +23195,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckip2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -23313,13 +23418,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckip3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -23535,13 +23641,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11cs12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -23757,13 +23864,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11cs13a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -23979,13 +24087,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -24201,13 +24310,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -24423,13 +24533,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -24645,13 +24756,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -24867,13 +24979,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -25089,13 +25202,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -25311,13 +25425,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -25533,13 +25648,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -25755,13 +25871,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -25977,13 +26094,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -26199,13 +26317,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -26421,13 +26540,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_19bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -26643,13 +26763,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bs8b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -26865,13 +26986,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -27087,13 +27209,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -27309,13 +27432,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -27531,13 +27655,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -27753,13 +27878,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_99bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -27975,13 +28101,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_09bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -28197,13 +28324,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -28419,13 +28547,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -28641,13 +28770,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -28863,13 +28993,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18bs2c_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -29085,13 +29216,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18bs5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -29307,13 +29439,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -29529,13 +29662,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -29751,13 +29885,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01gbm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -29973,13 +30108,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_01gbm3b_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -30195,13 +30331,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_02bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -30417,13 +30554,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_03bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -30639,13 +30777,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_03gbm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -30861,13 +31000,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_04bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -31083,13 +31223,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_04gbm3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -31305,13 +31446,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_05bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -31527,13 +31669,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_06bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -31749,13 +31892,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_07bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -31971,13 +32115,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_08bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -32193,13 +32338,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -32415,13 +32561,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckip1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -32637,13 +32784,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10csp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -32859,13 +33007,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10sep1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -33081,13 +33230,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10sep2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -33303,13 +33453,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10sep3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -33525,13 +33676,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11cbp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -33747,13 +33899,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -33969,13 +34122,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -34191,13 +34345,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ckp5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -34413,13 +34568,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ckp7a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -34635,13 +34791,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13cs12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -34857,13 +35014,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13cs13a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -35079,13 +35237,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -35301,13 +35460,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -35523,13 +35683,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp5a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -35745,13 +35906,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -35967,13 +36129,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -36189,13 +36352,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -36411,13 +36575,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -36633,13 +36798,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp11a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -36855,13 +37021,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -37077,13 +37244,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp10a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -37299,13 +37467,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -37521,13 +37690,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10gl1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -37743,13 +37913,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10gl2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -37965,13 +38136,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp7a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -38187,13 +38359,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp10a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -38409,13 +38582,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp11a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -38631,13 +38805,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -38853,13 +39028,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp10a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -39075,13 +39251,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17ckp12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -39297,13 +39474,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_18ckp11a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -39519,13 +39697,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_99bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -39741,13 +39920,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -39963,13 +40143,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_16ckp9a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -40185,13 +40366,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_17bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -40407,13 +40589,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -40629,13 +40812,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp9a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -40851,13 +41035,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15bsm2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -41073,13 +41258,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_15ckp9a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -41295,13 +41481,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10sep4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -41517,13 +41704,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_95bsm1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -41739,13 +41927,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_98ifm1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -41961,13 +42150,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ckp4a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -42183,13 +42373,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_14ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -42405,13 +42596,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_97ifm1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -42627,13 +42819,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_99ifm12a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -42849,13 +43042,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -43071,13 +43265,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_12ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -43293,13 +43488,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -43515,13 +43711,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -43737,13 +43934,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11gpp36a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -43959,13 +44157,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13csp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -44181,13 +44380,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -44403,13 +44603,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_10csp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -44625,13 +44826,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11ckp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -44847,13 +45049,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11gpp32a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -45069,13 +45272,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11gpp34a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -45291,13 +45495,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11kep41a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -45513,13 +45718,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13csp11a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -45735,13 +45941,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13csp3a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -45957,13 +46164,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13gpp32a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -46179,13 +46387,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13gpp34a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -46401,13 +46610,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13gpp36a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -46623,13 +46833,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13ipp2a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -46845,13 +47056,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13kep41a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -47067,13 +47279,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13pcp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -47289,13 +47502,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_13svp39a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -47511,13 +47725,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11csp11a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -47733,13 +47948,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11pcp1a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>
@@ -47955,13 +48171,14 @@
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/Users/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
-            <fileNameRegex>datasets_Mooring_11svp39a_final.nc</fileNameRegex>
+            <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <matchAxisNDigits>20</matchAxisNDigits>
             <fileTableInMemory>false</fileTableInMemory>
-            <accessibleViaFiles>false</accessibleViaFiles>
+            
             <!-- sourceAttributes>
             </sourceAttributes -->
             <addAttributes>

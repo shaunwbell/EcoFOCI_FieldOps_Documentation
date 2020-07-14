@@ -11,6 +11,7 @@ Georeferenced data is linked to the sbe-ctd but other data has only time... make
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Profilers/OculusGliders/PS_Spring/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -21,7 +22,7 @@ Georeferenced data is linked to the sbe-ctd but other data has only time... make
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5064</att>
         <att name="base_station_version">2.11</att>
@@ -295,6 +296,7 @@ Seattle, WA</att>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Profilers/OculusGliders/PS_Spring/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -305,7 +307,7 @@ Seattle, WA</att>
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5064</att>
         <att name="base_station_version">2.11</att>
@@ -512,6 +514,7 @@ Seattle, WA data from a local source.</att>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Profilers/OculusGliders/PS_Spring/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -522,7 +525,7 @@ Seattle, WA data from a local source.</att>
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5064</att>
         <att name="base_station_version">2.11</att>

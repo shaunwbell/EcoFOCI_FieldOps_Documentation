@@ -9,6 +9,7 @@ So far, T/S/O/Chl are accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2009/Moorings/09bst2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -16,7 +17,7 @@ So far, T/S/O/Chl are accounted for-->
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, Serial_Number, latitude, longitude</att>

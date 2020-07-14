@@ -9,6 +9,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2010/CTDcasts/mf1006/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -16,7 +17,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>

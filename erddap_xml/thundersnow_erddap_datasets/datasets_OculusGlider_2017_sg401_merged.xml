@@ -9,6 +9,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/Profilers/OculusGliders/bering_sea_fall17/science_subset/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -19,7 +20,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames>profile_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">December 29, 2017 00:02 UTC</att>
         <att name="DATA_CMNT">OS1701_TSG.1min.dat</att>

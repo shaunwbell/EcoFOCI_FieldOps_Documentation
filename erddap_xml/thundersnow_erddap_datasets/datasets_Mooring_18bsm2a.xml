@@ -10,7 +10,8 @@ So far, T/S/O/Chl are accounted for
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\_wpak.cf.nc</fileNameRegex>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -18,7 +19,7 @@ So far, T/S/O/Chl are accounted for
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, latitude, longitude</att>
@@ -313,7 +314,7 @@ So far, T/S/O/Chl are accounted for
     <sortedColumnSourceName>sampletime</sortedColumnSourceName>
     <sortFilesBySourceNames>sampletime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -535,6 +536,7 @@ So far, T/S/O/Chl are accounted for
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -542,7 +544,7 @@ So far, T/S/O/Chl are accounted for
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">18bsm2a_s39_1773_0060m.asc</att>
@@ -823,6 +825,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -830,7 +833,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">18bsm2a_s39_1773_0060m.asc</att>

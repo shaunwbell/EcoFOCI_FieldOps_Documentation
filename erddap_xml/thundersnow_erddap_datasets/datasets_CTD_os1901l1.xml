@@ -11,6 +11,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2019/CTDcasts/os1901l1/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -18,7 +19,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
@@ -463,7 +464,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">May 14, 2019 17:07 UTC</att>

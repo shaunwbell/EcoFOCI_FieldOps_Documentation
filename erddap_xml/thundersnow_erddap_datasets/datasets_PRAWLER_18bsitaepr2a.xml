@@ -3,6 +3,7 @@
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsitaepr2a/initial_archive/erddap/met/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -13,7 +14,7 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames>timeseries_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">May 14, 2018 17:07 UTC</att>
@@ -261,6 +262,7 @@
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsitaepr2a/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -271,7 +273,7 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames>profile_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May, 4 2018 20:37 UTC</att>
         <att name="DATA_CMNT">2017_SP03_all.download</att>

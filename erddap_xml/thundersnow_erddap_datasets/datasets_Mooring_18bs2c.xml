@@ -7,7 +7,8 @@ So far, T/S/O/Chl are accounted for-->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bs2c/erddap/final_data/</fileDir>
-    <fileNameRegex>.*s39.*\.nc</fileNameRegex>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -15,7 +16,7 @@ So far, T/S/O/Chl are accounted for-->
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">18bs2c_s39_1773_0060m.asc</att>
@@ -177,6 +178,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bs2c/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -184,7 +186,7 @@ May 30, 2019 23:02 UTC Data Trimmed
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">18bs2c_s39_1773_0060m.asc</att>
@@ -469,6 +471,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bs2c/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -476,7 +479,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">18bs2c_s39_1773_0060m.asc</att>

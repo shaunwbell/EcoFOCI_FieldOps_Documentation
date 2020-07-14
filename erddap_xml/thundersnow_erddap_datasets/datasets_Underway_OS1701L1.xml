@@ -9,6 +9,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/os1701/TSG/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -19,7 +20,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames>trajectoryid</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">December 29, 2017 00:02 UTC</att>
         <att name="DATA_CMNT">OS1701_TSG.1min.dat</att>

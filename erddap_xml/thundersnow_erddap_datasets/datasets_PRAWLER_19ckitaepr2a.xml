@@ -25,7 +25,7 @@ No Met data for 2019 Arctic
     <sortedColumnSourceName>datetime</sortedColumnSourceName>
     <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May, 4 2019 20:37 UTC</att>
         <att name="DATA_CMNT">2017_SP03_all.download</att>

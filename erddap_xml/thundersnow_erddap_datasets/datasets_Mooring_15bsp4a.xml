@@ -8,13 +8,14 @@ Grid data for EIN/VEL -->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2015/Moorings/15bsp4a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*_vel.cf.nc</fileNameRegex>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <matchAxisNDigits>20</matchAxisNDigits>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">April 16, 2020 21:06 UTC</att>
@@ -190,6 +191,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2015/Moorings/15bsp4a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -197,7 +199,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">15bsp4a_s39_1673_0060m.asc</att>
@@ -471,6 +473,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2015/Moorings/15bsp4a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -478,7 +481,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
         <att name="DATA_CMNT">15bsp4a_s39_1673_0060m.asc</att>

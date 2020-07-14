@@ -9,6 +9,7 @@
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/os1701/acrobat/raw/OS17_BarrowCanyon2/DATA/ACROBAT/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -19,7 +20,7 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames>trajectoryid</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">February 27, 2018 17:03 UTC</att>
         <att name="DATA_CMNT">OS1701_BC2.csv</att>

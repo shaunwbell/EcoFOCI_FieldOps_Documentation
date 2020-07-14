@@ -9,6 +9,7 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2016/Moorings/16bsitae/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -19,7 +20,7 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames>profileid</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">December 14, 2017 20:37 UTC</att>
         <att name="DATA_CMNT">2016_ITAE_all.download</att>
