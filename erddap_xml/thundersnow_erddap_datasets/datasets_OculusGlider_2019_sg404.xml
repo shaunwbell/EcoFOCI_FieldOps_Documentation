@@ -10,8 +10,8 @@ Georeferenced data is linked to the sbe-ctd but other data has only time... make
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -302,8 +302,8 @@ Seattle, WA</att>
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -526,8 +526,8 @@ Seattle, WA</att>
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

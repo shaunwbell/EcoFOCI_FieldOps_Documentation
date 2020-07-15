@@ -712,8 +712,8 @@ completeness, or usefulness, of this information.</att>
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
         <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/Volumes/Archive/ecoraid/2019/CTDcasts/dy1907/erddap/final_data/ctd/</fileDir>
-        <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+        <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
         <metadataFrom>last</metadataFrom>

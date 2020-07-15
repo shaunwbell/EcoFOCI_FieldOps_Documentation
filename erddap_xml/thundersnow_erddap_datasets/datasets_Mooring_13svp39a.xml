@@ -8,8 +8,8 @@ So far, T/S/O/Chl are accounted for-->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2013/Moorings/13svp39a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -176,8 +176,8 @@ So far, T/S/O/Chl are accounted for-->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2013/Moorings/13svp39a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

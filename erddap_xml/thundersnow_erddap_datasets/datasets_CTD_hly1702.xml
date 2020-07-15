@@ -4,8 +4,8 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2017/CTDcasts/he1702/final_data/erddap/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

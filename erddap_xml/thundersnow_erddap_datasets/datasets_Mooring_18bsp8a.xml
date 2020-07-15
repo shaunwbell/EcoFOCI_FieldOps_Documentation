@@ -8,8 +8,8 @@ Grid data for EIN/VEL -->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsp8a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -190,8 +190,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsp8a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -472,8 +472,8 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/Archive/ecoraid/2018/Moorings/18bsp8a/erddap/initial_archive/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileNameRegex>.*\.<accessibleViaFiles>false</accessibleViaFiles>nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
