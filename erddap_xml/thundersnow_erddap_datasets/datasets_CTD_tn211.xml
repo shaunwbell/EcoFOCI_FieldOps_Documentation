@@ -7,7 +7,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_tn211_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2011/CTDcasts/tn211/erddap/final_data/ctd/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2007/CTDcasts/tn211/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>false</accessibleViaFiles>
     <recursive>true</recursive>
