@@ -1,0 +1,302 @@
+<!--
+hosting of tempest csv data
+-->
+
+<dataset type="EDDTableFromAsciiFiles" datasetID="tempest_65c4_77c3_f4d1" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/pi/EnvData/tempest/</fileDir>
+    <fileNameRegex>.*\.txt</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <sortedColumnSourceName></sortedColumnSourceName>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>false</accessibleViaFiles>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Other</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="infoUrl">???</att>
+        <att name="institution">MoonFlower Farm</att>
+        <att name="keywords">analysis, average, battery, bucket, bucket_step_minutes, column, Column_25, count, daily, data, day, device, device_id, dir, distance, final, flux, gust, humidity, interval, local, local_daily_precip, local_daily_precip_final, lull, lux, meridional, minutes, momentum, precip_analysis_type, precip_final, precip_type, precipitation, pressure, radiation, rain, rainfall, report, report_interval, solar, solar_radiation, source, step, strike, strike_count, strike_distance, temperature, timestamp, transient, type, ultraviolet, wind, wind_avg, wind_dir, wind_gust, wind_interval, wind_lull, zonal</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">Data from a local source.</att>
+        <att name="title">Data from a local source.</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>device_id</sourceName>
+        <destinationName>device_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Device Id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>type</sourceName>
+        <destinationName>type</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>bucket_step_minutes</sourceName>
+        <destinationName>bucket_step_minutes</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Bucket Step Minutes</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>timestamp</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>Int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Timestamp</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wind_lull</sourceName>
+        <destinationName>wind_lull</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Wind Lull</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wind_avg</sourceName>
+        <destinationName>wind_avg</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Wind Avg</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wind_gust</sourceName>
+        <destinationName>wind_gust</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Wind Gust</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wind_dir</sourceName>
+        <destinationName>wind_dir</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Wind Dir</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wind_interval</sourceName>
+        <destinationName>wind_interval</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Wind Interval</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>humidity</sourceName>
+        <destinationName>humidity</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Humidity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lux</sourceName>
+        <destinationName>lux</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Lux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>uv</sourceName>
+        <destinationName>uv</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Transient Meridional Flux Of Zonal Momentum</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>solar_radiation</sourceName>
+        <destinationName>solar_radiation</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Solar Radiation</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>precip</sourceName>
+        <destinationName>precip</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Precipitation</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>precip_type</sourceName>
+        <destinationName>precip_type</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Precip Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>strike_distance</sourceName>
+        <destinationName>strike_distance</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Strike Distance</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>strike_count</sourceName>
+        <destinationName>strike_count</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Strike Count</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>battery</sourceName>
+        <destinationName>battery</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Battery</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>report_interval</sourceName>
+        <destinationName>report_interval</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Report Interval</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>local_daily_precip</sourceName>
+        <destinationName>local_daily_precip</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Local Daily Precip</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>precip_final</sourceName>
+        <destinationName>precip_final</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Precip Final</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>local_daily_precip_final</sourceName>
+        <destinationName>local_daily_precip_final</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Local Daily Precip Final</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>precip_analysis_type</sourceName>
+        <destinationName>precip_analysis_type</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Precip Analysis Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Column#25</sourceName>
+        <destinationName>Column_25</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="long_name">Column#25</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
