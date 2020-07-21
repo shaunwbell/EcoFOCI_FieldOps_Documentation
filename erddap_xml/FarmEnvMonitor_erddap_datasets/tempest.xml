@@ -1,13 +1,9 @@
-<!--
-hosting of tempest csv data
--->
-
-<dataset type="EDDTableFromAsciiFiles" datasetID="tempest_65c4_77c3_f4d1" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="tempest_moonflower_wx" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/pi/EnvData/tempest/</fileDir>
-    <fileNameRegex>.*\.txt</fileNameRegex>
-    <recursive>true</recursive>
+    <fileNameRegex>.*\.csv</fileNameRegex>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
@@ -30,17 +26,19 @@ hosting of tempest csv data
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="infoUrl">???</att>
         <att name="institution">MoonFlower Farm</att>
-        <att name="keywords">analysis, average, battery, bucket, bucket_step_minutes, column, Column_25, count, daily, data, day, device, device_id, dir, distance, final, flux, gust, humidity, interval, local, local_daily_precip, local_daily_precip_final, lull, lux, meridional, minutes, momentum, precip_analysis_type, precip_final, precip_type, precipitation, pressure, radiation, rain, rainfall, report, report_interval, solar, solar_radiation, source, step, strike, strike_count, strike_distance, temperature, timestamp, transient, type, ultraviolet, wind, wind_avg, wind_dir, wind_gust, wind_interval, wind_lull, zonal</att>
+        <att name="keywords">analysis, atmosphere, atmospheric, average, battery, bucket, bucket_step_minutes, count, daily, data, day, device, device_id, direction, distance, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, final, flux, gust, humidity, interval, local, local_daily_precip, local_daily_precip_final, lull, lux, meridional, minutes, momentum, precip_analysis_type, precip_final, precip_type, precipitation, pressure, radiation, rain, rainfall, report, report_interval, science, solar, solar_radiation, source, speed, step, strike, strike_count, strike_distance, surface, temperature, timestamp, transient, type, ultraviolet, wind, wind_avg, wind_dir, wind_from_direction, wind_gust, wind_interval, wind_lull, wind_speed_of_gust, winds, zonal</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="subsetVariables">device_id, type, bucket_step_minutes, wind_interval, strike_distance, strike_count, report_interval</att>
         <att name="summary">Data from a local source.</att>
         <att name="title">Data from a local source.</att>
     </addAttributes>
     <dataVariable>
         <sourceName>device_id</sourceName>
         <destinationName>device_id</destinationName>
-        <dataType>String</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -60,7 +58,7 @@ hosting of tempest csv data
     <dataVariable>
         <sourceName>bucket_step_minutes</sourceName>
         <destinationName>bucket_step_minutes</destinationName>
-        <dataType>String</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -70,11 +68,12 @@ hosting of tempest csv data
     <dataVariable>
         <sourceName>timestamp</sourceName>
         <destinationName>time</destinationName>
-        <dataType>Int</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
+            
         </sourceAttributes -->
         <addAttributes>
-            <att name="long_name">Timestamp</att>
+            <att name="long_name">time</att>
             <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
@@ -105,7 +104,10 @@ hosting of tempest csv data
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="long_name">Wind Gust</att>
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="long_name">Wind Speed Of Gust</att>
+            <att name="standard_name">wind_speed_of_gust</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -115,7 +117,10 @@ hosting of tempest csv data
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="long_name">Wind Dir</att>
+            <att name="colorBarMaximum" type="double">360.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="long_name">Wind From Direction</att>
+            <att name="standard_name">wind_from_direction</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -161,7 +166,7 @@ hosting of tempest csv data
     <dataVariable>
         <sourceName>lux</sourceName>
         <destinationName>lux</destinationName>
-        <dataType>float</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -225,6 +230,8 @@ hosting of tempest csv data
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
             <att name="long_name">Strike Count</att>
         </addAttributes>
     </dataVariable>
@@ -288,15 +295,4 @@ hosting of tempest csv data
             <att name="long_name">Precip Analysis Type</att>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
-        <sourceName>Column#25</sourceName>
-        <destinationName>Column_25</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="long_name">Column#25</att>
-        </addAttributes>
-    </dataVariable>
 </dataset>
-
