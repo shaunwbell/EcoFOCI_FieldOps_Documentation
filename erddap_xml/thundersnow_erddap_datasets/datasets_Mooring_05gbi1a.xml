@@ -1,13 +1,13 @@
 <!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
+<!-- Datasets also seperated into initial_archive (rapid_results), and final (QC/QA'd) 
 2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_06kc2a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_05gbi1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2006/Moorings/06kc2a/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2005/Moorings/05gbi1a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -20,14 +20,14 @@ So far, T/S/O/Chl are accounted for-->
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">06kc2a_s39_1073_0060m.asc</att>
+        <att name="DATA_CMNT">05gbi1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">06kc2a</att>
-        <att name="SERIAL_NUMBER">1073</att>
+        <att name="MOORING">05gbi1a</att>
+        <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -47,8 +47,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 06KC-2A</att>
-        <att name="title">Mooring Data from 06KC-2A - final</att>
+        <att name="summary">QC'd (final) mooring data from 05GBI-1A</att>
+        <att name="title">Mooring Data from 05GBI-1A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -127,17 +127,17 @@ May 30, 2019 23:02 UTC Data Trimmed
         <destinationName>temperature</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
+            <att name="epic_code">T_20</att>
+            <att name="generic_name">temp</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">T_20</att>
-            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
-            <att name="standard_name">sea_water_temperature</att>
-            <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
             <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
     </dataVariable>
@@ -226,7 +226,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
-            <att name="standard_name">oxygen_saturation_over_air</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -245,7 +244,6 @@ May 30, 2019 23:02 UTC Data Trimmed
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
-            <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -290,4 +288,5 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
+
 </dataset>
