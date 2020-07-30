@@ -151,6 +151,8 @@
         </sourceAttributes -->
         <addAttributes>
             <att name="long_name">Temperature</att>
+            <att name="standard_name">air_temperature</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -161,6 +163,8 @@
         </sourceAttributes -->
         <addAttributes>
             <att name="long_name">Humidity</att>
+            <att name="standard_name">relative_humidity</att>
+            <att name="units">percent</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -191,6 +195,7 @@
         </sourceAttributes -->
         <addAttributes>
             <att name="long_name">Solar Radiation</att>
+            <att name="units">watts_per_meter_squared</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
