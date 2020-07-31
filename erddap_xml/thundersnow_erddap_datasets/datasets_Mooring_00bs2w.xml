@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_03gb1b_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00bs2w_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2003/Moorings/03gb1b/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2010/Moorings/00bs2w/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -20,13 +20,13 @@ So far, T/S/O/Chl are accounted for-->
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">03gb1b_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">00bs2w_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">03gb1b</att>
+        <att name="MOORING">00bs2w</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -47,8 +47,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 03GB-1B</att>
-        <att name="title">Mooring Data from 03GB-1B - final</att>
+        <att name="summary">QC'd (final) mooring data from Mooring 00BS-2W</att>
+        <att name="title">Mooring Data from 00BS-2W - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -162,6 +162,13 @@ May 30, 2019 23:02 UTC Data Trimmed
         <sourceName>S_41</sourceName>
         <destinationName>salinity</destinationName>
         <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">41</att>
+            <att name="generic_name">sal</att>
+            <att name="long_name">SALINITY (PSU)</att>
+            <att name="name">S_41</att>
+            <att name="units">PSU</att>
+        </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -195,12 +202,12 @@ May 30, 2019 23:02 UTC Data Trimmed
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
             <att name="long_name">Chlorophyll A</att>
+            <att name="name">Fch_906</att>
+            <att name="units">ugrams/l</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
-            <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
@@ -288,5 +295,4 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
-
 </dataset>

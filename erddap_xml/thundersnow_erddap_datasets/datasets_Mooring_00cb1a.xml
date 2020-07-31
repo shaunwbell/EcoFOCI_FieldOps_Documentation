@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_03gb1b_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00cb1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2003/Moorings/03gb1b/erddap/final_data/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2000/Moorings/00cb1a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -20,13 +20,13 @@ So far, T/S/O/Chl are accounted for-->
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">03gb1b_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">00cb1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
 May 30, 2019 23:02 UTC Data Trimmed
 </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">03gb1b</att>
+        <att name="MOORING">00cb1a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -47,8 +47,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, pressure, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 03GB-1B</att>
-        <att name="title">Mooring Data from 03GB-1B - final</att>
+        <att name="summary">QC'd (final) mooring data from 00CB-1A</att>
+        <att name="title">Mooring Data from 00CB-1A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
