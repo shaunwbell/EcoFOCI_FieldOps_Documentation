@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="sg401_2017" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Profilers/OculusGliders/bering_sea_fall17/erddap/sg401/</fileDir>
+    <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/bering_sea_fall17/erddap/sg401/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

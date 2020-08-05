@@ -1,4 +1,4 @@
-<!-- 2019 Glider SG402 -->
+<!-- 2019 Glider SG403 -->
 <!--
 In order to have the vanilla glider data be erddap compatible, the files must have a variable called profileid added and its cf_role set to profile_id
 
@@ -6,10 +6,10 @@ Starting in 2018, each instrument is given its own time-dimension within the dat
 Georeferenced data is linked to the sbe-ctd but other data has only time... make it an "other" data set
 -->
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg402_EcoFOCI_2019" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg403_EcoFOCI_2019" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg402/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Profilers/OculusGliders/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -104,7 +104,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid</att>
-        <att name="summary">SG402 Bering Sea - data from a local source.</att>
+        <att name="summary">SG403 Bering Sea - data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -123,7 +123,7 @@ Seattle, WA</att>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>
+    </dataVariable> 
     <dataVariable>
         <sourceName>ctd_depth</sourceName>
         <destinationName>ctd_depth</destinationName>
@@ -298,10 +298,10 @@ Seattle, WA</att>
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg402_2019_wetlabs" active="false">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg403_2019_wetlabs" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg402/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -401,7 +401,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid_wetlabs</att>
-        <att name="summary">SG402 Bering Sea - data from a local source.</att>
+        <att name="summary">SG403 Bering Sea - data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -522,10 +522,10 @@ Seattle, WA</att>
 </dataset>
 
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg402_2019_aanderaa" active="false">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg403_2019_aanderaa" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg402/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg403/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -625,7 +625,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid_aand</att>
-        <att name="summary">SG402 Bering Sea data from a local source.</att>
+        <att name="summary">SG403 Bering Sea data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -643,7 +643,7 @@ Seattle, WA</att>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>      
+    </dataVariable>  
     <dataVariable>
         <sourceName>aa4330_time</sourceName>
         <destinationName>time</destinationName>

@@ -1,4 +1,4 @@
-<!-- 2019 Glider SG401 -->
+<!-- 2019 Glider SG404 -->
 <!--
 In order to have the vanilla glider data be erddap compatible, the files must have a variable called profileid added and its cf_role set to profile_id
 
@@ -6,16 +6,16 @@ Starting in 2018, each instrument is given its own time-dimension within the dat
 Georeferenced data is linked to the sbe-ctd but other data has only time... make it an "other" data set
 -->
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg401_EcoFOCI_2019" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg404_EcoFOCI_2019" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg401/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
-    <preExtractRegex></preExtractRegex>    <preExtractRegex></preExtractRegex>
+    <preExtractRegex></preExtractRegex>
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
@@ -104,7 +104,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid</att>
-        <att name="summary">SG401 Bering Sea - data from a local source.</att>
+        <att name="summary">SG404 Bering Sea - data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -123,7 +123,7 @@ Seattle, WA</att>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>    
+    </dataVariable> 
     <dataVariable>
         <sourceName>ctd_depth</sourceName>
         <destinationName>ctd_depth</destinationName>
@@ -298,10 +298,10 @@ Seattle, WA</att>
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg401_2019_wetlabs" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg404_2019_wetlabs" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg401/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -401,7 +401,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid_wetlabs</att>
-        <att name="summary">SG401 Bering Sea - data from a local source.</att>
+        <att name="summary">SG404 Bering Sea - data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -463,25 +463,6 @@ Seattle, WA</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>wlbb2fl_FL1sig</sourceName>
-        <destinationName>wlbb2fl_FL1sig</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="comment">total volume blue scattering coefficient using manufacturer-supplied dark counts and scaling factor</att>
-            <att name="fill_value" type="double">1.0E35</att>
-            <att name="instrument">wlbb2fl</att>
-            <att name="platform">glider</att>
-            <att name="units">meter^-1 steradian^-1</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Optical Properties</att>
-            <att name="long_name">Wlbb2fl Sig470nm</att>
-        </addAttributes>
-    </dataVariable>        
-    <dataVariable>
         <sourceName>wlbb2fl_sig470nm_adjusted</sourceName>
         <destinationName>wlbb2fl_sig470nm_adjusted</destinationName>
         <dataType>double</dataType>
@@ -541,10 +522,10 @@ Seattle, WA</att>
 </dataset>
 
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg401_2019_aanderaa" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="sg404_2019_aanderaa" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg401/</fileDir>
+    <fileDir>/Volumes/Archive/ecoraid/2019/Profilers/OculusGliders/erddap/sg404/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -644,7 +625,7 @@ Seattle, WA</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="start_time">null</att>
         <att name="subsetVariables">profileid_aand</att>
-        <att name="summary">SG401 Bering Sea data from a local source.</att>
+        <att name="summary">SG404 Bering Sea data from a local source.</att>
         <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
@@ -662,7 +643,7 @@ Seattle, WA</att>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>   
+    </dataVariable>  
     <dataVariable>
         <sourceName>aa4330_time</sourceName>
         <destinationName>time</destinationName>

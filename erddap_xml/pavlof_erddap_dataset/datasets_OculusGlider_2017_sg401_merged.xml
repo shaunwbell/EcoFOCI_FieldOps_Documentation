@@ -7,7 +7,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="sg401_2017_merged" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Profilers/OculusGliders/bering_sea_fall17/science_subset/erddap/</fileDir>
+    <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/bering_sea_fall17/science_subset/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

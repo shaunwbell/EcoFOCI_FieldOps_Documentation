@@ -9,7 +9,7 @@ Georeferenced data is linked to the sbe-ctd but other data has only time... make
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="sg404_BF_Summer18" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2018/Profilers/OculusGliders/BF_Summer/erddap/sg404/</fileDir>
+    <fileDir>/home/ecoraid/data/2018/Profilers/OculusGliders/BF_Summer/erddap/sg404/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
