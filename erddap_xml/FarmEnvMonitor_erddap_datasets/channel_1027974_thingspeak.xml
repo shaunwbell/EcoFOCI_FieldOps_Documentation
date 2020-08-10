@@ -3,7 +3,7 @@ csv hosting of matlab - thingspeak data
 
 -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="channel_1027974_thingspeak" active="true">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <reloadEveryNMinutes>180</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/pi/EnvData/1027974/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>

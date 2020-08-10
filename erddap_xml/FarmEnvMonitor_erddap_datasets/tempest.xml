@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="tempest_moonflower_wx" active="true">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <reloadEveryNMinutes>180</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/pi/EnvData/tempest/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
