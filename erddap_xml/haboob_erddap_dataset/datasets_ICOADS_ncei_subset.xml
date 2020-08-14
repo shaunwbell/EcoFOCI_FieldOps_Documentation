@@ -1,3 +1,4 @@
+
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_ICOADS_ncei_subset" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -10,7 +11,7 @@
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <!-- sourceAttributes>
         <att name="acknowledgement">Conversion of ICOADS data from IMMA1 to netCDF format by NCEI is supported by the NOAA Big Earth Data Initiative (BEDI).</att>
         <att name="cdm_data_type">Point</att>
@@ -35,7 +36,7 @@
         <att name="geospatial_lon_max" type="double">359.99</att>
         <att name="geospatial_lon_min" type="double">0.0</att>
         <att name="geospatial_lon_units">degrees_east</att>
-        <att name="history">Mon Aug 10 10:04:46 2020: ncks -v AT,SLP,W,D,SST ICOADS_R3.0.0_2014-12.nc ICOAADS/ICOADS_R3.0.0_2014-12.nc
+        <att name="history">Mon Aug 10 10:52:48 2020: ncks -v ID,AT,SLP,W,D,SST ICOADS_R3.0.0_2014-12.nc ICOAADS/ICOADS_R3.0.0_2014-12.nc
 2017-03-24T11:05:54Z: Converted from IMMA1 format to netCDF4 format by Z.W. ; 2017-03-29T23:16:59Z: Modified keywords to be consistent with current NOAA metadata practice. Made some minor metadata updates and corrections.; 2017-04-06T15:10:11Z: Added ACDD-1.3 to att Convention, corrected geospatial_bounds format.</att>
         <att name="id">ICOADS_R3.0.0_2014-12</att>
         <att name="IMMA_Version">1</att>
@@ -60,14 +61,12 @@
         <att name="Release_Number_Tertiary">0</att>
         <att name="Release_status_indicator">2</att>
         <att name="sea_name">World-Wide Distribution</att>
-        <att name="source">IMMA1_R3.0.0_2014-12.gz</att>
+        <att name="source">IMMA1_R3.0.0.gz</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v31</att>
-        <att name="summary">This file contains ICOADS R3.0.0 data in netCDF4 format collected from 2014-12-01T00:00:00Z to 2014-12-31T23:58:47Z. The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) offers surface marine data spanning the past three centuries, and simple gridded monthly summary products for 2-degree latitude x 2-degree longitude boxes back to 1800 (and 1degreex1degree boxes since 1960)- - these data and products are freely distributed worldwide. As it contains observations from many different observing systems encompassing the evolution of measurement technology over hundreds of years, ICOADS is probably the most complete and heterogeneous collection of surface marine data in existence.</att>
+        <att name="summary">This file contains ICOADS R3.0.0 data in netCDF4 format  The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) offers surface marine data spanning the past three centuries, and simple gridded monthly summary products for 2-degree latitude x 2-degree longitude boxes back to 1800 (and 1degreex1degree boxes since 1960)- - these data and products are freely distributed worldwide. As it contains observations from many different observing systems encompassing the evolution of measurement technology over hundreds of years, ICOADS is probably the most complete and heterogeneous collection of surface marine data in existence.</att>
         <att name="time_coverage_duration">P4W2DT23H58M47S</att>
-        <att name="time_coverage_end">2014-12-31T23:58:47Z</att>
         <att name="time_coverage_resolution">vary</att>
-        <att name="time_coverage_start">2014-12-01T00:00:00Z</att>
-        <att name="title">International Comprehensive Ocean-Atmosphere Data Set (ICOADS) R3.0.0 data collected from 2014-12-01T00:00:00Z to 2014-12-31T23:58:47Z.</att>
+        <att name="title">International Comprehensive Ocean-Atmosphere Data Set (ICOADS) R3.0.0 data </att>
         <att name="uuid">d278d7e0-f059-464e-b57a-9710ccfcbed9</att>
     </sourceAttributes -->
     <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
@@ -78,25 +77,13 @@
         <att name="Conventions">CF-1.6, ACDD-1.3, COARDS</att>
         <att name="infoUrl">http://rda.ucar.edu/datasets/ds548.0/docs/R3.0-citation.pdf</att>
         <att name="institution">NCEI, NOAA</att>
-        <att name="keywords">00z, 01t00, 2014-12-01t00, 2014-12-31t23, 31t23, 47z, air, air_pressure_at_sea_level, air_temperature, amount, amount/frequency, ANC, atmosphere, atmospheric, base, center, centers, chemistry, climatic, cloud, cloud cover, cloudiness, clouds, coads, collected, component, comprehensive, cover, crs, data, density, dew, dew point, direction, earth, Earth Science &gt; Atmosphere &gt; Air Quality &gt; Visibility, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Static Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Dew Point Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, Earth Science &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency, Earth Science &gt; Atmosphere &gt; Clouds &gt; Cloud Base, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Significant Wave Height, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Swells, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Wave Period, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, environmental, flag, flags, frequency, height, icoads, information, international, latitude, level, longitude, measurements, national, ncdc, ncei, nesdis, noaa, O2, obs, observations, ocean, ocean-atmosphere, oceans, oxygen, period, PNC, point, position, pressure, QI10, QI20, QI4, QI5, QI6, QI8, quality, r3.0.0, salinity, salinity/density, science, sea, sea_surface_temperature, seawater, set, ship, significant, slp, SNC, speed, sst, static, surface, swells, temperature, time, trimming, u, v, visibility, water, wave, waves, wind, wind_from_direction, wind_speed, winds, WNC</att>
+        <att name="keywords">air, air_pressure_at_sea_level, air_temperature, amount, amount/frequency, ANC, atmosphere, atmospheric, base, center, centers, chemistry, climatic, cloud, cloud cover, cloudiness, clouds, coads, collected, component, comprehensive, cover, crs, data, density, dew, dew point, direction, earth, Earth Science &gt; Atmosphere &gt; Air Quality &gt; Visibility, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Static Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Dew Point Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, Earth Science &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency, Earth Science &gt; Atmosphere &gt; Clouds &gt; Cloud Base, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Significant Wave Height, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Swells, Earth Science &gt; Oceans &gt; Ocean Waves &gt; Wave Period, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, environmental, flag, flags, frequency, height, icoads, identification, identifier, information, international, latitude, level, longitude, measurements, national, ncdc, ncei, nesdis, noaa, O2, obs, observations, ocean, ocean-atmosphere, oceans, oxygen, period, PNC, point, position, pressure, QI10, QI20, QI4, QI5, QI6, QI8, quality, r3.0.0, salinity, salinity/density, science, sea, sea_surface_temperature, seawater, set, ship, significant, slp, SNC, speed, sst, static, surface, swells, temperature, time, trimming, u, v, visibility, water, wave, waves, wind, wind_from_direction, wind_speed, winds, WNC</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="ncei_template_version">null</att>
         <att name="NCO">netCDF Operators version 4.9.3 (Homepage = http://nco.sf.net, Code = https://github.com/nco/nco)</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="subsetVariables">crs</att>
         <att name="uuid">null</att>
     </addAttributes>
-    <dataVariable>
-        <sourceName>obs</sourceName>
-        <destinationName>obs</destinationName>
-        <dataType>int</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Obs</att>
-        </addAttributes>
-    </dataVariable>
     <dataVariable>
         <sourceName>AF</sourceName>
         <destinationName>AF</destinationName>
@@ -115,7 +102,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">QC/Trimming flag Air Temp https://icoads.noaa.gov/e-doc/stat_trim</att>
@@ -141,7 +127,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">NCDC QC Flags - Air Temp Table J0-2 https://icoads.noaa.gov/Release_1/suppJ.html</att>
@@ -168,7 +153,6 @@
             <att name="valid_min" type="double">-99.9</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="coordinates">null</att>
@@ -195,11 +179,29 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">360.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Wind</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ID</sourceName>
+        <destinationName>ID</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">391879 9</att>
+            <att name="cell_methods">time: point</att>
+            <att name="comment">Identification</att>
+            <att name="coordinates">time lat lon</att>
+            <att name="grid_mapping">crs</att>
+            <att name="long_name">Identification</att>
+            <att name="valid_max" type="double">126.0</att>
+            <att name="valid_min" type="double">32.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -220,7 +222,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">QC/Trimming flag SLP https://icoads.noaa.gov/e-doc/stat_trim</att>
@@ -246,7 +247,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">NCDC QC Flags - SLP Table J0-2 https://icoads.noaa.gov/Release_1/suppJ.html</att>
@@ -272,7 +272,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -297,7 +296,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -322,7 +320,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -347,7 +344,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -372,7 +368,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -397,7 +392,6 @@
             <att name="valid_min" type="short">0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -422,7 +416,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">QC/Trimming flag SST https://icoads.noaa.gov/e-doc/stat_trim</att>
@@ -449,7 +442,6 @@
             <att name="valid_min" type="double">870.0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">1050.0</att>
             <att name="colorBarMinimum" type="double">950.0</att>
             <att name="coordinates">null</att>
@@ -474,7 +466,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">NCDC QC Flags - SST Table J0-2 https://icoads.noaa.gov/Release_1/suppJ.html</att>
@@ -501,7 +492,6 @@
             <att name="valid_min" type="double">-99.9</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -528,7 +518,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">QC/Trimming flag U Wind https://icoads.noaa.gov/e-doc/stat_trim</att>
@@ -554,7 +543,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">QC/Trimming flag V Wind https://icoads.noaa.gov/e-doc/stat_trim</att>
@@ -581,7 +569,6 @@
             <att name="valid_min" type="double">0.0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
@@ -607,7 +594,6 @@
             <att name="valid_min" type="short">1</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">15.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="comment">NCDC QC Flags - Wind Table J0-2 https://icoads.noaa.gov/Release_1/suppJ.html</att>
@@ -630,7 +616,6 @@
             <att name="valid_min" type="double">-90.0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -651,7 +636,6 @@
             <att name="valid_min" type="double">0.0</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -671,25 +655,8 @@
             <att name="units">days since 1662-10-15 12:00:00</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_ChunkSizes">null</att>
             <att name="ioos_category">Time</att>
             <att name="units">days since 1662-10-15T12:00:00Z</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>crs</sourceName>
-        <destinationName>crs</destinationName>
-        <dataType>int</dataType>
-        <!-- sourceAttributes>
-            <att name="epsg_code">EPSG:4326</att>
-            <att name="grid_mapping_name">latitude_longitude</att>
-            <att name="inverse_flattening" type="double">298.257223563</att>
-            <att name="semi_major_axis" type="double">6378137.0</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="int">-2147483647</att>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">CRS</att>
         </addAttributes>
     </dataVariable>
 </dataset>
