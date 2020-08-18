@@ -320,7 +320,7 @@ Seattle, WA</att>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Temperature</att>
+            <att name="ioos_category">Unknown</att>
             <att name="long_name">Temperature Raw</att>
             <att name="units">degree_C</att>
         </addAttributes>
