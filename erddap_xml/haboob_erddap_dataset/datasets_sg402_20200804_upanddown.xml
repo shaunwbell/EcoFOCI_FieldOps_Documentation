@@ -122,8 +122,8 @@ Seattle, WA</att>
             <att name="colorBarMinimum" type="double">30.0</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Salinity</att>
-            <att name="long_name">Sea Water Electrical Conductivity</att>
-            <att name="standard_name">sea_water_electrical_conductivity</att>
+            <att name="long_name">Sea Water Electrical Conductivity Raw</att>
+            <att name="standard_name">sea_water_electrical_conductivity_raw</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -207,7 +207,8 @@ Seattle, WA</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="long_name">Sea Water Electrical Conductivity</att>
-        </addAttributes>
+            <att name="standard_name">sea_water_electrical_conductivity</att>
+     </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>dissolved_oxygen_sat</sourceName>
@@ -491,7 +492,7 @@ Seattle, WA</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
+            <att name="long_name">CTD Depth</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -508,7 +509,7 @@ Seattle, WA</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Salinity</att>
-            <att name="long_name">Sea Water Practical Salinity</att>
+            <att name="long_name">Sea Water Practical Salinity Raw</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
         </addAttributes>
@@ -581,8 +582,8 @@ Seattle, WA</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="standard_name">depth</att>
+            <att name="long_name">Depth Averaged Current - EAST</att>
+            <att name="standard_name">depth_avg_curr_east</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -599,8 +600,8 @@ Seattle, WA</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="standard_name">depth</att>
+            <att name="long_name">Depth Averaged Current - NORTH</att>
+            <att name="standard_name">depth_avg_curr_north</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -616,9 +617,7 @@ Seattle, WA</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Quality</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
+            <att name="long_name">Latitude Longitude QC Flag</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -634,8 +633,8 @@ Seattle, WA</att>
             <att name="colorBarMaximum" type="double">10.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Quality</att>
-            <att name="long_name">Depth</att>
-            <att name="standard_name">depth</att>
+            <att name="long_name">Depth Averaged Current QC Flag</att>
+            <att name="standard_name">depth_avg_curr_qc</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
