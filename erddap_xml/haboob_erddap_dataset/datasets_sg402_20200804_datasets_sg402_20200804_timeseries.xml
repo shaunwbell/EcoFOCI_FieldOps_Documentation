@@ -303,7 +303,7 @@ Seattle, WA</att>
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Density</att>
+            <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Density</att>
         </addAttributes>
     </dataVariable>
