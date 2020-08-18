@@ -59,13 +59,8 @@ Seattle, WA</att>
         <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
         <att name="time_coverage_resolution">PT1S</att>
         <att name="time_coverage_start">2020-08-04T16:08:21Z</att>
-        <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-04</att>
         <att name="uuid">593998f0-d6a0-11ea-812b-16f2711beb19</att>
     </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
-        <att name="subsetVariables">station_id, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">TrajectoryProfile</att>
         <att name="cdm_trajectory_variables">trajectory_id</att>
@@ -86,9 +81,9 @@ Seattle, WA</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory_id,profile_id</att>
+        <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-04 - timeseries</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Timeseries dataset.</att>
         <att name="testOutOfDate">now-26days</att>
-        <att name="uuid">null</att>
     </addAttributes>
     <dataVariable>
         <sourceName>conductivity_raw</sourceName>
@@ -308,7 +303,7 @@ Seattle, WA</att>
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Salinity</att>
+            <att name="ioos_category">Density</att>
             <att name="long_name">Sea Water Density</att>
         </addAttributes>
     </dataVariable>
