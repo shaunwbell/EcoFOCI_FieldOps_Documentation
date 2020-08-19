@@ -476,8 +476,8 @@
         <att name="subsetVariables">station, longitude, latitude</att>
     -->
     <addAttributes>
-        <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">profile_id</att>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
@@ -497,13 +497,13 @@
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
-        <destinationName>profile_id</destinationName>
+        <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Identifier</att>
-            <att name="cf_role">profile_id</att>
+            <att name="cf_role">timeseries_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
