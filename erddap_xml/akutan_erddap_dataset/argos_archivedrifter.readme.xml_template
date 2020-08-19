@@ -131,7 +131,7 @@ Author: S.Bell
     <sortedColumnSourceName>datetime</sortedColumnSourceName>
     <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <addAttributes>
         <att name="cdm_data_type">Trajectory</att>
         <att name="cdm_trajectory_variables">argosid</att>
