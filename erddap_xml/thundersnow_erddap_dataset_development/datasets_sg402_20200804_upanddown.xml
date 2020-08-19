@@ -88,6 +88,61 @@ Seattle, WA</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
         <att name="testOutOfDate">now-26days</att>
     </addAttributes>
+    <!--Dimensional profile variables-->
+    <dataVariable>
+        <sourceName>ctd_time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">T</att>
+            <att name="comment">Time of CTD profile in GMT epoch format</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-1-1 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">CTD Time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude_gsm</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="comment">Longitude of the profile based on gsm DAC</att>
+            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude_gsm</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="comment">Latitude of the profile based on gsm DAC</att>
+            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
@@ -139,25 +194,6 @@ Seattle, WA</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>longitude_gsm</sourceName>
-        <destinationName>longitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="comment">Longitude of the profile based on gsm DAC</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="units">degrees_east</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>sound_velocity</sourceName>
         <destinationName>sound_velocity</destinationName>
         <dataType>double</dataType>
@@ -172,22 +208,6 @@ Seattle, WA</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Speed Of Sound In Sea Water</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>ctd_time</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="axis">T</att>
-            <att name="comment">Time of CTD profile in GMT epoch format</att>
-            <att name="standard_name">time</att>
-            <att name="units">seconds since 1970-1-1 00:00:00</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">CTD Time</att>
-            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -246,25 +266,6 @@ Seattle, WA</att>
             <att name="long_name">Sea Water Temperature</att>
             <att name="units">degree_C</att>
             <att name="standard_name">sea_water_temperature</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>latitude_gsm</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="comment">Latitude of the profile based on gsm DAC</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="units">degrees_north</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

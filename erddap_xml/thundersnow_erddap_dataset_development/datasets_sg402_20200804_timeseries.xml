@@ -86,6 +86,80 @@ Seattle, WA</att>
         <att name="testOutOfDate">now-26days</att>
     </addAttributes>
     <dataVariable>
+        <sourceName>ctd_time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">T</att>
+            <att name="comment">Time of CTD sample in GMT epoch format</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-1-1 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Ctd Time</att>
+            <att name="source_name">ctd_time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">Y</att>
+            <att name="comment">Latitude of the sample based on hdm DAC</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">X</att>
+            <att name="comment">Longitude of the sample based on hdm DAC</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ctd_depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">Z</att>
+            <att name="comment">CTD thermistor depth corrected for average latitude</att>
+            <att name="positive">down</att>
+            <att name="standard_name">depth</att>
+            <att name="units">meters</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+            <att name="source_name">ctd_depth</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>conductivity_raw</sourceName>
         <destinationName>conductivity_raw</destinationName>
         <dataType>double</dataType>
@@ -175,23 +249,6 @@ Seattle, WA</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>ctd_time</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="axis">T</att>
-            <att name="comment">Time of CTD sample in GMT epoch format</att>
-            <att name="standard_name">time</att>
-            <att name="units">seconds since 1970-1-1 00:00:00</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Ctd Time</att>
-            <att name="source_name">ctd_time</att>
-            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>conductivity</sourceName>
         <destinationName>conductivity</destinationName>
         <dataType>double</dataType>
@@ -208,27 +265,6 @@ Seattle, WA</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Salinity</att>
             <att name="long_name">Sea Water Electrical Conductivity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>ctd_depth</sourceName>
-        <destinationName>depth</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="axis">Z</att>
-            <att name="comment">CTD thermistor depth corrected for average latitude</att>
-            <att name="positive">down</att>
-            <att name="standard_name">depth</att>
-            <att name="units">meters</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">8000.0</att>
-            <att name="colorBarMinimum" type="double">-8000.0</att>
-            <att name="colorBarPalette">TopographyDepth</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="source_name">ctd_depth</att>
-            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -359,24 +395,6 @@ Seattle, WA</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Sea Water Pressure</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="axis">Y</att>
-            <att name="comment">Latitude of the sample based on hdm DAC</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -521,24 +539,6 @@ Seattle, WA</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Physical Oceanography</att>
             <att name="long_name">Density Insitu</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="axis">X</att>
-            <att name="comment">Longitude of the sample based on hdm DAC</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
