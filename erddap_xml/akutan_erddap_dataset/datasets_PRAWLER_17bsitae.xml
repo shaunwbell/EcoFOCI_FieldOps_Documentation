@@ -1,33 +1,28 @@
+
 <!--
-Data Format Change from prior years (no longer processed by ketch/yawl tao servers).
-RUDICS data is directly translated to csv files hosted here as a met dataset and as a prawler dataset
-
-No Met data for 2019 Arctic
-
+Data is converted from Ketch:ASCII files to NetCDF files.
+In order to have the vanilla prawler data be erddap compatible, the files must have a variable called profileid added and its cf_role set to profile_id
 -->
 
-<dataset type="EDDTableFromAsciiFiles" datasetID="erddap_19CKitaepr2a_prawler" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_17bsitae_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2019/Moorings/19CKitaepr2a/working/erddap/prawler/</fileDir>
-    <fileNameRegex>.*\.csv</fileNameRegex>
+    <fileDir>/home/ecoraid/data/2017/Moorings/17bsitae/initial_archive/erddap/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
-    <charset>ISO-8859-1</charset>
-    <columnSeparator>,</columnSeparator>
-    <columnNamesRow>1</columnNamesRow>
-    <firstDataRow>2</firstDataRow>
     <preExtractRegex></preExtractRegex>
-    <postExtractRegex></postExtractRegex>
-    <extractRegex></extractRegex>
-    <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>datetime</sortedColumnSourceName>
-    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <postExtractRegex>\.nc</postExtractRegex>
+    <extractRegex>.*</extractRegex>
+    <columnNameForExtract>profileid</columnNameForExtract>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames>profileid</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
-        <att name="CREATION_DATE">May, 4 2019 20:37 UTC</att>
+        <att name="CREATION_DATE">December 15, 2017 20:37 UTC</att>
         <att name="DATA_CMNT">2017_SP03_all.download</att>
         <att name="History">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
         <att name="NC_FILE_GENERATOR">EcoFOCI_netCDF_write.pyc 0.4.0</att>
@@ -40,33 +35,31 @@ No Met data for 2019 Arctic
     <addAttributes>
         <att name="cdm_altitude_proxy">depth</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">profile_id</att>
+        <att name="cdm_profile_variables">profileid</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="CREATION_DATE">null</att>
-        <att name="creation_date">May, 4 2019 20:37 UTC</att>
+        <att name="creation_date">December 15, 2017 20:37 UTC</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - ITAE</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
-        <att name="History">null</att>
         <att name="history">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
         <att name="institution">NOAA/PMEL - ITAE</att>
-        <att name="keywords">19CKITAEPR-2A, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
-        Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
-        Oceans &gt; Salinity/Density &gt; Salinity,
-        oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practical, prawler, profile, profile_id, psu, record, record_number, reference, salinity, sat, sea, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, temperature, time, turbidity, umol, umol/kg, unit, water</att>
+        <att name="keywords">17BS-ITAE, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
+Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
+Oceans &gt; Salinity/Density &gt; Salinity,
+oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practical, prawler, profile, profileid, psu, record, record_number, reference, salinity, sat, sea, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, temperature, time, turbidity, umol, umol/kg, unit, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-        <att name="subsetVariables">profile_id</att>
-        <att name="summary">Prawler Deployment Data - 19CKITAEPR-2A</att>
-        <att name="title">Prawler Deployment Data, 19CKITAEPR-2A</att>
+        <att name="subsetVariables">profileid</att>
+        <att name="summary">Prawler Deployment Data - 17B-SITAE</att>
+        <att name="title">Prawler Deployment Data, 17BS-ITAE</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>profilenumber</sourceName>
-        <destinationName>profile_id</destinationName>
+        <sourceName>profileid</sourceName>
+        <destinationName>profileid</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -76,7 +69,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>CH</sourceName>
+        <sourceName>Chlorophyll</sourceName>
         <destinationName>Chlorophyll</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -96,7 +89,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>O2PercentSat</sourceName>
+        <sourceName>Oxy_Sat</sourceName>
         <destinationName>Oxy_Sat</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -116,7 +109,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>CT</sourceName>
+        <sourceName>Temperature</sourceName>
         <destinationName>Temperature</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -133,7 +126,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>OT</sourceName>
+        <sourceName>Oxy_Temperature</sourceName>
         <destinationName>Oxy_Temperature</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -150,7 +143,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>S</sourceName>
+        <sourceName>Salinity</sourceName>
         <destinationName>Salinity</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -171,7 +164,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>CD</sourceName>
+        <sourceName>Depth</sourceName>
         <destinationName>depth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -193,22 +186,44 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>datetime</sourceName>
+        <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>String</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">time</att>
+            <att name="long_name">date and time since reference time</att>
+            <att name="name">time</att>
+            <att name="units">hours since 1900-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>TB</sourceName>
+        <sourceName>SigmaT</sourceName>
+        <destinationName>SigmaT</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">den</att>
+            <att name="long_name">SIGMA-T (KG/M**3)</att>
+            <att name="name">SigmaT</att>
+            <att name="units">kg m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Turbidity</sourceName>
         <destinationName>Turbidity</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -216,7 +231,7 @@ No Met data for 2019 Arctic
             <att name="generic_name">turb</att>
             <att name="long_name">Turbidity (FNU)</att>
             <att name="name">Turbidity</att>
-            <att name="units">NTU</att>
+            <att name="units">FNU</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -225,7 +240,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>O2_corr_umkg</sourceName>
+        <sourceName>Oxy_Conc</sourceName>
         <destinationName>Oxy_Conc</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -242,7 +257,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>dep_lon</sourceName>
+        <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -264,7 +279,7 @@ No Met data for 2019 Arctic
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>dep_lat</sourceName>
+        <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
