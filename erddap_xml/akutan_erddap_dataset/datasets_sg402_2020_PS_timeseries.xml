@@ -81,7 +81,7 @@ Seattle, WA</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory_id,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-04 - timeseries</att>
+        <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-31 - timeseries</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Timeseries dataset.</att>
         <att name="testOutOfDate">now-26days</att>
     </addAttributes>
