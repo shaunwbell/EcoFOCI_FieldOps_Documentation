@@ -9,7 +9,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1901_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/CTDcasts/NW1901/erddap/final_data/ctd/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/CTDcasts/nw1901/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
