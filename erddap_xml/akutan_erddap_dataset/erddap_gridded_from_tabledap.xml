@@ -2,7 +2,7 @@
         <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_datasets_Mooring_96bs2c_final" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
-            <fileDir>/home/pavlof/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
+            <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/gridded_data_from_tabledap/</fileDir>
             <fileNameRegex>datasets_Mooring_96bs2c_final.nc</fileNameRegex>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
