@@ -7,7 +7,7 @@ So far, T/S/O/Chl are accounted for-->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_13csp11a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/2013/Moorings/13csp11a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2013/Moorings/13csp11a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -188,7 +188,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13csp11a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/2013/Moorings/13csp11a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2013/Moorings/13csp11a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

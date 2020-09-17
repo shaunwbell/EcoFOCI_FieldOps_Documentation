@@ -7,7 +7,7 @@ Grid data for EIN/VEL -->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_14bsp8a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/2014/Moorings/14bsp8a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2014/Moorings/14bsp8a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -189,7 +189,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsp8a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/2014/Moorings/14bsp8a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2014/Moorings/14bsp8a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -471,7 +471,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsp8a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/2015/Moorings/14bsp8a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2015/Moorings/14bsp8a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
