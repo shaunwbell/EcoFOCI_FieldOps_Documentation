@@ -9,7 +9,7 @@ WPAK and special insts need to be accounted for-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_04gbm3a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2004/Moorings/04gbm3a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2004/Moorings/04gbm3a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -302,7 +302,7 @@ WPAK and special insts need to be accounted for-->
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_04gbm3a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2004/Moorings/04gbm3a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2004/Moorings/04gbm3a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

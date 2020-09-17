@@ -7,7 +7,7 @@ So far, T/S/O/Chl are accounted for-->
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_98bs2c_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/1998/Moorings/98bs2c/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/1998/Moorings/98bs2c/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

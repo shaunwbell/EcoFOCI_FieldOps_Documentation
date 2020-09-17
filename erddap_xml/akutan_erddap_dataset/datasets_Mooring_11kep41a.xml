@@ -7,7 +7,7 @@ So far, T/S/O/Chl are accounted for-->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_11kep41a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2011/Moorings/11kep41a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2011/Moorings/11kep41a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -175,7 +175,7 @@ So far, T/S/O/Chl are accounted for-->
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_11kep41a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2011/Moorings/11kep41a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2011/Moorings/11kep41a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

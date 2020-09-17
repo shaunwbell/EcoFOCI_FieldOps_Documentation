@@ -10,7 +10,7 @@ So far, T/S/O/Chl are accounted for
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_17bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17bsm2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2017/Moorings/17bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -302,7 +302,7 @@ So far, T/S/O/Chl are accounted for
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Met_17bsm2a_NRT" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17bsm2a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/2017/Moorings/17bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -535,7 +535,7 @@ So far, T/S/O/Chl are accounted for
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17bsm2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/2017/Moorings/17bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -824,7 +824,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17bsm2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/Moorings/17bsm2a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/2017/Moorings/17bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
