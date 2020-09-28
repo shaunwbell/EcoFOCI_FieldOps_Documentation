@@ -1,0 +1,13 @@
+/* Satlantic SUNA V2 #1468, CRO-MMS UV II 126341  ***************************/
+/* Polynomial Coefficients for Wavelength Calculation from pixel value.   */
+/* DO NOT MODIFY FORMAT, i.e, values MUST be preceeded by their coefficent*/
+/* designator AND comment strings must have either a '/' or '*' in them.  */
+/*                                                                        */
+/* Entered by: dnguyen */
+/* Date: Wed Sep 02 16:52:09 PDT 2020                                                    */
+/**************************************************************************/
+C0 00000190.306000000
+C1 00000000.784905000
+C2 00000000.000134070
+C3 -00000000.000000302329
+C4 00000000.000000000
