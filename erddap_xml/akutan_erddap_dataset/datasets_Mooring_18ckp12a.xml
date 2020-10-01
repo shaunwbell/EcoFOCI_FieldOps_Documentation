@@ -73,7 +73,7 @@ So far, T/S/O/Chl are accounted for-->
             <att name="units">m</att>
        </addAttributes>
     </axisVariable>
-    <dataVariable>
+    <axisVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
         <!-- sourceAttributes>
@@ -86,8 +86,8 @@ So far, T/S/O/Chl are accounted for-->
             <att name="standard_name">latitude</att>
             <att name="units">degrees_north</att>
         </addAttributes>
-    </dataVariable>
-    <dataVariable>
+    </axisVariable>
+    <axisVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
         <!-- sourceAttributes>
@@ -102,7 +102,7 @@ So far, T/S/O/Chl are accounted for-->
             <att name="scale_factor" type="double">-1.0</att>
             <att name="add_offset" type="double">360</att>
         </addAttributes>
-    </dataVariable>
+    </axisVariable>
     <dataVariable>
         <sourceName>v_1206</sourceName>
         <destinationName>v_1206</destinationName>
