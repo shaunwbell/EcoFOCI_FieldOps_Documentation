@@ -8,7 +8,7 @@ Grid data for EIN/VEL -->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2008/Moorings/08amp1a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
+    <fileNameRegex>.*vel\.cf\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
