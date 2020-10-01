@@ -42,13 +42,11 @@ No Met data for 2019 Arctic
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_profile_variables">profile_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="CREATION_DATE">null</att>
         <att name="creation_date">May, 4 2019 20:37 UTC</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - ITAE</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
-        <att name="History">null</att>
         <att name="history">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
         <att name="institution">NOAA/PMEL - ITAE</att>
