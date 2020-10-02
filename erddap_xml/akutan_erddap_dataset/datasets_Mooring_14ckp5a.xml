@@ -8,7 +8,7 @@ So far, T/S/O/Chl are accounted for-->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2014/Moorings/14ckp5a/erddap/final_data/</fileDir>
-     <fileNameRegex>*_vel.cf.nc</fileNameRegex>
+    <fileNameRegex>.*_vel.cf.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -22,8 +22,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="DATA_CMNT">1950.VEL</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
-</att>
+        April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="INST_TYPE">wcp</att>
         <att name="MOORING">14CKP-5A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
