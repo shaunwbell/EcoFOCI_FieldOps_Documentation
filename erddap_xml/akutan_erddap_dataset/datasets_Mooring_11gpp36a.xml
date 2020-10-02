@@ -8,7 +8,7 @@ So far, T/S/O/Chl are accounted for-->
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2011/Moorings/11gpp36a/erddap/final_data/</fileDir>
-    <fileNameRegex>*vel\.cf\.nc</fileNameRegex>
+     <fileNameRegex>*_vel.cf.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
