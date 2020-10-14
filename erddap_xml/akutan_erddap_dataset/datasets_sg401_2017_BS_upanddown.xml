@@ -1,8 +1,8 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2019_timeseries" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2017_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Profilers/OculusGliders/sg401/</fileDir>
-    <fileNameRegex>.*timeseries\.nc</fileNameRegex>
+    <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/sg401/</fileDir>
+    <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -14,10 +14,13 @@
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5322</att>
         <att name="base_station_version">2.11</att>
+        <att name="binwidth" type="float">5.0</att>
+        <att name="cdm_data_type">TrajectoryProfile</att>
         <att name="Conventions">CF-1.6</att>
-        <att name="date_created">2020-08-04T22:08:57Z</att>
-        <att name="date_modified">2020-08-04T22:08:57Z</att>
-        <att name="file_data_type">timeseries</att>
+        <att name="date_created">2017-04-26T22:08:57Z</att>
+        <att name="date_modified">2017-04-26T22:08:57Z</att>
+        <att name="featureType">trajectory</att>
+        <att name="file_data_type">Up and Down profile</att>
         <att name="file_version">2.71</att>
         <att name="geospatial_lat_max" type="double">47.7334075299314</att>
         <att name="geospatial_lat_min" type="double">47.7092183952732</att>
@@ -33,11 +36,11 @@
         <att name="geospatial_vertical_resolution">centimeter</att>
         <att name="geospatial_vertical_units">meter</att>
         <att name="glider" type="int">402</att>
-        <att name="history">Written 2020-08-04T22:08:57Z</att>
-        <att name="id">Timeseries_SG401_20200831_20200831</att>
+        <att name="history">Written 2017-04-26T22:08:57Z</att>
+        <att name="id">Profile_SG401_20200831_20200831_up_and_down_5m</att>
         <att name="institution">Applied Physics Lab
-                            University of Washington
-                            Seattle, WA</att>
+        University of Washington
+        Seattle, WA</att>
         <att name="instrument">magnetometer sbe41 </att>
         <att name="keywords">Water Temperature, Conductivity, Salinity, Density, Potential Density, Potential Temperature</att>
         <att name="keywords_vocabulary">NASA/GCMD Earth Science Keywords Version 6.0.0.0</att>
@@ -56,10 +59,10 @@
         <att name="source">Seaglider SG401</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG401 Bering Sea</att>
-        <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
+        <att name="time_coverage_end">2017-04-26T22:08:28Z</att>
         <att name="time_coverage_resolution">PT1S</att>
-        <att name="time_coverage_start">2020-08-04T16:08:21Z</att>
-        <att name="uuid">593998f0-d6a0-11ea-812b-16f2711beb19</att>
+        <att name="time_coverage_start">2017-04-26T16:08:21Z</att>
+        <att name="uuid">593998ef-d6a0-11ea-812b-16f2711beb19</att>
     </sourceAttributes -->
     <addAttributes>
         <att name="cdm_data_type">TrajectoryProfile</att>
@@ -72,79 +75,81 @@
         Seattle, WA</att>
         <att name="creator_url">https://www.nodc.noaa.gov/</att>
         <att name="infoUrl">https://data.nodc.noaa.gov/accession/0092291</att>
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="institution">NOAA/PMEL</att>
         <att name="instrument">magnetometer sbe41</att>
-        <att name="keywords">2020-08-04, acoustic, acoustics, applied, chemistry, collected, concentration, conductivity, conductivity_qc, conductivity_raw, conductivity_raw_qc, ctd, ctd_data_point_dive_number, ctd_pressure, currents, data, density, density_insitu, deployed, depth, dissolved, dissolved o2, dissolved_oxygen_sat, dive, during, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, glider, insitu, lab, latitude, latitude_gsm, longitude, longitude_gsm, mole, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, molecular, number, O2, ocean, oceanography, oceans, oxygen, physical, physical oceanography, physics, point, potential, potential density, potential temperature, practical, pressure, puget, quality, raw, salinity, salinity_qc, salinity_raw, salinity_raw_qc, sbe41, science, sea, sea_water_density, sea_water_electrical_conductivity, sea_water_potential_temperature, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t, sea_water_sigma_theta, sea_water_temperature, seaglider, seattle, seawater, sg401, sigma, sigma_t, sigma_theta, sonde, sound, sound_velocity, speed, speed_of_sound_in_sea_water, statistics, temperature, temperature_qc, temperature_raw, temperature_raw_qc, thermosalinograph, theta, time, underway, university, velocity, washington, water, water temperature</att>
+        <att name="keywords">2017-04-26, acoustic, acoustics, applied, bin, bin_time, chemistry, collected, concentration, conductivity, conductivity_raw, ctd, ctd_depth, ctd_pressure, ctd_time, currents, data, date, density, density_insitu, deployed, depth, depth_avg_curr_east, depth_avg_curr_north, depth_avg_curr_qc, depth_time, dissolved, dissolved o2, dissolved_oxygen_sat, dive, dive_number, during, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, end, end_latitude, end_longitude, end_time, glider, global, gps, hour, insitu, lab, latitude, latitude_gsm, latlong_qc, log, log_gps_time, longitude, longitude_gsm, mole, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, molecular, month, number, O2, ocean, oceanography, oceans, oxygen, physical, physical oceanography, physics, positioning, potential, potential density, potential temperature, practical, pressure, puget, quality, raw, salinity, salinity_raw, sbect, sbect_time, science, sea, sea_water_density, sea_water_electrical_conductivity, sea_water_potential_temperature, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t, sea_water_sigma_theta, sea_water_temperature, seaglider, seattle, seawater, SG401, sigma, sigma_t, sigma_theta, sonde, sound, sound_velocity, speed, speed_of_sound_in_sea_water, start, start_latitude, start_longitude, start_time, statistics, system, temperature, temperature_raw, theta, time, university, velocity, washington, water, water temperature, year</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="Metadata_Conventions">null</att>
         <att name="references">https://data.nodc.noaa.gov/accession/0092291</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory_id,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2020-08-31 - timeseries</att>
-        <att name="summary">PMEL SG401 Bering Sea Test Aug 04, 2020. Timeseries dataset.</att>
+        <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2017-04-26 - 5m bins</att>
+        <att name="summary">PMEL SG401 Bering Sea Test Apr 26, 2017. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
         <att name="testOutOfDate">now-26days</att>
     </addAttributes>
+    <!--Dimensional profile variables-->
     <dataVariable>
         <sourceName>ctd_time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="axis">T</att>
-            <att name="comment">Time of CTD sample in GMT epoch format</att>
+            <att name="comment">Time of CTD profile in GMT epoch format</att>
             <att name="standard_name">time</att>
             <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Ctd Time</att>
-            <att name="source_name">ctd_time</att>
+            <att name="long_name">CTD Time</att>
             <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="axis">Y</att>
-            <att name="comment">Latitude of the sample based on hdm DAC</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>longitude</sourceName>
+        <sourceName>longitude_gsm</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
-            <att name="axis">X</att>
-            <att name="comment">Longitude of the sample based on hdm DAC</att>
-            <att name="standard_name">longitude</att>
+            <att name="comment">Longitude of the profile based on gsm DAC</att>
+            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
             <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="coordinates">null</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>ctd_depth</sourceName>
+        <sourceName>latitude_gsm</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="comment">Latitude of the profile based on gsm DAC</att>
+            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="axis">Z</att>
-            <att name="comment">CTD thermistor depth corrected for average latitude</att>
+            <att name="comment">Depth below the surface, corrected for average latitude</att>
             <att name="positive">down</att>
             <att name="standard_name">depth</att>
             <att name="units">meters</att>
@@ -155,7 +160,6 @@
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
-            <att name="source_name">ctd_depth</att>
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
@@ -178,40 +182,15 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>temperature_qc</sourceName>
-        <destinationName>temperature_qc</destinationName>
-        <dataType>char</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Whether to trust each corrected temperature value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Temperature Qc</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>longitude_gsm</sourceName>
-        <destinationName>longitude_gsm</destinationName>
+        <sourceName>sbect_time</sourceName>
+        <destinationName>sbect_time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="comment">Longitude of the sample based on gsm DAC</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="units">degrees_east</att>
+            <att name="comment">As reported by the instrument</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Sbect Time</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -229,23 +208,6 @@
             <att name="coordinates">null</att>
             <att name="ioos_category">Currents</att>
             <att name="long_name">Speed Of Sound In Sea Water</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>ctd_data_point_dive_number</sourceName>
-        <destinationName>profile_id</destinationName>
-        <dataType>int</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Dive number for given ctd_data_point observation</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Statistics</att>
-            <att name="long_name">Ctd Data Point Dive Number</att>
-            <att name="cf_role">profile_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -287,40 +249,23 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>conductivity_qc</sourceName>
-        <destinationName>conductivity_qc</destinationName>
-        <dataType>char</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Whether to trust each corrected conductivity value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Conductivity Qc</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>latitude_gsm</sourceName>
-        <destinationName>latitude_gsm</destinationName>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="comment">Latitude of the sample based on gsm DAC</att>
+            <att name="comment">Termperature (in situ) corrected for thermistor first-order lag</att>
             <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="units">degrees_north</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degrees_Celsius</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea Water Temperature</att>
+            <att name="units">degree_C</att>
+            <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -339,8 +284,9 @@
             <att name="colorBarMaximum" type="double">28.0</att>
             <att name="colorBarMinimum" type="double">20.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Unknown</att>
+            <att name="ioos_category">Salinity</att>
             <att name="long_name">Sea Water Density</att>
+            <att name="standard_name">sea_water_density</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -356,9 +302,10 @@
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Unknown</att>
+            <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature Raw</att>
             <att name="units">degree_C</att>
+            <att name="standard_name">sea_water_temperature</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -375,8 +322,9 @@
         <addAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="coordinates">null</att>
-            <att name="ioos_category">Unknown</att>
+            <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Sigma T</att>
+            <att name="standard_name">sea_water_sigma_t</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -395,6 +343,7 @@
             <att name="coordinates">null</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Sea Water Pressure</att>
+            <att name="standard_name">sea_water_pressure</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -414,25 +363,23 @@
             <att name="coordinates">null</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Sea Water Potential Temperature</att>
-            <att name="units">degree_C</att>
+            <att name="standard_name">sea_water_potential_temperature</att>
+        <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>conductivity_raw_qc</sourceName>
-        <destinationName>conductivity_raw_qc</destinationName>
-        <dataType>char</dataType>
+        <sourceName>bin_time</sourceName>
+        <destinationName>bin_time</destinationName>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="comment">Whether to trust each raw conductivity value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
+            <att name="comment">mean time for the bin in GMT epoch format</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Conductivity Raw Qc</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Bin Time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -450,81 +397,55 @@
             <att name="coordinates">null</att>
             <att name="ioos_category">Physical Oceanography</att>
             <att name="long_name">Sea Water Sigma Theta</att>
+            <att name="standard_name">sea_water_sigma_theta</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>salinity_raw_qc</sourceName>
-        <destinationName>salinity_raw_qc</destinationName>
-        <dataType>char</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Whether to trust each raw salinity value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Salinity Raw Qc</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>temperature_raw_qc</sourceName>
-        <destinationName>temperature_raw_qc</destinationName>
-        <dataType>char</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Whether to trust each raw temperature value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Temperature Raw Qc</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>salinity_qc</sourceName>
-        <destinationName>salinity_qc</destinationName>
-        <dataType>char</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">Whether to trust each corrected salinity value</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
-            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">10.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Salinity Qc</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>temperature</sourceName>
-        <destinationName>temperature</destinationName>
+        <sourceName>log_gps_time</sourceName>
+        <destinationName>log_gps_time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="comment">Termperature (in situ) corrected for thermistor first-order lag</att>
-            <att name="coordinates">ctd_time longitude latitude ctd_depth</att>
-            <att name="standard_name">sea_water_temperature</att>
-            <att name="units">degrees_Celsius</att>
+            <att name="comment">GPS times in GMT epoch format</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-1-1 00:00:00</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="colorBarMaximum" type="double">32.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="coordinates">null</att>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">Sea Water Temperature</att>
-            <att name="units">degree_C</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Log Gps Time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Uncorrected sea-water pressure at pressure sensor</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <!--
+    <dataVariable>
+        <sourceName>depth_time</sourceName>
+        <destinationName>depth_time</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">time of depth sensor measurement</att>
+            <att name="standard_name">time</att>
+            <att name="comment">Pressure sensor time in GMT epoch format</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    -->
     <dataVariable>
         <sourceName>density_insitu</sourceName>
         <destinationName>density_insitu</destinationName>
@@ -563,6 +484,25 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>ctd_depth</sourceName>
+        <destinationName>ctd_depth</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">Z</att>
+            <att name="comment">CTD thermistor depth corrected for average latitude</att>
+            <att name="positive">down</att>
+            <att name="standard_name">depth</att>
+            <att name="units">meters</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">CTD Depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>salinity_raw</sourceName>
         <destinationName>salinity_raw</destinationName>
         <dataType>double</dataType>
@@ -576,9 +516,129 @@
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="coordinates">null</att>
             <att name="ioos_category">Salinity</att>
-            <att name="long_name">Sea Water Practical Salinity</att>
+            <att name="long_name">Sea Water Practical Salinity Raw</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>dive_number</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Dive number for given observation</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Dive Number</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>
+    <!--REMOVE time,YEAR,MONTH,DAY,HOUR,DD VARIABLES-->
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude_avg</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">X</att>
+            <att name="comment">Longitude of the profile based on hdm DAC</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude of depth averaged data</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude_avg</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">Y</att>
+            <att name="comment">Latitude of the profile based on hdm DAC</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude of depth averaged data</att>
+        </addAttributes>
+    </dataVariable>
+    <!--REMOVE start_time,end_time,start_latitude,end_latitude,start_longitude,end_longitude-->
+    <!-- depth avg values valid at ???-->
+    <dataVariable>
+        <sourceName>depth_avg_curr_east</sourceName>
+        <destinationName>depth_avg_curr_east</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Eastward component of the profile depth-average current based on hdm</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth Averaged Current - East</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth_avg_curr_north</sourceName>
+        <destinationName>depth_avg_curr_north</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Northward component of the profile depth-average current based on hdm</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+            <att name="units">m/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth Averaged Current - North</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latlong_qc</sourceName>
+        <destinationName>latlong_qc</destinationName>
+        <dataType>char</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Whether to trust the profile estimated latitude and longitude estimates</att>
+            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
+            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">10.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Latitude_Longitdue QC Flags</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth_avg_curr_qc</sourceName>
+        <destinationName>depth_avg_curr_qc</destinationName>
+        <dataType>char</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">Whether to trust the profile depth-average current values and displacements</att>
+            <att name="flag_meanings">QC_NO_CHANGE QC_GOOD QC_PROBABLY_GOOD QC_PROBABLY_BAD QC_BAD QC_CHANGED QC_UNSAMPLED QC_INTERPOLATED QC_MISSING</att>
+            <att name="flag_values">0 1 2 3 4 5 6 8 9</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">10.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Depth Averaged Current QC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
