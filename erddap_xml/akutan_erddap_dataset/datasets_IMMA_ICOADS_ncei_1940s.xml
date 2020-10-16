@@ -4,7 +4,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/akutan/bell/in_and_outbox/data_sets/ICOADS_R3/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
+    <fileNameRegex>.*_194*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -127,7 +127,7 @@
     <dataVariable>
         <sourceName>DCK</sourceName>
         <destinationName>DCK</destinationName>
-        <dataType>double</dataType>
+        <dataType>string</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -160,7 +160,7 @@
     <dataVariable>
         <sourceName>UID</sourceName>
         <destinationName>UID</destinationName>
-        <dataType>double</dataType>
+        <dataType>string</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
