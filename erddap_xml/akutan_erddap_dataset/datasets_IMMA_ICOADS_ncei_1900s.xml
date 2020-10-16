@@ -1,10 +1,10 @@
 <!-- NOTE! Since the source files don't have any metadata, you must add metadata
   below, notably 'units' for each of the dataVariables. -->
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_1940s" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_1900" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/akutan/bell/in_and_outbox/data_sets/ICOADS_R3/</fileDir>
-    <fileNameRegex>.*_194*\.nc</fileNameRegex>
+    <fileNameRegex>.*_190*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -35,7 +35,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">IMMA ICOADS Data - from NCEI/CDF version on RMA .</att>
+        <att name="summary">IMMA ICOADS Data 1900's - from NCEI/CDF version on RMA .</att>
         <att name="title">ICOADS NCEI Subst.</att>
     </addAttributes>
     <dataVariable>
