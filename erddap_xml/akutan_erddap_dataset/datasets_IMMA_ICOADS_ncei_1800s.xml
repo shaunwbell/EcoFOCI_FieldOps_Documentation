@@ -4,7 +4,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/akutan/bell/in_and_outbox/data_sets/ICOADS_R3/</fileDir>
-    <fileNameRegex>.*_18*\.nc</fileNameRegex>
+    <fileNameRegex>.*_18.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
