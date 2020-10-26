@@ -2,7 +2,7 @@
 
 -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="channel_rpi" active="true">
-    <reloadEveryNMinutes>180</reloadEveryNMinutes>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/pi/EnvData/rpi/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>

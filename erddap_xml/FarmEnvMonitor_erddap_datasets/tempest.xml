@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="tempest_moonflower_wx" active="true">
-    <reloadEveryNMinutes>180</reloadEveryNMinutes>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/pi/EnvData/tempest/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
@@ -32,8 +32,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">device_id, type, bucket_step_minutes, wind_interval, strike_distance, strike_count, report_interval</att>
-        <att name="summary">Data from a local source.</att>
-        <att name="title">Data from a local source.</att>
+        <att name="summary">Tempest Datafeed from Moonflower farm.</att>
+        <att name="testOutOfDate">now-1day</att>
+        <att name="title">WeatherFlow tempest - Moonflower Farm.</att>
     </addAttributes>
     <dataVariable>
         <sourceName>device_id</sourceName>
