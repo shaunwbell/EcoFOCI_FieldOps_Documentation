@@ -9,7 +9,7 @@ Grid data for EIN/VEL -->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2017/Moorings/17bsp2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -189,7 +189,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2017/Moorings/17bsp2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -471,7 +471,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2017/Moorings/17bsp2b/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

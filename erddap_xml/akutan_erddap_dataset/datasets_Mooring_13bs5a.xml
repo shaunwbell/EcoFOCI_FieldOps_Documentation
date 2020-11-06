@@ -9,7 +9,7 @@ So far, T/S/O/Chl are accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2013/Moorings/13bs5a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -300,7 +300,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2013/Moorings/13bs5a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

@@ -12,7 +12,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2019/CTDcasts/os1901l3/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

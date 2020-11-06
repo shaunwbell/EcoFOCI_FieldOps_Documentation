@@ -11,7 +11,7 @@ data came from merged files - easy to add btl data from these too
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2009/CTDcasts/mf0904l2/erddap/final_data/ctd_merged/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

@@ -5,7 +5,7 @@
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Moorings/18mtitaepr1a/initial_archive/erddap/met/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -263,7 +263,7 @@
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Moorings/18mtitaepr1a/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

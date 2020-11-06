@@ -11,7 +11,7 @@ WPAK and special insts need to be accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/1999/Moorings/99bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -34,7 +34,7 @@ WPAK and special insts need to be accounted for-->
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">timeseries_id</att>
         <att name="summary">ARGOS Meteorological Data from Peggy Mooring (1999) - Final (QC'd) data as downloaded from weatherpak's and supplemented where necessary from ARGOS Transmissions</att>
-        <att name="title">Meteorological Data from 99BSM-2A - Final</att>
+        <att name="title">Meteorological Data from 99BSM-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -304,7 +304,7 @@ WPAK and special insts need to be accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/1999/Moorings/99bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -343,7 +343,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from mooring 99BSM-2A</att>
-        <att name="title">Mooring Data from 99BSM-2A - Final</att>
+        <att name="title">Mooring Data from 99BSM-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

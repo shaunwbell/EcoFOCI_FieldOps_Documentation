@@ -9,7 +9,7 @@ So far, T/S/O/Chl are accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2003/Moorings/03gp34a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -48,7 +48,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from mooring 03GP-34A</att>
-        <att name="title">Mooring Data from 03GP-34A - Final</att>
+        <att name="title">Mooring Data from 03GP-34A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

@@ -10,7 +10,7 @@ So far, T/S/O/Chl are accounted for-->
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2013/Moorings/13cs13a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -33,7 +33,7 @@ So far, T/S/O/Chl are accounted for-->
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 13CS-13A</att>
-        <att name="title">Mooring Data from 13CS-13A - final data</att>
+        <att name="title">Mooring Data from 13CS-13A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

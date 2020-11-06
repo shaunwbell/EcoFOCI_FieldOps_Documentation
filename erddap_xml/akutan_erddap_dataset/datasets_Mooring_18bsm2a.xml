@@ -11,7 +11,7 @@ So far, T/S/O/Chl are accounted for
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -34,7 +34,7 @@ So far, T/S/O/Chl are accounted for
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">timeseries_id</att>
         <att name="summary">ARGOS Meteorological Data from Peggy Mooring (2018) - Final (QC'd) data as downloaded from weatherpak's and supplemented where necessary from ARGOS Transmissions</att>
-        <att name="title">Meteorological Data from 18BSM-2A - Final</att>
+        <att name="title">Meteorological Data from 18BSM-2A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -536,7 +536,7 @@ So far, T/S/O/Chl are accounted for
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -825,7 +825,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

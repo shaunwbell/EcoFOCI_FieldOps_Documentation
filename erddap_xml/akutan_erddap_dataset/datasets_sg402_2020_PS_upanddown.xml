@@ -10,7 +10,7 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5322</att>
         <att name="base_station_version">2.11</att>
@@ -669,7 +669,7 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5322</att>
         <att name="base_station_version">2.11</att>
@@ -1328,7 +1328,7 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="base_station_micro_version" type="int">5322</att>
         <att name="base_station_version">2.11</att>

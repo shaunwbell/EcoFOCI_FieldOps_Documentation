@@ -18,7 +18,7 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>true</accessibleViaFiles>
+    
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 12, 2020 21:34 UTC</att>
         <att name="History">File Created from ARGSOS Drifter Data.</att>
