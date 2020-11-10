@@ -183,5 +183,24 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
             <att name="add_offset" type="float">-360.</att> 
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>=Math2.angle0360(row.columnDouble("longitude"))</sourceName> 
+        <destinationName>lon360</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Station Longitude 360</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
 
