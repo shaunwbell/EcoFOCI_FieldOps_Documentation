@@ -1,9 +1,9 @@
 
-        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_CTD_os1901l2_preliminary_final_merged" active="true">
+        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l2_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
-            <fileNameRegex>CTD_os1901l2_preliminary_merged.csv</fileNameRegex>
+            <fileNameRegex>os1901l2_merged.csv</fileNameRegex>
             <recursive>true</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -33,8 +33,8 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">CTD Data from CTD_OS1901L2_PRELIMINARY - Final Merged </att>
-                <att name="title">CTD Data from CTD_OS1901L2_PRELIMINARY - Final Merged </att>
+                <att name="summary">CTD Data from OS1901L2 - Final Merged </att>
+                <att name="title">CTD Data from OS1901L2 - Final Merged </att>
             </addAttributes>
             <dataVariable>
                 <sourceName>time</sourceName>
@@ -532,11 +532,11 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_CTD_os1901l1_preliminary_final_merged" active="true">
+        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l1_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
-            <fileNameRegex>CTD_os1901l1_preliminary_merged.csv</fileNameRegex>
+            <fileNameRegex>os1901l1_merged.csv</fileNameRegex>
             <recursive>true</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -566,8 +566,8 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">CTD Data from CTD_OS1901L1_PRELIMINARY - Final Merged </att>
-                <att name="title">CTD Data from CTD_OS1901L1_PRELIMINARY - Final Merged </att>
+                <att name="summary">CTD Data from OS1901L1 - Final Merged </att>
+                <att name="title">CTD Data from OS1901L1 - Final Merged </att>
             </addAttributes>
             <dataVariable>
                 <sourceName>time</sourceName>
@@ -1065,11 +1065,11 @@
             </dataVariable>
         </dataset>
         
-        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_CTD_os1901l3_preliminary_final_merged" active="true">
+        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l3_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
-            <fileNameRegex>CTD_os1901l3_preliminary_merged.csv</fileNameRegex>
+            <fileNameRegex>os1901l3_merged.csv</fileNameRegex>
             <recursive>true</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -1099,8 +1099,8 @@
                 <att name="keywords_vocabulary">GCMD Science Keywords</att>
                 <att name="license">[standard]</att>
                 <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-                <att name="summary">CTD Data from CTD_OS1901L3_PRELIMINARY - Final Merged </att>
-                <att name="title">CTD Data from CTD_OS1901L3_PRELIMINARY - Final Merged </att>
+                <att name="summary">CTD Data from OS1901L3 - Final Merged </att>
+                <att name="title">CTD Data from OS1901L3 - Final Merged </att>
             </addAttributes>
             <dataVariable>
                 <sourceName>time</sourceName>
