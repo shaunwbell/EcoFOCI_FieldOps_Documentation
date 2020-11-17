@@ -39,17 +39,16 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>float</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
                     <att name="ioos_category">Time</att>
-                    <att name="long_name">Time</att>
+                    <att name="long_name">Datetime</att>
+                    <att name="source_name">datetime</att>
                     <att name="standard_name">time</att>
-                    <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
+                    <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
-            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
@@ -568,17 +567,16 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>float</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
                     <att name="ioos_category">Time</att>
-                    <att name="long_name">Time</att>
+                    <att name="long_name">Datetime</att>
+                    <att name="source_name">datetime</att>
                     <att name="standard_name">time</att>
-                    <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
+                    <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
-            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
@@ -1097,17 +1095,16 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>float</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
                     <att name="ioos_category">Time</att>
-                    <att name="long_name">Time</att>
+                    <att name="long_name">Datetime</att>
+                    <att name="source_name">datetime</att>
                     <att name="standard_name">time</att>
-                    <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
+                    <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
-            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
