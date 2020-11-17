@@ -39,7 +39,7 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>double</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
@@ -568,7 +568,7 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>double</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
@@ -1097,7 +1097,7 @@
             <dataVariable>
                 <sourceName>time_str</sourceName>
                 <destinationName>time</destinationName>
-                <dataType>double</dataType>
+                <dataType>String</dataType>
                 <!-- sourceAttributes>
                 </sourceAttributes -->
                 <addAttributes>
