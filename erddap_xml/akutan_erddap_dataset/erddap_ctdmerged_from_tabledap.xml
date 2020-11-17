@@ -38,7 +38,7 @@
             <att name="title">CTD Data from OS1901L2 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>timestr</sourceName>
+                <sourceName>time</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
@@ -568,7 +568,7 @@
             <att name="title">CTD Data from OS1901L1 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>timestr</sourceName>
+                <sourceName>time</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
@@ -1098,7 +1098,7 @@
             <att name="title">CTD Data from OS1901L3 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>timestr</sourceName>
+                <sourceName>time</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
