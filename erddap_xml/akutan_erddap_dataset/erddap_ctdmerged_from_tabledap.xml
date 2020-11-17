@@ -4,7 +4,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l2_merged.csv</fileNameRegex>
-            <recursive>true</recursive>
+            <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <charset>ISO-8859-1</charset>
@@ -534,7 +534,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l1_merged.csv</fileNameRegex>
-            <recursive>true</recursive>
+            <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <charset>ISO-8859-1</charset>
@@ -1064,7 +1064,7 @@
             <updateEveryNMillis>10000</updateEveryNMillis>
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l3_merged.csv</fileNameRegex>
-            <recursive>true</recursive>
+            <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
             <charset>ISO-8859-1</charset>
