@@ -38,7 +38,7 @@
             <att name="title">CTD Data from OS1901L2 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>time</sourceName>
+                <sourceName>timestr</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
@@ -48,7 +48,7 @@
                     <att name="long_name">Time</att>
                     <att name="standard_name">time</att>
                     <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd HH:mm:ss+00:00</att>
+                    <att name="units">yyyy-MM-ddTHH:mm:ssZ</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -568,7 +568,7 @@
             <att name="title">CTD Data from OS1901L1 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>time</sourceName>
+                <sourceName>timestr</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
@@ -578,7 +578,7 @@
                     <att name="long_name">Time</att>
                     <att name="standard_name">time</att>
                     <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd HH:mm:ss+00:00</att>
+                    <att name="units">yyyy-MM-ddTHH:mm:ssZ</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -1098,7 +1098,7 @@
             <att name="title">CTD Data from OS1901L3 - Final Merged </att>
             </addAttributes>
             <dataVariable>
-                <sourceName>time</sourceName>
+                <sourceName>timestr</sourceName>
                 <destinationName>time</destinationName>
                 <dataType>double</dataType>
                 <!-- sourceAttributes>
@@ -1108,7 +1108,7 @@
                     <att name="long_name">Time</att>
                     <att name="standard_name">time</att>
                     <att name="time_precision">1970-01-01T00:00:00Z</att>
-                    <att name="units">yyyy-MM-dd HH:mm:ss+00:00</att>
+                    <att name="units">yyyy-MM-ddTHH:mm:ssZ</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
