@@ -111,7 +111,7 @@ Prevent mass mailing worms from sending mail" is un-checked.
 -->
 <emailFromAddress>pmel.ecofoci@noaa.gov</emailFromAddress>
 <emailUserName>pmel.ecofoci@noaa.gov</emailUserName>
-<emailPassword>woncnapuxvixxmwu</emailPassword> 
+<emailPassword>[removed]</emailPassword> 
 <emailProperties>mail.smtp.starttls.enable|true</emailProperties>
 <emailSmtpHost>smtp.gmail.com</emailSmtpHost>
 <emailSmtpPort>587</emailSmtpPort>
