@@ -49,6 +49,7 @@
                     <att name="standard_name">time</att>
                     <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
+            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
@@ -577,6 +578,7 @@
                     <att name="standard_name">time</att>
                     <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
+            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
@@ -1105,6 +1107,7 @@
                     <att name="standard_name">time</att>
                     <att name="units">yyyy-MM-dd HH:mm:ss</att>
                 </addAttributes>
+            </dataVariable>
             <dataVariable>
                 <sourceName>pressure</sourceName>
                 <destinationName>pressure</destinationName>
