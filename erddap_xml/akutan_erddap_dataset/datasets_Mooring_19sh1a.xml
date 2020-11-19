@@ -4,10 +4,10 @@
 
 So far, T/S/O/Chl are accounted for-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19shpa_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19sh1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Moorings/19shpa/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Moorings/19sh1a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -20,13 +20,13 @@ So far, T/S/O/Chl are accounted for-->
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">19shpa_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">19sh1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">19shpa</att>
+        <att name="MOORING">19sh1a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -296,10 +296,10 @@ So far, T/S/O/Chl are accounted for-->
 
 So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19shpa_preliminary" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19sh1a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Moorings/19shpa/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Moorings/19sh1a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -312,13 +312,13 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">19shpa_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">19sh1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">19shpa</att>
+        <att name="MOORING">19sh1a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
