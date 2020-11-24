@@ -47,8 +47,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 17CB-1A</att>
-        <att name="title">Mooring Data from 17CB-1A - final</att>
+        <att name="summary">QC'd (final) mooring data from 19SH-1A</att>
+        <att name="title">Mooring Data from 19SH-1A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -339,8 +339,8 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">Non-QC'd (preliminary) data from 17CB-1A</att>
-        <att name="title">Mooring Data from 17CB-1A - preliminary</att>
+        <att name="summary">Non-QC'd (preliminary) data from 19SH-1A</att>
+        <att name="title">Mooring Data from 19SH-1A - preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

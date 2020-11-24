@@ -1,13 +1,8 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (rapid_results), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
-
-So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Moorings/18bs4b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -23,8 +18,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="DATA_CMNT">18bs4b_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">18bs4b</att>
         <att name="SERIAL_NUMBER">1773</att>
@@ -47,8 +42,8 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from mooring 18BS-4B</att>
-        <att name="title">Mooring Data from 18BS-4B - Final</att>
+        <att name="summary">QC'd (final) mooring data from 18BS-4B</att>
+        <att name="title">Mooring Data from 18BS-4B - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -288,17 +283,13 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
+
 </dataset>
-
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
-
-So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Moorings/18bs4b/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -314,8 +305,8 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
         <att name="DATA_CMNT">18bs4b_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">18bs4b</att>
         <att name="SERIAL_NUMBER">1773</att>
@@ -339,7 +330,7 @@ May 30, 2019 23:02 UTC Data Trimmed
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">Non-QC'd (preliminary) data from 18BS-4B</att>
-        <att name="title">Mooring Data from 18BS-4B preliminary data</att>
+        <att name="title">Mooring Data from 18BS-4B - preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -418,18 +409,18 @@ May 30, 2019 23:02 UTC Data Trimmed
         <destinationName>temperature</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
+            <att name="epic_code">T_20</att>
+            <att name="generic_name">temp</att>
+            <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">T_20</att>
-            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
-            <att name="standard_name">sea_water_temperature</att>
-            <att name="units">degree_C</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
             <att name="ioos_category">Temperature</att>
-            <att name="standard_name">sea_water_temperature</att>
+            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
+            <att name="standard_name">sea_water_temperature</att>            
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -517,7 +508,6 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
-            <att name="standard_name">oxygen_saturation_over_air</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -536,7 +526,6 @@ May 30, 2019 23:02 UTC Data Trimmed
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
-            <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -581,4 +570,5 @@ May 30, 2019 23:02 UTC Data Trimmed
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
+
 </dataset>
