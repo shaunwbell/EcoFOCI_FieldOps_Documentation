@@ -2,7 +2,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Moorings/18bs4b/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -14,11 +14,11 @@
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
-        <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
+        <att name="CREATION_DATE">May 30, 2018 23:02 UTC</att>
         <att name="DATA_CMNT">18bs4b_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-        May 30, 2019 23:02 UTC Data Trimmed
+        May 30, 2018 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">18bs4b</att>
@@ -289,7 +289,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Moorings/18bs4b/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -301,11 +301,11 @@
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
-        <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
+        <att name="CREATION_DATE">May 30, 2018 23:02 UTC</att>
         <att name="DATA_CMNT">18bs4b_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-        May 30, 2019 23:02 UTC Data Trimmed
+        May 30, 2018 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">18bs4b</att>
