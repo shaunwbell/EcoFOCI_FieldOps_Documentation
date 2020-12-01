@@ -327,7 +327,7 @@
                 <destinationName>Water_Depth</destinationName>
                 <dataType>float</dataType>
                 <addAttributes>
-                    <att name="missing_value" type="float">-9999.0</att>
+                    <att name="missing_value" type="float">9999.0</att>
                     <att name="_FillValue" type="float">1.0e35</att>
                     <att name="ioos_category">Pressure</att>
                     <att name="standard_name">seafloor_depth</att>
@@ -858,7 +858,7 @@
                 <destinationName>Water_Depth</destinationName>
                 <dataType>float</dataType>
                 <addAttributes>
-                    <att name="missing_value" type="float">-9999.0</att>
+                    <att name="missing_value" type="float">9999.0</att>
                     <att name="_FillValue" type="float">1.0e35</att>
                     <att name="ioos_category">Pressure</att>
                     <att name="standard_name">seafloor_depth</att>
@@ -1389,7 +1389,7 @@
                 <destinationName>Water_Depth</destinationName>
                 <dataType>float</dataType>
                 <addAttributes>
-                    <att name="missing_value" type="float">-9999.0</att>
+                    <att name="missing_value" type="float">9999.0</att>
                     <att name="_FillValue" type="float">1.0e35</att>
                     <att name="ioos_category">Pressure</att>
                     <att name="standard_name">seafloor_depth</att>
