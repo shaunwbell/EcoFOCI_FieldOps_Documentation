@@ -9,7 +9,7 @@ dy2012
     <fileDir>/home/ecoraid/data/2020/CTDcasts/DY2012/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
-    <recursive>true</recursive>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
@@ -448,7 +448,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
-    <recursive>true</recursive>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <charset>ISO-8859-1</charset>
