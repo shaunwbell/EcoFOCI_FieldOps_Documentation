@@ -440,7 +440,6 @@ initial pulls from csv files (or initial archive? depending on cruise)
     </dataVariable>  
 </dataset>
 
-
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1605_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
