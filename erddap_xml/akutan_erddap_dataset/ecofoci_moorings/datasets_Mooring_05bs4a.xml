@@ -23,8 +23,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="DATA_CMNT">05bs4a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">05bs4a</att>
         <att name="SERIAL_NUMBER">1773</att>

@@ -318,8 +318,8 @@ WPAK and special insts need to be accounted for-->
         <att name="DATA_CMNT">97ifm1a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">97ifm1a</att>
         <att name="SERIAL_NUMBER">1773</att>

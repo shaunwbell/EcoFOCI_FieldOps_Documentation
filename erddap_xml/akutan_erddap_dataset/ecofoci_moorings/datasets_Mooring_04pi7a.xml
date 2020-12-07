@@ -19,8 +19,8 @@
         <att name="DATA_CMNT">04pi7a_s39_1673_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">04pi7a</att>
         <att name="SERIAL_NUMBER">1673</att>

@@ -199,8 +199,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="DATA_CMNT">04pip1a_s39_1673_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-May 30, 2019 23:02 UTC Data Trimmed
-</att>
+        May 30, 2019 23:02 UTC Data Trimmed
+        </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">04pip1a</att>
         <att name="SERIAL_NUMBER">1673</att>
