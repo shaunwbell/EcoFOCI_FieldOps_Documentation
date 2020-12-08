@@ -1,7 +1,7 @@
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -288,7 +288,7 @@
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs4b_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bs4b/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

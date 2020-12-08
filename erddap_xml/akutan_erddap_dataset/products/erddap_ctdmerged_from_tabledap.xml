@@ -1,7 +1,7 @@
 
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_nw1602_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>nw1602_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -532,7 +532,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l3_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l3_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -1063,7 +1063,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_nw1601_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>nw1601_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -1594,7 +1594,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_aq1601_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>aq1601_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -2125,7 +2125,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l1_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l1_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -2656,7 +2656,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_os1901l2_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>os1901l2_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -3187,7 +3187,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1609l2_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>dy1609l2_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -3718,7 +3718,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_nw1603_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>nw1603_merged.csv</fileNameRegex>
             <recursive>false</recursive>
@@ -4249,7 +4249,7 @@
         
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1609l1_final_merged" active="true">
             <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <updateEveryNMillis>10000</updateEveryNMillis>
+            
             <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>dy1609l1_merged.csv</fileNameRegex>
             <recursive>false</recursive>

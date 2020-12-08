@@ -2,7 +2,7 @@
 <!-- 2017 -->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_hly1702_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/CTDcasts/he1702/final_data/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

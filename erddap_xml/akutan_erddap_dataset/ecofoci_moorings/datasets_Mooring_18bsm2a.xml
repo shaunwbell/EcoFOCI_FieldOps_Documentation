@@ -8,7 +8,7 @@ So far, T/S/O/Chl are accounted for
 <!--WPAK only with sfc moorings (M2) (C2) (GAK) - NRT and QC'd-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_18bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -300,7 +300,7 @@ So far, T/S/O/Chl are accounted for
 </dataset>
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Met_18bsm2a_NRT" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -533,7 +533,7 @@ So far, T/S/O/Chl are accounted for
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -822,7 +822,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bsm2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

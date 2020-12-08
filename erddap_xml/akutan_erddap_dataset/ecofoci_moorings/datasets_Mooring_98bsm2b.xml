@@ -8,7 +8,7 @@ WPAK and special insts need to be accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_98bsm2b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/1998/Moorings/98bsm2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

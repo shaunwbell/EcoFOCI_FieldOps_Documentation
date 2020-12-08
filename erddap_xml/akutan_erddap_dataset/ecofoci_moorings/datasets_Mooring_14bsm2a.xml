@@ -8,7 +8,7 @@ WPAK and special insts need to be accounted for-->
 <!--WPAK only with sfc moorings (M2) (C2) (GAK) - NRT and QC'd-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_14bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2014/Moorings/14bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -300,7 +300,7 @@ WPAK and special insts need to be accounted for-->
 </dataset>
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2014/Moorings/14bsm2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -589,7 +589,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsm2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2014/Moorings/14bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

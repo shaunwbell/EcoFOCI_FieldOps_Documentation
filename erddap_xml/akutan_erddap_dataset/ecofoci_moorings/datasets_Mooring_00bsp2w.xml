@@ -6,7 +6,7 @@ Grid data for EIN/VEL -->
   but this dataset will only serve 4 because the others use different dimensions. -->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_00bsp2w_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2000/Moorings/00bsp2w/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
     
@@ -182,7 +182,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00bsp2w_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2000/Moorings/00bsp2w/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

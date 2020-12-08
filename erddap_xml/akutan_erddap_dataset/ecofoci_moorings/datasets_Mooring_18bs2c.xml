@@ -5,7 +5,7 @@
 So far, T/S/O/Chl are accounted for-->
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs2c_10min_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bs2c/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -175,7 +175,7 @@ So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs2c_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bs2c/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -468,7 +468,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bs2c_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2018/Moorings/18bs2c/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

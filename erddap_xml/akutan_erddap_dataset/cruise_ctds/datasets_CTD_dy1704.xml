@@ -6,7 +6,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 -->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1704_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/CTDcasts/dy1704/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -442,7 +442,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1704_final_btl" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/CTDcasts/dy1704/erddap/final_data/btl/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -798,7 +798,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
 
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1704_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/CTDcasts/dy1704/erddap/final_data/oxy/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

@@ -6,7 +6,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 -->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1104_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2011/CTDcasts/dy1104/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

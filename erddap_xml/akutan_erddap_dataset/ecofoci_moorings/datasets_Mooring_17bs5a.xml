@@ -6,7 +6,7 @@ So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17bs5a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/Moorings/17bs5a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
@@ -297,7 +297,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17bs5a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/Moorings/17bs5a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

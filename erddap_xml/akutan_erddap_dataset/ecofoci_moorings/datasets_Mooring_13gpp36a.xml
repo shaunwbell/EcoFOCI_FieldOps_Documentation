@@ -6,7 +6,7 @@ So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_13gpp36a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2013/Moorings/13gpp36a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
     
@@ -172,7 +172,7 @@ So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13gpp36a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2013/Moorings/13gpp36a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
