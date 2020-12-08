@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20201027_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20201027/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -86,7 +86,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-10-27 - 5m bins</att>
         <att name="summary">PMEL SG402 Puget Sound Test Oct 27, 2020. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <!--Dimensional profile variables-->
     <dataVariable>
@@ -659,7 +659,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200831_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200831/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -745,7 +745,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-31 - 5m bins</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <!--Dimensional profile variables-->
     <dataVariable>
@@ -1318,7 +1318,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200804_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200804/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -1404,7 +1404,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-04 - 5m bins</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <!--Dimensional profile variables-->
     <dataVariable>

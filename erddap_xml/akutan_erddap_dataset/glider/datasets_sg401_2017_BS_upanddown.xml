@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2017_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/bering_sea_fall17/sg401/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -86,7 +86,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2017-04-26 - 5m bins</att>
         <att name="summary">PMEL SG401 Bering Sea Test Apr 26, 2017. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <!--Dimensional profile variables-->
     <dataVariable>

@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2019_timeseries" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2019/Profilers/OculusGliders/sg401/</fileDir>
     <fileNameRegex>.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -83,7 +83,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2020-08-31 - timeseries</att>
         <att name="summary">PMEL SG401 Bering Sea Test Aug 04, 2020. Timeseries dataset.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <dataVariable>
         <sourceName>ctd_time</sourceName>

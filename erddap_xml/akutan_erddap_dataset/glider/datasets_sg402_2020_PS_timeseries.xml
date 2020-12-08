@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20201027_timeseries" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20201027/</fileDir>
     <fileNameRegex>.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -83,7 +83,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-10-27 - timeseries</att>
         <att name="summary">PMEL SG402 Puget Sound Test Oct 27, 2020. Timeseries dataset.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <dataVariable>
         <sourceName>ctd_time</sourceName>
@@ -599,7 +599,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200831_timeseries" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200831/</fileDir>
     <fileNameRegex>.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -682,7 +682,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-31 - timeseries</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Timeseries dataset.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <dataVariable>
         <sourceName>ctd_time</sourceName>
@@ -1198,7 +1198,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200804_timeseries" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
+    
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200804/</fileDir>
     <fileNameRegex>.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
@@ -1281,7 +1281,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2020-08-04 - timeseries</att>
         <att name="summary">PMEL SG402 Puget Sound Test Aug 04, 2020. Timeseries dataset.</att>
-        <att name="testOutOfDate">now-26days</att>
+
     </addAttributes>
     <dataVariable>
         <sourceName>ctd_time</sourceName>
