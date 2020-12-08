@@ -22,9 +22,9 @@ final pulls from erddap/final_data/* and with multiple datasets for multiple sou
         <att name="DATA_CMNT">CTD Data from DY1904 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
-</att>
+        August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
+        January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="MOORING">AW1</att>
         <att name="WATER_DEPTH" type="int">112</att>
         <att name="WATER_MASS">B</att>
@@ -301,6 +301,48 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
             <att name="units">umol/kg</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>CTDOST_4220</sourceName>
+        <destinationName>CTDOST_4220</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">62</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN, &#37;SAT</att>
+            <att name="name">CTDOST_4220</att>
+            <att name="units">&#37;</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">percent</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CTDOXY_4221</sourceName>
+        <destinationName>CTDOXY_4221</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">65</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN (UMOL/KG)</att>
+            <att name="name">CTDOXY_4221</att>
+            <att name="units">umol/kg</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
+            <att name="units">umol/kg</att>
+        </addAttributes>
+    </dataVariable>    
     <dataVariable>
         <sourceName>T2_35</sourceName>
         <destinationName>T2_35</destinationName>
