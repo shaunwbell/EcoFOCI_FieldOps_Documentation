@@ -1,6 +1,6 @@
 <!-- NOTE! Since the source files don't have any metadata, you must add metadata
   below, notably 'units' for each of the dataVariables. -->
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_2020s" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_2020s" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/akutan/bell/in_and_outbox/data_sets/ICOADS_R3/</fileDir>
@@ -41,7 +41,7 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>String</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
