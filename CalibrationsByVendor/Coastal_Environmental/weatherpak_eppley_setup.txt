@@ -1,7 +1,7 @@
 Hi, David,
 The WEATHERPAK calculates the output of the Eppley radiometer using the calibration constants provided by Eppley labs for that specific sensor.
 The Sensor Record in the WP configuration file for the Eppley multiplies the output voltage from the sensor by the coefficient for the value in W/m^2.  That value is averaged over the 10 minute sample duration and logged in memory at the end of the sample duration.
-If you are connecting a different Eppley radiometer than originally used with a WEATHERPAK and you do not already have the new coefficient you will need to calculate the new coefficient from the calibration constant provided by Eppley.  New coefficient = 1/calibration constant.
+If you are connecting a different Eppley radiometer than originally used with a WEATHERPAK and you do not already have the new coefficient you will need to calculate the new coefficient from the calibration constant provided by Eppley.  New coefficient = 1/calibration constant, ie 1/7.58 is 0.1319261214 so change coefficient to 131926 in the Zeno menu.  
 You can enter the corresponding coefficient in the sensor record by following these steps:
 1) Connect to the WEATHERPAK via the RS232 serial connection with the following settings:
      Baud Rate: 9600
