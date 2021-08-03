@@ -3,18 +3,18 @@ MooringID: 18MTP-1A
 Date_Ticks: multi_month
 start_time: '2018-05-05'
 end_time: '2018-08-18'
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
 #EPIC_Key: T_20
 #EPIC_Key_ctd: T_28
 #Ylabel: Temperature
 #EPIC_Key: Fch_906
 #EPIC_Key_ctd: F_903
 #Ylabel: Chlor
-EPIC_Key: P_1
-EPIC_Key_ctd: P_1
-Ylabel: Pressure
+#EPIC_Key: P_1
+#EPIC_Key_ctd: P_1
+#Ylabel: Pressure
 #EPIC_Key: OST_62
 #EPIC_Key_ctd: OST_62
 #Ylabel: Oxygen_PSat
@@ -70,21 +70,23 @@ linestyle:
 - '-'
 - '-'
 ctd_data_path:
-- ''
+- '/Users/bell/ecoraid/2018/CTDcasts/dy1805/working/'
+- '/Users/bell/ecoraid/2018/CTDcasts/aq1801/final_data/ctd/'
 ctd_files:
-- ''
+- 'DY1805c041_ctd.nc'
+- 'AQ1801c021_ctd.nc'
 dtype: mooring
 legend:
-- 65m s26
-- 64m s37
+- 65m s26 (at 63m ctd)
+- 64m s37 (at 62m ctd)
 legend_loc: upper center
 legend_off: false
 nominal_depth:
-- 65
-- 64
+- 63
+- 62
 mooring_data_path:
-- /Volumes/WDC_internal/Users/bell/ecoraid/2018/Moorings/18mtp1a/working/
-- /Volumes/WDC_internal/Users/bell/ecoraid/2018/Moorings/18mtp1a/working/
+- /Users/bell/ecoraid/2018/Moorings/18mtp1a/working/
+- /Users/bell/ecoraid/2018/Moorings/18mtp1a/working/
 mooring_files:
 - 18mtp1a_s26_0065m.unqcd.trimmed_missing.nc
 - 18mtp1a_s37_0064m.unqcd.trimmed_missing.nc

@@ -6,12 +6,12 @@ end_time: 2020-09-13
 EPIC_Key: T_20
 EPIC_Key_ctd: T_28
 Ylabel: Temperature
-#EPIC_Key: S_41
-#EPIC_Key_ctd: S_42
-#Ylabel: Salinity
-EPIC_Key: Fch_906
-EPIC_Key_ctd: F_903
-Ylabel: Chlor
+EPIC_Key: S_41
+EPIC_Key_ctd: S_42
+Ylabel: Salinity
+#EPIC_Key: Fch_906
+#EPIC_Key_ctd: F_903
+#Ylabel: Chlor
 #EPIC_Key: O_65
 #EPIC_Key_ctd: O_65
 #Ylabel: Oxygen_Conc
@@ -28,22 +28,22 @@ ctd_data_path:
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/final_data/ctd/'
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/final_data/ctd/'
 - '/Users/bell/ecoraid/2019/CTDcasts/os1901l1/final_data/ctd/'
-- '/Users/bell/ecoraid/2020/CTDcasts/dy2012/initial_archive/'
+#- '/Users/bell/ecoraid/2020/CTDcasts/dy2012/initial_archive/'
 ctd_files:
 - 'os1901l1c021_ctd.nc'
 - 'os1901l1c022_ctd.nc'
 - 'os1901l1c032_ctd.nc'
-- 'dy2012c048_ctd.nc'
+#- 'dy2012c048_ctd.nc'
 mooring_data_path:
 - "/Users/bell/ecoraid/2019/Moorings/19ckp2a/working/"
 - "/Users/bell/ecoraid/2019/Moorings/19ckp2a/working/"
 - "/Users/bell/ecoraid/2019/Moorings/19ckp2a/final_data/"
-- "/Users/bell/ecoraid/2019/Moorings/19ckp2a/working/"
+- "/Users/bell/ecoraid/2019/Moorings/19ckp2a/final_data/"
 mooring_files:
 - 19ckp2a_an9_0042m.unqcd.trimmed_missing.nc
 - 19ckp2a_s37_0039m.unqcd.trimmed_missing.nc
 - 19ckp2a_sc_0039m.nc
-- 19ckp2a_ecf_0039m.interpolated.trimmed_missing.nc
+- 19ckp2a_ecf_0039m.nc
 colors:
 - red
 - blue
