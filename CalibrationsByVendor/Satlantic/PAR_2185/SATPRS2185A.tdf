@@ -1,0 +1,45 @@
+######################################################################################################
+# Telemetry Definition File:
+#
+# Type: Satlantic PAR Sensor 2185
+# Description: Digital (RS-232) PAR Sensor
+# Project: 2014-000
+#
+# Notes:
+# 		The PAR sensor outputs comma-delimited ASCII data.
+#
+######################################################################################################
+# Calibration History
+# Date       |Operator |SW Version |Rev |Light Data   |Dark Data   |Lamp         |Distance  | Comments
+#-----------------------------------------------------------------------------------------------------
+# 2021-10-07 |RLamb    |Internal Software Suite 1.9.23_30 |A   |PARf-2185_2021-10-07_14-58-39_raw |PARd-2185_2021-10-07_15-02-08_raw |F1675        |50.0      | Final FEL Calibration
+
+VLF_INSTRUMENT SATPRS '' 6 AS 0 NONE
+VLF_SN 2185 '' 4 AS 0 NONE
+
+# Time since start up
+FIELD NONE ',' 1 AS 0 DELIMITER
+TIMER NONE 'sec' V AF 0 COUNT
+
+# Calculated PAR value
+FIELD NONE ',' 1 AS 0 DELIMITER
+PAR NONE 'uMol/m^2/sec' V AF 0 COUNT
+
+# Pitch data
+FIELD NONE ',' 1 AS 0 DELIMITER
+PITCH NONE 'deg' V AF 0 COUNT
+
+# Roll data
+FIELD NONE ',' 1 AS 0 DELIMITER
+ROLL NONE 'deg' V AF 0 COUNT
+
+# Temperature
+FIELD NONE ',' 1 AS 0 DELIMITER
+TEMP NONE 'C' V AF 0 COUNT
+
+# ASCII check sum
+FIELD NONE ',' 1 AS 0 DELIMITER
+CHECK SUM '' V AI 0 COUNT
+
+TERMINATOR NONE '\x0D\x0A' 2 AS 0 DELIMITER
+

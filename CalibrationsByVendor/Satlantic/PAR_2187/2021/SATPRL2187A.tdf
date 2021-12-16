@@ -1,0 +1,85 @@
+######################################################################################################
+# Telemetry Definition File:
+#
+# Type: Satlantic PAR Sensor 2187
+# Description: Digital (RS-232) PAR Sensor
+# Project: 
+#
+# Notes:
+# 		The PAR sensor outputs comma-delimited ASCII data.
+#
+######################################################################################################
+# Calibration History
+# Date       |Operator |SW Version |Rev |Light Data   |Dark Data   |Lamp         |Distance  | Comments
+#-----------------------------------------------------------------------------------------------------
+# 2021-10-07 |RLamb    |Internal Software Suite 1.9.23_30 |A   |PARf-2187_2021-10-07_15-10-02_raw |PARd-2187_2021-10-07_15-19-35_raw |F1675        |50.0      | Final FEL Calibration
+
+VLF_INSTRUMENT SATPRL '' 6 AS 0 NONE
+VLF_SN 2187 '' 4 AS 0 NONE
+
+# Time since start up
+FIELD NONE ',' 1 AS 0 DELIMITER
+TIMER NONE 'sec' V AF 0 COUNT
+
+# Calculated PAR value
+FIELD NONE ',' 1 AS 0 DELIMITER
+PAR NONE 'uMol/m^2/sec' V AF 0 COUNT
+
+# Pitch data
+FIELD NONE ',' 1 AS 0 DELIMITER
+PITCH NONE 'deg' V AF 0 COUNT
+
+# Roll data
+FIELD NONE ',' 1 AS 0 DELIMITER
+ROLL NONE 'deg' V AF 0 COUNT
+
+# Temperature
+FIELD NONE ',' 1 AS 0 DELIMITER
+TEMP NONE 'C' V AF 0 COUNT
+
+# Analog Output Voltage Mode
+FIELD NONE ',' 1 AS 0 DELIMITER
+VOTYPE NONE '' V AS 0 COUNT
+
+# Raw PAR ADC counts
+FIELD NONE ',' 1 AS 0 DELIMITER
+PARRAW NONE 'counts' V AU 0 COUNT
+
+# Raw PAR ADC voltage input
+FIELD NONE ',' 1 AS 0 DELIMITER
+PARV NONE 'V' V AF 0 COUNT
+
+# Analog interface voltage output
+FIELD NONE ',' 1 AS 0 DELIMITER
+VOUT NONE 'V' V AF 0 COUNT
+
+# Raw accelerometer X-axis counts
+FIELD NONE ',' 1 AS 0 DELIMITER
+XAXIS NONE 'counts' V AI 0 COUNT
+
+# Raw accelerometer Y-axis counts
+FIELD NONE ',' 1 AS 0 DELIMITER
+YAXIS NONE 'counts' V AI 0 COUNT
+
+# Raw accelerometer Z-axis counts
+FIELD NONE ',' 1 AS 0 DELIMITER
+ZAXIS NONE 'counts' V AI 0 COUNT
+
+# Temperature raw counts
+FIELD NONE ',' 1 AS 0 DELIMITER
+TRAW NONE 'counts' V AI 0 COUNT
+
+# Temperature ADC input voltage
+FIELD NONE ',' 1 AS 0 DELIMITER
+TV NONE 'V' V AF 0 COUNT
+
+# Status
+FIELD NONE ',' 1 AS 0 DELIMITER
+STATUS NONE '' V AI 0 COUNT
+
+# ASCII check sum
+FIELD NONE ',' 1 AS 0 DELIMITER
+CHECK SUM '' V AI 0 COUNT
+
+TERMINATOR NONE '\x0D\x0A' 2 AS 0 DELIMITER
+
