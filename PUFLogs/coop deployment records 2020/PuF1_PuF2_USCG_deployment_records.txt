@@ -1,0 +1,48 @@
+
+
+Puf_2
+Serial Number:  2003
+
+Vessel Name: U.S. Coast Guard Cutter FIR
+
+General Location: 24NM North of Unimak Island
+
+Date: 16Oct20
+
+Time: 0837
+
+Depth: 255FT
+
+Latitude: 055-26.321N
+Longitude: 163-44.401W
+
+Name of people doing the Deployment:
+BOSN Daniel Delaet  
+LTJG Brian Deely
+BMC Spratt
+BM2 Komorosky
+
+
+Puf_1
+Serial Number: 2004
+
+Vessel Name: U.S. Coast Guard Cutter FIR
+
+General Location: 75NM North of Port Moller
+
+Date: 16Oct20
+
+Time: 1642
+
+Depth: 265FT
+
+Latitude: 056-45.160N
+Longitude: 161-46.770W
+
+Name of people doing the Deployment:
+BOSN Daniel Delaet
+LTJG Brian Deely
+BMC Spratt
+BM1 Phipps
+BM3 Newton
+
