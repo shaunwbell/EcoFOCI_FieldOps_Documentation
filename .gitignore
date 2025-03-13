@@ -2,6 +2,7 @@
 /DataProcessingDocumentation/*/*/*.ipynb_checkpoints
 /DataProcessingDocumentation/*/*/*/*.ipynb_checkpoints
 /DataProcessingDocumentation/*/*/*/*/*.ipynb_checkpoints
+DataProcessingDocumentation/*/*/*/*/*/*.ipynb_checkpoints
 
 /DataProcessingDocumentation/*/*.xlsx
 /DataProcessingDocumentation/*/*/*.xlsx
