@@ -1,0 +1,50 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"id": 0,
+"geometry": {
+"type": "Point",
+"coordinates": [-167.8995,64.00383333333333]},
+"properties": {
+"Project": "FOCI Fall Cruise","ConsecutiveCastNo": "CTD001","StationNameID": "M14","GMTYear": "2022","GMTMonth": "Sep","GMTDay": "21","GMTTime": "18600"}
+}
+, {
+"type": "Feature",
+"id": 1,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.21833333333333,64.67333333333333]},
+"properties": {
+"Project": "FOCI Fall Cruise","ConsecutiveCastNo": "CTD002","StationNameID": "DBO 2.3","GMTYear": "2022","GMTMonth": "Sep","GMTDay": "21","GMTTime": "33420"}
+}
+, {
+"type": "Feature",
+"id": 2,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.1,64.67916666666666]},
+"properties": {
+"Project": "FOCI Fall Cruise","ConsecutiveCastNo": "CTD003","StationNameID": "DBO 2.2","GMTYear": "2022","GMTMonth": "Sep","GMTDay": "21","GMTTime": "43200"}
+}
+, {
+"type": "Feature",
+"id": 3,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.14633333333333,64.9915]},
+"properties": {
+"Project": "FOCI Fall Cruise","ConsecutiveCastNo": "CTD004","StationNameID": "DBO 2.5","GMTYear": "2022","GMTMonth": "Sep","GMTDay": "21","GMTTime": "50700"}
+}
+, {
+"type": "Feature",
+"id": 4,
+"geometry": {
+"type": "Point",
+"coordinates": [-168.43266666666668,64.85583333333334]},
+"properties": {
+"Project": "FOCI Fall Cruise","ConsecutiveCastNo": "CTD005","StationNameID": "NM1","GMTYear": "2022","GMTMonth": "Sep","GMTDay": "21","GMTTime": "69060"}
+}
+]
+}
