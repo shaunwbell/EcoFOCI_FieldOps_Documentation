@@ -25,6 +25,9 @@ EcoFOCI, FOCI, EMA all maintain seperte databases.  a fairly simple MariaDB iter
 
 ## Furthur QC 
 
+- validate ctd locations match expectations
+  + could use a "compare to historical stations and moorings" validator
+  
 - justify and apply salinity offsets
 - justify and apply par/chlor __zero__ offsets
 - justify and apply oxygen __slope__ correction (per SBE Tech note via winklers)

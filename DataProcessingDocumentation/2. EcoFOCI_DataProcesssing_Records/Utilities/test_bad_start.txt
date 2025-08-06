@@ -1,4 +1,0 @@
-Header Line 1
-Year,Month,Day,Hour,Minute,Second,Pressure,Temp
-2024,7,9,10,0,0,101.3,25.1
-Finished: 1 record
