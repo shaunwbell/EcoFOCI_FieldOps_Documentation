@@ -6,13 +6,16 @@ DataProcessingDocumentation/*/*/*/*/*/*.ipynb_checkpoints
 
 /DataProcessingDocumentation/*/*.xlsx
 /DataProcessingDocumentation/*/*/*.xlsx
+/DataProcessingDocumentation/*/*/*/*.xlsx
 /DataProcessingDocumentation/*/*/*/*/*.xlsx
 
 /DataProcessingDocumentation/*/*.nc
 /DataProcessingDocumentation/*/*/*.nc
+/DataProcessingDocumentation/*/*/*/*.nc
 /DataProcessingDocumentation/*/*/*/*/*.nc
 
 /DataProcessingDocumentation/*/*.csv
 /DataProcessingDocumentation/*/*/*.csv
+/DataProcessingDocumentation/*/*/*/*.csv
 /DataProcessingDocumentation/*/*/*/*/*.csv
 *.jupyterlab-workspace
